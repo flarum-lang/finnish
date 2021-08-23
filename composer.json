@@ -1,24 +1,24 @@
 {
-	"name": "yourname/flarum-lang-xxish",
+	"name": "MarkoKaartinen/flarum-lang-finnish",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-xxish",
+	"description": "Finnish language pack for Flarum.",
+	"homepage": "https://github.com/MarkoKaartinen/flarum-lang-finnish",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"finnish-locale"
 	],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
+			"name": "Marko Kaartinen",
+			"email": "markokaartinen@gmail.com",
+			"homepage": "https://markokaartinen.net/"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/yourname/flarum-lang-xxish/issues",
-		"source": "https://github.com/yourname/flarum-lang-xxish"
+		"issues": "https://github.com/MarkoKaartinen/flarum-lang-finnish/issues",
+		"source": "https://github.com/MarkoKaartinen/flarum-lang-finnish"
 	},
 	"require": {
 		"flarum/core": "^1.0"
@@ -35,8 +35,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "fi",
+			"title": "Finnish"
 		},
 		"extiverse": {
 			"discuss": ""
