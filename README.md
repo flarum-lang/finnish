@@ -1,13 +1,14 @@
+# WORK IN PROGRESS
 
 # Finnish language pack for [Flarum](https://flarum.org/)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/MarkoKaartinen/flarum-lang-finnish?color=success&label=stable)](https://packagist.org/packages/MarkoKaartinen/flarum-lang-xxish) 
+[![Latest Stable Version](https://img.shields.io/packagist/v/MarkoKaartinen/flarum-lang-finnish?color=success&label=stable)](https://packagist.org/packages/MarkoKaartinen/flarum-lang-finnish) 
 [![Latest Unstable Version](https://img.shields.io/packagist/v/MarkoKaartinen/flarum-lang-finnish?include_prereleases&label=unstable)](https://packagist.org/packages/MarkoKaartinen/flarum-lang-finnish) 
 [![License](https://img.shields.io/packagist/l/MarkoKaartinen/flarum-lang-finnish)](https://packagist.org/packages/MarkoKaartinen/flarum-lang-finnish) 
 [![Total Downloads](https://img.shields.io/packagist/dt/MarkoKaartinen/flarum-lang-finnish)](https://packagist.org/packages/MarkoKaartinen/flarum-lang-finnish/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/MarkoKaartinen/flarum-lang-finnish)](https://packagist.org/packages/MarkoKaartinen/flarum-lang-finnish/stats) 
 
-This language pack contains Xxish translations for Flarum (compatible with `1.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Finnish translations for Flarum (compatible with `1.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
