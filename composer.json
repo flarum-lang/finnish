@@ -1,8 +1,7 @@
 {
-	"name": "markokaartinen/flarum-lang-finnish",
+	"name": "flarum-lang/finnish",
 	"type": "flarum-extension",
 	"description": "Finnish language pack for Flarum.",
-	"homepage": "https://github.com/MarkoKaartinen/flarum-lang-finnish",
 	"keywords": [
 		"locale",
 		"flarum",
@@ -17,14 +16,12 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/MarkoKaartinen/flarum-lang-finnish/issues",
-		"source": "https://github.com/MarkoKaartinen/flarum-lang-finnish"
+		"issues": "https://github.com/flarum-lang/finnish/issues",
+		"source": "https://github.com/flarum-lang/finnish"
 	},
 	"require": {
 		"flarum/core": "^1.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Xxish",
