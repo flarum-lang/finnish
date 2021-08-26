@@ -69,6 +69,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/fi/) |
 
 <!-- fof-extensions-list-stop -->
 
