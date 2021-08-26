@@ -8,6 +8,7 @@
 		"finnish-locale"
 	],
 	"license": "MIT",
+	"homepage": "https://github.com/flarum-lang/finnish",
 	"authors": [
 		{
 			"name": "Marko Kaartinen",
@@ -25,10 +26,6 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "Finnish",
-			"info": {
-				"website": "https://github.com/flarum-lang/finnish",
-				"support": "https://github.com/flarum-lang/finnish/issues"
-			},
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
