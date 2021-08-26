@@ -80,6 +80,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/justoverclock-welcomebox/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox/fi/) |
 
 <!-- various-extensions-list-stop -->
 
