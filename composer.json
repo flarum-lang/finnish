@@ -8,17 +8,17 @@
 		"finnish-locale"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/flarum-lang/finnish",
+	"homepage": "https://flarum.fi,
 	"authors": [
 		{
 			"name": "Marko Kaartinen",
-			"email": "markokaartinen@gmail.com",
-			"homepage": "https://markokaartinen.net/"
+			"email": "markokaartinen@gmail.com"
 		}
 	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/finnish/issues",
-		"source": "https://github.com/flarum-lang/finnish"
+		"source": "https://github.com/flarum-lang/finnish",
+		"forum:": "https://flarum.fi"
 	},
 	"require": {
 		"flarum/core": "^1.0"
