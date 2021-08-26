@@ -91,4 +91,4 @@ This language pack is part of [Flarum translations collective](https://github.co
 
 Translation for Day.js comes from the [source](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/fi.js).
 
-Translation for `validation.yml` is based on [Laravel translations](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/fi/validation.php).
+Translation for `validation.yml` is based on [Laravel translations](https://github.com/Laravel-Lang/lang/blob/master/locales/fi/validation.php).
