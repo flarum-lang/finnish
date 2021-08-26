@@ -7,64 +7,193 @@ core:
     appearance:
       colored_header_label: 'Värillinen yläosa'
       colors_heading: Värit
+      colors_text: 'Valitse kaksi väriä foorumin teemaksi. Ensimmäistä käytetään korostusvärinä, kun taas toista väriä käytetään taustaelementeissä.'
+      custom_footer_heading: 'Mukautettu alaosa'
       custom_footer_text: '=> core.ref.custom_footer_text'
+      custom_header_heading: 'Mukautettu yläosa'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_heading: 'Mukautetut tyylit'
+      custom_styles_text: 'Mukauta foorumin ulkonäköä lisäämällä omia Less/CSS tyylejä. Nämä tyylit tulevat Flarumin omien oletustyylien lisäksi.'
       dark_mode_label: 'Tumma tila'
+      description: 'Mukauta foorumisi värejä, logoja sekä muita määrityksiä.'
+      edit_css_button: 'Muokkaa mukautettua CSS koodia'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
+      enter_hex_message: 'Syötä värikoodi heksadesimaali muodossa.'
       favicon_heading: Favicon
+      favicon_text: 'Siirrä kuva, jota käytetään foorumin faviconina.'
       logo_heading: Logo
+      logo_text: 'Siirrä kuva, jota käytetään foorumin logona tekstin sijaan.'
+      title: Ulkoasu
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: Oletuskieli
+      description: 'Määritä foorumin otsikko, kieli ja muita perusasetuksia.'
+      display_name_heading: 'Käyttäjän näyttönimi'
+      display_name_text: 'Valitse ajuri mitä käytetään käyttäjän nimen näyttämiseen. Oletuksena näytetään käyttäjätunnus.'
+      forum_description_heading: 'Foorumin kuvaus'
+      forum_description_text: 'Syötä lyhyt lause tai kaksi, joka kuvaa yhteisöäsi. Tätä käytetään meta kuvauksessa ja näkyy hakukoneille.'
+      forum_title_heading: 'Foorumin otsikko'
+      home_page_heading: Kotisivu
+      home_page_text: 'Valitse sivu minkä käyttäjät näkevät, kun he vierailevat foorumillasi.'
+      show_language_selector_label: 'Näytä kielivalikko'
+      slug_driver_heading: 'Polkutunnunnuksen ajuri: {model}'
+      slug_driver_text: 'Valitse ajuri mitä käytetään polkutunnuksen luomiseen tälle mallille.'
+      title: Yleiset
+      welcome_banner_heading: Tervetulobanneri
+      welcome_banner_text: 'Määritä teksti mikä näkyy keskustelulistauksessa olevassa bannerissa. Käytä tätä toivottaaksesi vieraat tervetulleeksi.'
+    dashboard:
+      clear_cache_button: 'Tyhjennä välimuisti'
+      description: 'Foorumisi yhdellä silmäyksellä.'
+      title: Kojelauta
+      tools_button: Työkalut
     edit_css:
+      customize_text: 'Muokkaa foorumisi ulkoasua lisäämällä omia Less/CSS koodeja joita käytetään Flarumin <a>oletustyylien</a> lisäksi.'
       submit_button: '=> core.ref.save_changes'
+      title: 'Muokkaa mukautettua CSS koodia'
     edit_footer:
       customize_text: '=> core.ref.custom_footer_text'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.custom_footer_title'
     edit_group:
       color_label: '=> core.ref.color'
+      delete_button: 'Poista ryhmä'
+      delete_confirmation: 'Haluatko varmasti poistaa tämän ryhmän? Ryhmän jäseniä EI poisteta.'
+      hide_label: 'Piilota foorumilla'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
+      name_label: Nimi
+      plural_placeholder: 'Monikko (esim. Moderaattorit)'
+      singular_placeholder: 'Yksikkö (esim. Moderaattori)'
       submit_button: '=> core.ref.save_changes'
+      title: 'Luo ryhmä'
     edit_header:
       customize_text: '=> core.ref.custom_header_text'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.custom_header_title'
     email:
+      addresses_heading: Osoitteet
+      description: 'Määritä ajuri, asetukset ja osoitteet mitä foorumisi käyttää sähköpostin lähettämiseen.'
+      driver_heading: 'Valitse ajuri'
+      driver_label: Ajuri
+      from_label: Lähettäjä
+      mail_encryption_label: Salaus
+      mail_host_label: Palvelin
+      mail_mailgun_domain_label: 'Verkkotunnus (domain)'
+      mail_mailgun_region_label: 'Alue (region)'
+      mail_mailgun_secret_label: 'Salainen avain (secret key)'
       mail_password_label: '=> core.ref.password'
+      mail_port_label: Portti
       mail_username_label: '=> core.ref.username'
+      mailgun_heading: 'Mailgunin asetukset'
+      not_sending_message: 'Flarum ei tällä hetkellä lähetä sähköpostia. Tämä voi johtua valitusta ajurista tai virheistä sen määrityksessä.'
+      send_test_mail_button: Lähetä
+      send_test_mail_heading: 'Lähetä testisähköposti'
+      send_test_mail_success: 'Testisähköposti lähetetty onnistuneesti!'
+      send_test_mail_text: 'Tämä lähettää sähköpostin käyttäen ylläolevia määreitä sähköpostiisi: {email}.'
+      smtp_heading: 'SMTP asetukset'
       title: '=> core.ref.email'
+    extension:
+      configure_scopes: 'Määritä laajuudet (scopes)'
+      confirm_uninstall: 'Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?'
+      disabled: 'Poistettu käytöstä'
+      enable_to_see: 'Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.'
+      enabled: Käytössä
+      info_links:
+        discuss: Keskustele
+        documentation: Dokumentaatio
+        donate: Lahjoita
+        source: Lähdekoodi
+        support: Tuki
+        website: Verkkosivut
+      no_permissions: 'Tällä lisäosalla ei ole oikeuksia.'
+      no_settings: 'Tällä lisäosalla ei ole asetuksia.'
+      open_modal: 'Avaa asetukset'
+      permissions_title: Oikeudet
+      uninstall_button: 'Poista asennus'
     header:
+      get_help: 'Pyydä apua'
       log_out_button: '=> core.ref.log_out'
+    loading:
+      title: 'Odota hetki...'
     nav:
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
+      categories:
+        authentication: Autentikointi
+        discussion: Keskustelu
+        feature: Ominaisuudet
+        formatting: Muotoilu
+        language: Kielet
+        moderation: Moderointi
+        other: 'Muut lisäosat'
+        theme: Teemat
       dashboard_button: '=> core.admin.dashboard.title'
       dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
       email_title: '=> core.admin.email.description'
       permissions_button: '=> core.admin.permissions.title'
       permissions_title: '=> core.admin.permissions.description'
+      search_placeholder: 'Hae lisäosia'
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
+    permissions:
+      allow_post_editing_label: 'Salli viestien muokkaus'
+      allow_renaming_label: 'Salli uudelleennimeäminen'
+      create_heading: Luonti
+      delete_discussions_forever_label: 'Poista keskustelu pysyvästi'
+      delete_discussions_label: 'Poista keskusteluita'
+      delete_posts_forever_label: 'Poista viesti pysyvästi'
+      delete_posts_label: 'Poista viestejä'
+      description: 'Määritä kuka näkee ja voi tehdä mitä.'
+      edit_posts_label: 'Muokkaa viestejä'
+      edit_users_credentials_label: 'Muokkaa käyttäjän tunnuksia'
+      edit_users_groups_label: 'Muokkaa käyttäjän ryhmiä'
+      edit_users_label: 'Muokkaa käyttäjän tietoja'
+      global_heading: Yleinen
+      moderate_heading: Moredointi
+      new_group_button: 'Uusi ryhmä'
+      participate_heading: Osallistuminen
+      post_without_throttle_label: 'Vastata useasti ilman odottamista'
+      read_heading: Lukea
+      rename_discussions_label: 'Uudelleennimetä keskusteluita'
+      reply_to_discussions_label: 'Vastata keskusteluihin'
+      search_users_label: 'Hakea käyttäjiä'
+      sign_up_label: Rekisteröityminen
+      start_discussions_label: 'Aloittaa keskusteluita'
+      title: Oikeudet
+      view_forum_label: 'Nähdä foorumin (keskustelut ja jäsenet)'
+      view_hidden_groups_label: 'Nähdä piilotetut ryhmämerkit'
     permissions_controls:
+      everyone_button: Kaikki
       members_button: '=> core.group.members'
+      signup_closed_button: Suljettu
+      signup_open_button: Avattu
     settings:
+      saved_message: 'Muutoksesi tehtiin.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
+      upload_button: 'Valitse kuva...'
     users:
       grid:
         columns:
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
+            tooltip: 'Muokkaa {username}'
           email:
             title: '=> core.ref.email'
+            visibility_hide: 'Piilota sähköpostiosoite'
+            visibility_show: 'Näytä sähköpostiosoite'
+          group_badges:
+            title: Ryhmät
+          join_time:
+            title: Liittynyt
+          user_id:
+            title: ID
           username:
             title: '=> core.ref.username'
       title: '=> core.ref.users'
@@ -198,7 +327,7 @@ core:
       now_link: Nyt
       original_post_link: 'Alkuperäinen viesti'
       unread_text: '{count} lukematonta'
-      viewing_text: '{count, plural, 1 {{index} / {formattedCount} viestistä} other {{index} / {formattedCount} viestistä}}'
+      viewing_text: '{count, plural, one {{index} / {formattedCount} viestistä} other {{index} / {formattedCount} viestistä}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Vanha otsikko oli: "{old}"'
       discussion_renamed_text: '{username} vaihtoi otsikoksi {new}.'
@@ -307,7 +436,7 @@ core:
     discussions: Keskustelut
     edit: Muokkaa
     edit_user: 'Muokkaa käyttäjää'
-    email: Sähköpostiosoite
+    email: Sähköposti
     icon: Ikoni
     load_more: 'Lataa lisää'
     loading: Ladataan...
