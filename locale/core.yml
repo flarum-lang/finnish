@@ -179,7 +179,7 @@ core:
       signup_closed_button: Suljettu
       signup_open_button: Avattu
     settings:
-      saved_message: 'Muutoksesi tehtiin.'
+      saved_message: 'Muutokset tallennettu.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
