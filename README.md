@@ -38,7 +38,7 @@ php flarum cache:clear
 
 ## How to help translating
 
-Create account to [Weblate](https://weblate.rob006.net/projects/flarum/). Then start translating and suggesting edits for translations.
+Create account to [Weblate](https://weblate.rob006.net/engage/flarum/fi/). Then start translating and suggesting edits for translations.
 
 All translations are then automatically synced to this repository.
 
