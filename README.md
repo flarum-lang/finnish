@@ -1,5 +1,7 @@
 # WORK IN PROGRESS
 
+![Banner](https://assets.flarum.fi/banner.jpg)
+
 # Finnish language pack for [Flarum](https://flarum.org/)
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/finnish?color=success&label=stable)](https://packagist.org/packages/flarum-lang/finnish) 
