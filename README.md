@@ -36,6 +36,12 @@ Then clear the cache:
 php flarum cache:clear
 ```
 
+## How to help translating
+
+Create account to [Weblate](https://weblate.rob006.net/projects/flarum/). Then start translating and suggesting edits for translations.
+
+All translations are then automatically synced to this repository.
+
 
 ## Translation status for Flarum core
 
