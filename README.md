@@ -90,6 +90,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/clarkwinkelmann-translation-inspector/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector/fi/) |
 | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/justoverclock-welcomebox/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox/fi/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/fi/) |
 
