@@ -1,5 +1,3 @@
-# WORK IN PROGRESS
-
 ![Banner](https://assets.flarum.fi/banner.jpg)
 
 # Finnish language pack for [Flarum](https://flarum.org/)
@@ -18,7 +16,7 @@ This language pack contains Finnish translations for Flarum (compatible with `1.
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/finnish:dev-master
+composer require flarum-lang/finnish
 ```
 
 Then enable extension in admin panel of your Flarum.
@@ -37,6 +35,12 @@ Then clear the cache:
 ```console
 php flarum cache:clear
 ```
+
+## Join the finnish community
+
+We have finnish Flarum installation where you can speak finnish. It is meant to be finnish community around Flarum and help other finnish people with Flarum. We also talk about this translation in there.
+
+Join now: [Flarum.fi](https://flarum.fi)
 
 ## How to help translating
 
