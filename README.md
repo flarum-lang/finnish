@@ -48,6 +48,10 @@ Create account to [Weblate](https://weblate.rob006.net/engage/flarum/fi/). Then 
 
 All translations are then automatically synced to this repository.
 
+You can install the "latest and greatest" development version via composer using this command:
+```console
+composer require flarum-lang/finnish:dev-master
+```
 
 ## Translation status for Flarum core
 
