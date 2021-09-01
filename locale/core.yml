@@ -469,6 +469,7 @@ core:
     edit: Muokkaa
     edit_user: 'Muokkaa käyttäjää'
     email: Sähköposti
+    extensions: Lisäosat
     icon: Ikoni
     icon_text: 'Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen.'
     load_more: 'Lataa lisää'
@@ -498,6 +499,18 @@ core:
     write_a_reply: 'Kirjoita vastaus...'
     you: Sinä
   views:
+    admin:
+      extensions:
+        caption: '=> core.ref.extensions'
+        disable: 'Poista käytöstä'
+        empty: 'Ei asennettuja lisäosia'
+        enable: 'Ota käyttöön'
+        name: 'Lisäosan nimi'
+        package_name: 'Paketin nimi'
+        version: Versio
+      info:
+        caption: 'Sovelluksen tiedot'
+      title: Ylläpito
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
       text: 'Klikkaa alla olevaa painiketta vahvistaaksesi tilisi sähköpostiosoitteen.'
