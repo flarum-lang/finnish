@@ -28,6 +28,7 @@
 			"title": "Finnish",
 			"icon": {
 				"image": "icon.svg",
+				"backgroundColor": "#ffffff",
 				"backgroundSize": "cover",
 				"backgroundPosition": "center"
 			}
@@ -37,7 +38,7 @@
 			"title": "Suomi"
 		},
 		"extiverse": {
-			"discuss": ""
+			"discuss": "https://discuss.flarum.org/d/28810-finnish-language-pack"
 		}
 	}
 }
