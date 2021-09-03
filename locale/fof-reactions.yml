@@ -20,9 +20,16 @@ fof-reactions:
       settings:
         integrations:
           gamification:
+            downvoteHelptext: 'Syötä reaktion tunniste minkä haluat muuntaa automaattisesti downvoteksi'
+            downvoteLabel: 'Muunna reaktiot downvoteksi'
             legend: 'Pelillistäminen (gamification)'
+            upvoteHelptext: 'Syötä reaktion tunniste minkä haluat muuttaa automaattiseti upvoteksi'
             upvoteLabel: 'Muunna reaktiot upvoteiksi'
           legend: Integraatiot
+          likes:
+            Helptext: 'Syötä reaktion tunniste minkä haluat muuntaa automaattisesti tykkäykseksi'
+            Label: 'Muunna reaktiot tykkäyksiksi'
+            legend: Tykkäykset
           warning: 'Samaa reaktiota <strong>ei voida</strong> muuntaa tykkäykseksi <strong>ja</strong> upvoteksi'
         save_settings: 'Tallenna asetukset'
     permissions:
