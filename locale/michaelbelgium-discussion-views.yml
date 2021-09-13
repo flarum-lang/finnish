@@ -27,4 +27,5 @@ michaelbelgium-discussion-views:
       submit_button: 'Kyllä, poista kaikki'
       title: 'Nollaa keskustelun katstelukertojen määrä'
     viewlist:
+      guest: Vieras
       title: 'Viimeisimmät katselijat'

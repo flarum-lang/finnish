@@ -42,6 +42,8 @@ validation:
   ends_with: ':attribute: n on päätyttävä jompaankumpaan seuraavista: :values.'
   exists: ':attribute valittu arvo on virheellinen.'
   file: ':attribute arvon tulee olla tiedosto.'
+  file_too_large: ':attribute on liian suuri.'
+  file_upload_failed: ':attribute siirto epäonnistui.'
   filled: ':attribute on pakollinen.'
   gt:
     array: ':attribute tulee sisältää enemmän kuin :value arvoa.'

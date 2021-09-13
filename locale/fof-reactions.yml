@@ -41,6 +41,7 @@ fof-reactions:
     modal:
       title: Reaktiot
     notification: '{username} reagoi {reaction} viestiisi'
+    react_button_label: Reagoi
     reacting-own-post: 'Et voi reagoida omaan viestiin'
     settings:
       notify_post_reacted_label: 'Joku reagoi viestiini'
