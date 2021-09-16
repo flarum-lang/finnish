@@ -11,6 +11,7 @@ flarum-ext-welcomebox:
     SettingsLink: Asetukset
     discussion: '=> core.ref.discussions'
     goToProfile: Profiili
+    lastSeen: 'Viimeisin vierailu'
     notregistered: 'Ette ole rekisteröityneet tälle foorumille.'
     npost: '=> core.ref.posts'
     tooltipDisclist: Keskustelulista
