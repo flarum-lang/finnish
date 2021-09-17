@@ -124,6 +124,7 @@ composer require flarum-lang/finnish:dev-master
 | Extension | Status |
 | --- | --- |
 | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/antoinefr-online/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-online/fi/) |
+| [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/askvortsov-discussion-templates/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-discussion-templates/fi/) |
 | [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/clarkwinkelmann-bookmarks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks/fi/) |
 | [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/clarkwinkelmann-translation-inspector/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector/fi/) |
 | [`extiverse/mercury`](https://github.com/extiverse/mercury) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/extiverse-mercury/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/extiverse-mercury/fi/) |
