@@ -8,4 +8,20 @@ askvortsov-discussion-templates:
       manage_all_reply_templates: 'Hallita vastauspohjia kaikkiin keskusteluihin'
       manage_own_discussion_reply_templates: 'Hallita vastauspohjia keskusteluihin'
     settings:
+      append_template_on_tag_change: 'Lisää pohja loppuun avainsanan vaihdossa?'
+      append_template_on_tag_change_help: 'Kun avainsanaa vaihdetaan, pitäisikö uuden avainsanan pohja lisätä loppuun vaikka käyttäjä on aloittanut kirjoittamisen? Asetuksesta huolimatta, jos avainsana vaihdetaan ja käyttäjä ei ole tehnyt muutoksia, pohja vaihtuu.'
       no_tag_template: 'Oletus pohja (käytetään kun aloitetaan keskustelu ilman avainsanoja):'
+    tag_template_modal:
+      customize_text: 'Hallitse pohjia tämän avainsanan keskusteluille.'
+      submit_button: 'Tallenna pohja'
+      title: Keskustelupohja
+    tags:
+      tag_template_button: 'Muokkaa pohjaa'
+      tag_template_heading: Keskustelupohja
+      tag_template_text: 'Hallitse pohjia tämän avainsanan keskusteluille.'
+  forum:
+    discussion_controls:
+      reply_template_button: 'Muokkaa vastauspohjaa'
+    reply_template:
+      submit_button: 'Tallenna vastauspohja'
+      title: 'Muokkaa vastauspohjaa'
