@@ -223,7 +223,7 @@ core:
       body: "Hei {username}!\n\nJoku (toivottavasti sinä!) vaihtoi sähköpostiosoitteen {forum} täksi.\n\nJos se olit sinä niin vahvista sähköpostiosoite alla olevalla linkillä:\n{url}\n\nJos se et ollut sinä niin poista tämä sähköposti.\n"
       subject: 'Vahvista uusi sähköpostiosoitteesi'
     reset_password:
-      body: "Hei {username}!\n\nJoku (toivottavasti sinä!) pyysi salasanan nollausta  {forum}.\n\nJos se olit sinä niin nollaa salasana alla olevan linkin kautta:\n{url}\n\nJos et halua vaihtaa salasanaa niin poista tämä sähköposti niin mitään ei tapahdu.\n"
+      body: "Hei {username}!\n\nJoku (toivottavasti sinä!) pyysi salasanan nollausta {forum}.\n\nJos se olit sinä niin nollaa salasana alla olevan linkin kautta:\n{url}\n\nJos et halua vaihtaa salasanaa niin poista tämä sähköposti niin mitään ei tapahdu.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
       body: "Hei {username}!\n\nTämä on testiviesti, jotta näet, että toimiiko Flarum foorumin sähköpostiasetukset oikein.\n\nJos sinä teit tämän niin asetukset on oikein!\n\nJos sinä et tehnyt tätä niin voit poistaa tämän viestin.\n"

@@ -17,7 +17,7 @@ fof-upload:
       watermark: "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n"
     labels:
       aws-s3:
-        acl: 'Access Control List (ACL)'
+        acl: 'Pääsylistaus (Access Control List / ACL)'
         advanced_title: 'S3 lisäasetukset'
         bucket: 'Ämpäri (bucket)'
         endpoint: 'Päätepiste (endpoint)'
