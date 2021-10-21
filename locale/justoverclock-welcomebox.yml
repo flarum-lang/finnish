@@ -4,6 +4,7 @@
 
 flarum-ext-welcomebox:
   admin:
+    UseWidget: 'Käytä vimpainversiota'
     enablepostbox: 'Näytä tervetulolaatikko vieraille'
     img: 'Kuvan osoite (vieraslaatikko)'
     img-help: 'syötä tähän kuvan osoite vieraslaatikolle'

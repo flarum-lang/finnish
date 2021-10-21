@@ -428,6 +428,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Ryhmät
+      nothing_available: 'Teillä ei ole oikeutta muokata tätä käyttäjää.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Aseta uusi salasana'
@@ -443,6 +444,7 @@ core:
       payload_too_large_message: 'Pyydetty kuorma (payload) oli liian iso.'
       permission_denied_message: 'Sinulla ei ole oikeuksia tehdä sitä.'
       rate_limit_exceeded_message: 'Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua.'
+      render_failed_message: 'Pahoittelut, koimme virheen kun näytimmä tätä sisältöä. Mikäli olette käyttäjä, yritä uudelleen. Mikäli oletta ylläpitäjä niin tutki Flarumin lokitiedostoja.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     number_suffix:
