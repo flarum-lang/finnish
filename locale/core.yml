@@ -95,6 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Määritä laajuudet (scopes)'
+      confirm_purge: 'Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?'
       confirm_uninstall: 'Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?'
       disabled: 'Poistettu käytöstä'
       enable_to_see: 'Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.'
@@ -110,6 +111,11 @@ core:
       no_settings: 'Tällä lisäosalla ei ole asetuksia.'
       open_modal: 'Avaa asetukset'
       permissions_title: Oikeudet
+      purge_button: Puhdista
+      readme:
+        button_label: 'LUE MINUT'
+        no_readme: 'Tällä lisäosalla ei näytä olevan README tiedostoa'
+        title: '{extName} dokumentaatio'
       uninstall_button: 'Poista asennus'
     header:
       get_help: Apua
@@ -281,6 +287,8 @@ core:
       mark_as_read_tooltip: 'Merkitse luetuksi'
       replied_text: '{username} vastasi {ago}'
       started_text: '{username} aloitti {ago}'
+      total_replies_a11y_label: '{count, plural, one {# vastaus} other {# vastausta}}'
+      unread_replies_a11y_label: '{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse  {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -421,6 +429,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Piilotettu
+    debug_button: Vianetsintä
     dropdown:
       toggle_dropdown_accessible_label: Alasvetovalikko
     edit_user:
@@ -447,6 +456,8 @@ core:
       render_failed_message: 'Pahoittelut, koimme virheen kun näytimmä tätä sisältöä. Mikäli olette käyttäjä, yritä uudelleen. Mikäli oletta ylläpitäjä niin tutki Flarumin lokitiedostoja.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    nav:
+      drawer_button: 'Avaa navigointi lokero'
     number_suffix:
       kilo_text: K
       mega_text: M
