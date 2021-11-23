@@ -9,7 +9,10 @@ flarum-nicknames:
     settings:
       max_label: 'Nimimerkin maksimi pituus'
       min_label: 'Nimimerkin minimi pituus'
+      random_username_help: 'Tämä piilottaa `käyttäjätunnus` kentän rekisteröinnissä ja käyttää satunnaista numeroa sen sijaan. Tämä myös määrittää `nimimerkki` kentän pakolliseksi. Tämä on käytössä vain jos "Salli nimimerkin määritys rekisteröinnissä" on käytössä.'
+      random_username_label: 'Satunnaista käyttäjätunnukset'
       regex_label: 'Säännöllinen lauseke validointiin'
+      set_on_registration_label: 'Salli nimimerkin määritys rekisteröinnissä'
       unique_label: 'Vaadi yksilölliset nimimerkit?'
     wrong_driver: 'Sinun täytyy valita "nimimerkki" näyttönimen ajuriksi <a><strong>Yleiset asetukset sivulla</strong></a> jotta tämä lisäosa toimii.'
   api:
@@ -23,5 +26,8 @@ flarum-nicknames:
       nicknames_text: Nimimerkki
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
+    sign_up:
+      nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
     change_nickname: 'Vaihda nimimerkki'
+    nickname: Nimimerkki
