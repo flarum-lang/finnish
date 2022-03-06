@@ -10,9 +10,12 @@ fof-byobu:
       create_private_discussions_with_users: 'Luo yksityinen keskustelu käyttäjien kesken'
       edit_group_recipients: 'Muokkaa ryhmiä, jotka osallistuu yksityiseen keskusteluihin'
       edit_user_recipients: 'Muokkaa käyttäjiä, jotka osallistuu yksityiseen keskusteluihin'
+      make_private_into_public: 'Muuta yksityinen keskustelu julkiseksi keskusteluksi'
       view_private_discussions-when-flagged: 'Nähdä muiden yksityiset keskustelut jos raportoitu'
     settings:
       badge-icon: 'Byobu keskusteluikoni'
+      enable-make-public-option: 'Ota käyttöön "tee julkiseksi" ominaisuus'
+      enable-make-public-option-help: 'Ottaa käyttöön mahdollisuuden niille joilla on oikeus: poistaa kaikki vastaanottajat ja asettaa uuden avainsanan sekä asettaa keskustelun julkiseksi (riippuen avainsanan näkyvyysasetuksista).'
       post-event-icon: 'Byobu viestitapahtumat'
   email:
     body:
@@ -33,12 +36,15 @@ fof-byobu:
       add_recipients: Vastaanottajat
       cancel: Peruuta
       edit_recipients: 'Muokkaa vastaanottajia'
+      make_public: 'Tee keskustelusta julkinen'
       remove_from_discussion: 'Poistu tästä yksityisestä keskustelusta'
       send_pd: 'Lähetä käyttäjälle {username} viesti'
       submit: OK
     composer_private_discussion:
       submit_button: 'Lähetä yksityinen keskustelu'
       title_placeholder: 'Yksityisen keskustelun otsikko'
+    confirm:
+      make_public: 'Haluatko varmasti poistaa vastaanottajat ja tehdä tästä keskustelusta julkinen kaikille, jotka voi nähdä määritellyn avainsanan?'
     input:
       search_recipients: 'Hae vastaanottajaa kirjoittamalla kolme ensimmäistä merkkiä...'
     labels:
@@ -71,6 +77,7 @@ fof-byobu:
       recipients_modified:
         added: '{username} lisäsi vastaanottajia {added}.'
         added_and_removed: '{username} lisäsi vastaanottajan {added} ja poisti {removed}.'
+        made_public: '{username} poisti kaikki vastaanottajat ja teki keskustelusta julkisen'
         removed: '{username} poisti vastaanottajat {removed}.'
         removed_self: '{username} poistui yksityisestä keskustelusta.'
     search:

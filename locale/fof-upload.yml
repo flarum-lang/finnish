@@ -86,6 +86,8 @@ fof-upload:
       just-url_description: "Asettaa vain kuvan osoitteen. Näyttäminen voidaan toteuttaa mulla lisäosalla. Ei latausta, ei tilastoja eikä hotlink suojausta.\n"
       markdown-image: 'Markdon pohja kuvalle'
       markdown-image_description: "Näyttää kuvan käyttäen Markdownia. <strong>Sinulla pitää olla flarum/markdown lisäosa asennettuna, jotta tämä toimii.</strong> Ei latausta, ei tilastoja ja ei hotlink suojausta.\n"
+      text-preview: 'Tekstin esikatselu'
+      text-preview_description: "Asettaa esikatselun (ensimmäiset 5 riviä) tekstitiedostosta. Tämän kanssa tulee mahdollisuus nähdä koko tiedoston sisältö.\n"
     upload_methods:
       aws-s3: S3/Yhteensopiva
       imgur: Imgur
@@ -124,5 +126,11 @@ fof-upload:
       error: Virhe
       loading: Siirretään
       unauthorized: 'Sinulla ei ole oikeutta ladata tiedostoja'
+    text_preview:
+      collapse: 'Pienennä esikatselu'
+      error: "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n"
+      expand: 'Laajenna esikatselu'
+      no_snippet: '<ei esikatselua saatavilla>'
+      no_snippet_preview: '<esikatselu tulee tähän>'
     validation:
       max_size: 'Yli {max} kb siirrot eivät ole sallittuja.'

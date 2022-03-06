@@ -429,6 +429,8 @@ core:
     mod: Moderaattori
     mods: Moderaattorit
   lib:
+    alert:
+      dismiss_a11y_label: 'Poista ilmoitus'
     badge:
       hidden_tooltip: Piilotettu
     debug_button: Vianetsintä
@@ -458,6 +460,9 @@ core:
       render_failed_message: 'Pahoittelut, koimme virheen kun näytimmä tätä sisältöä. Mikäli olette käyttäjä, yritä uudelleen. Mikäli oletta ylläpitäjä niin tutki Flarumin lokitiedostoja.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sivu # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Sivu # - {forumName}}}'
     modal:
       close: Sulje
     nav:

@@ -6,18 +6,34 @@ flarum-suspend:
   admin:
     permissions:
       suspend_users_label: 'Jäädytä käyttäjiä'
+  email:
+    suspended:
+      body: "Hei {recipient_display_name},\n\nTeidän tili on jäädytetty seuraavasta syystä:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Tilisi on jäädytetty'
+    unsuspended:
+      body: "Hei {recipient_display_name},\n\nTilisi jäädytys on poistettu. Voitte palata foorumille seuraavan linkin kautta:\n\n{forum_url}\n"
+      subject: 'Tilisi jäädytys on poistettu'
   forum:
     notifications:
+      user_suspended_indefinite_text: 'Sinut on jäädytetty toistaiseksi'
       user_suspended_text: 'Teidät on jäädytetty {timeReadable}'
       user_unsuspended_text: 'Teidän jäädytys on poistettu'
     suspend_user:
+      display_message: 'Näytä viesti käyttäjälle'
       indefinitely_label: 'Jäädytetty pysyvästi'
       limited_time_days_text: ' päivää'
       limited_time_label: 'Jäädytetty rajoitetuksi ajaksi...'
       not_suspended_label: 'Ei jäädytetty'
+      placeholder_optional: Valinnainen
+      reason: 'Syy jäädyttämiselle'
       status_heading: 'Jäädytyksen tila'
       submit_button: '=> core.ref.save_changes'
       title: 'Jäädytä {username}'
+    suspension_info:
+      dismiss_button: Ohita
+      indefinite: 'Tämä on toistaiseksi voimassa oleva jäädytys'
+      limited: 'Tämä jäädytys on voimassa {date} asti'
+      title: 'Tämä tili on jäädytetty'
     user_badge:
       suspended_tooltip: Jäädytetty
     user_controls:
