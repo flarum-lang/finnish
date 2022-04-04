@@ -160,7 +160,7 @@ core:
       edit_users_groups_label: 'Muokkaa käyttäjän ryhmiä'
       edit_users_label: 'Muokkaa käyttäjän tietoja'
       global_heading: Yleinen
-      moderate_heading: Moredointi
+      moderate_heading: Moderointi
       new_group_button: 'Uusi ryhmä'
       participate_heading: Osallistuminen
       post_without_throttle_label: 'Vastata useasti ilman odottamista'
