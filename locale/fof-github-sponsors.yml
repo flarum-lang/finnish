@@ -10,6 +10,6 @@ fof-github-sponsors:
     settings:
       account_type_label: 'Tilin tyyppi'
       api_token_label: 'API avain (API token)'
-      desc: 'Hanki API avain (API token) osoitteesta:  <a>https://github.com/settings/tokens/new</a>. Tämä lisäosa vaatii: <code>user</code> ja <code>read:org</code> määreet (scopes).'
+      desc: 'Hanki API avain (API token) osoitteesta: <a>https://github.com/settings/tokens/new</a>. Tämä lisäosa vaatii: <code>user</code> ja <code>read:org</code> määreet (scopes).'
       group_label: 'Ryhmä joka asetetaan'
       login_label: Kirjaudu

@@ -5,7 +5,7 @@
 fof-prevent-necrobumping:
   admin:
     settings:
-      days_help: 'Keskustelu merkitään vanhaksi kun valittu määrä päiviä on mennyt viimeisimmästä viestistä keskusteluun.  Käytä arvoa <code>0</code> ottaaksesi tämän pois käytöstä oletuksena.'
+      days_help: 'Keskustelu merkitään vanhaksi kun valittu määrä päiviä on mennyt viimeisimmästä viestistä keskusteluun. Käytä arvoa <code>0</code> ottaaksesi tämän pois käytöstä oletuksena.'
       days_label: Päivät
       message_agreement_label: 'Muokatun viestin hyväksyntä (valintalaatikko)'
       message_description_label: 'Muokatun viestin kuvaus'

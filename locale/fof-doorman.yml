@@ -29,7 +29,7 @@ fof-doorman:
           max_uses: Maksimikäyttö
         help:
           activates: 'Aktivoi käyttäjän: Automaattisesti aktivoi käyttäjän, kun he rekisteröityy.'
-          group: 'Ryhmä: Ryhmä mihin käyttäjä lisätään, kun rekisteröityy.'
+          group: 'Ryhmä: Käyttäjä lisätään tähän ryhmään, kun hän rekisteröityy.'
           key: 'Avain: Koodi jonka käyttäjä syöttää rekisteröityessään.'
           max: 'Maksimikäyttö: Maksimi numero määriä monestiko koodin voi käyttää, aseta 0 jos haluat pysyvästi käyttöön'
         key: Avain
