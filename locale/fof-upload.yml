@@ -14,7 +14,20 @@ fof-upload:
       resize: "Valitse haluatko, että kuvien koko määritetään uudelleen ennen siirtoa. Voit määrittää maksimi leveyden ja korkeuden pikseleissä. Koon muutos säilyttää kuvasuhteen.\n"
       s3_acl: "ACL mikä asetetaan siirrettyyn objektiin (oletus: private). Mahdolliset arvot: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n"
+      s3_instance_profile: "Jätä avain salaisuus tyhjäksi, jotta käytetään instanssin profiilin tunnuksia.\n"
       watermark: "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n"
+    inspect-mime:
+      description: "FoF Upload käyttää <a>PHP Mime Detector</a> kirjastoa yleisiin MIME tyyppeihin ja PHP Fileinfoa varalla.\nFileinfon palauttama MIME arvo voi olla erilainen riippuen palvelimesta!\n"
+      guessed-extension: 'Oletus tiedostopääte (jos alkuperäistä ei ole hyväksytty)'
+      laravel-validation: 'Laravelin tiedosto tarkistus'
+      mime-detector: 'Mime tunnistin (pääasiallinen)'
+      mime-fileinfo: 'PHP Fileinfo (varalla)'
+      no-file-selected: 'Ei tiedostoa'
+      not-available: 'Ei tuloksia'
+      select: 'Valitse tiedosto alta, jonka arvoa haluat tarkistella. Tiedostoa ei tallenneta.'
+      title: 'Tutki MIME'
+      validation-failed: 'Virhe : {error}'
+      validation-passed: Läpäisty
     labels:
       aws-s3:
         acl: 'Pääsylistaus (Access Control List / ACL)'
@@ -43,6 +56,7 @@ fof-upload:
       imgur:
         client_id: 'Imgur asiakkaan ID (client ID)'
         title: 'Imgur kuvan tallennustilan asetukset'
+      inspect-mime: 'Testi tiedoston MIME tyyppi'
       local:
         cdn_url: 'Sisällönjakoverkon osoite (CDN) (tulee tiedostojen etuliitteeksi)'
         title: 'Paikallisen tallennustilan asetukset'

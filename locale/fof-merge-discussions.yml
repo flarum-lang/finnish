@@ -13,6 +13,7 @@ fof-merge-discussions:
     error:
       deleting_failed: 'Tyhjien keskusteluiden poisto epäonnistui.'
       fixing_posts_number_failed: 'Viestien numerointi epäonnistui.'
+      fixing_posts_number_meta_failed: 'Viestien määrien korjaus epäonnistui.'
       merging_failed: 'Keskusteluiden yhdistys epäonnistui.'
       updating_failed: 'Keskustelujen tietojen päivitys epäonnistui.'
   email:
