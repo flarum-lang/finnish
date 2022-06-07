@@ -56,6 +56,7 @@ fof-upload:
       imgur:
         client_id: 'Imgur asiakkaan ID (client ID)'
         title: 'Imgur kuvan tallennustilan asetukset'
+        tos: 'On sinun vastuulla, että foorumin käyttäjät noudattavat Imgurin <a>käyttöehtoja</a>'
       inspect-mime: 'Testi tiedoston MIME tyyppi'
       local:
         cdn_url: 'Sisällönjakoverkon osoite (CDN) (tulee tiedostojen etuliitteeksi)'

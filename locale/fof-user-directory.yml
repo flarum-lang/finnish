@@ -20,6 +20,9 @@ fof-user-directory:
       load_more_button: '=> core.ref.load_more'
       nav: Käyttäjät
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one { {count} keskustelu} other {{count} keskustelua}}'
+        post-count: '{count, plural, one { {count} viesti} other {{count} viestiä}}'
     search:
       field:
         placeholder: 'Etsi kaikkia käyttäjiä'
