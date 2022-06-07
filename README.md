@@ -154,6 +154,7 @@ composer require flarum-lang/finnish:dev-master
 | --- | --- |
 | [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/fi/) |
 | [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/blomstra-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-realtime/fi/) |
+| [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-private-facade/fi/) |
 
 <!-- premium-extensions-list-stop -->
 
