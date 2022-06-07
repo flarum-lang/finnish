@@ -23,7 +23,7 @@ fof-doorman:
           switch-label: 'Aseta kutsukoodi valinnaiseksi rekisteröitymisessä'
           title: 'Salli julkinen rekisteröinti'
         heading:
-          activate: 'AKtivoi käyttäjän'
+          activate: 'Aktivoi käyttäjä'
           group: Ryhmä
           key: Avain
           max_uses: Maksimikäyttö

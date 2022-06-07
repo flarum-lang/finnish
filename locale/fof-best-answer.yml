@@ -70,3 +70,5 @@ fof-best-answer:
         select_best_answer: 'Automaattinen muistutus siitä, että valitsen parhaan vastauksen keskustelussa, jonka aloitin'
     remove_best_answer: 'Poista parhaan vastauksen valinta'
     this_best_answer: 'Valitse paras vastaus'
+    user:
+      best-answer-count: '{count, plural, one { {count} paras vastaus} other {{count} parasta vastausta}}'
