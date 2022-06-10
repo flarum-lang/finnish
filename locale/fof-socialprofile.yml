@@ -9,7 +9,7 @@ fof-socialprofile:
       editOwn: 'Muokata omia some profiileja'
       view: 'Nähdä some profiilit'
     settings:
-      allow_external_favicons_label: 'Salli ulkoiset verkkosivujen ikonit'
+      allow_external_favicons_label: 'Salli ulkoiset verkkosivujen ikonit (käyttää DuckDuckGo favicon APIa)'
   forum:
     edit:
       add: 'Lisää some nappeja'
