@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-nightmode/fi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      fofNightMode: 'FoF Nightmode: Oletuksena käytettävä väriteema'
+      fofNightMode-help: '0 - automaattinen, 1 - vaalea tila, 2 - tumma tila'
+      fofNightMode_perDevice: 'FoF Nightmode: Käytä laitekohtaisia asetuksia'
+      fofNightMode_perDevice-help: 'Käytä laitekohtaisia asetuksia yötilaa varten'
 fof-nightmode:
   admin:
     settings:

@@ -10,6 +10,19 @@ fof-subscribed:
       subscribe_to_post_flagged: 'Saa vastaanottaa ilmoituksen uudesta liputuksesta'
       subscribe_to_post_unapproved: 'Saa vastaanottaa ilmoituksen uudesta hyväksymättömästä viestistä'
       subscribe_to_user_created: 'Saa vastaanottaa ilmoituksen uudesta jäsenestä'
+  email:
+    body:
+      newDiscussion: "Hei {recipient_display_name},\n\n{actor_display_name} aloitti uuden keskustelun: {discussion_title}\n\nNähdäksesi keskustelun klikkaa seuraavaa linkkiä:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newUser: "Hei {recipient_display_name},\n\n{actor_display_name} liittyi foorumille {forum_url}.\n\nNähdäksesi käyttäjän profiilin klikkaa seuraavaa linkkiä:\n{user_url}\n"
+      postCreated: "Hei {recipient_display_name},\n\n{actor_display_name} loi uuden viestin keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n\n---\n\n{post_content}\n"
+      postFlagged: "Hei {recipient_display_name},\n\n{actor_display_name} liputti viestin keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n"
+      postUnapproved: "Hei {recipient_display_name},\n\n{actor_display_name} loi viestin jota ei automaattisesti hyväksytty keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n\n---\n\n{post_content}\n"
+    subject:
+      newDiscussion: '[Uusi keskustelu] {title}'
+      newUser: '[Uusi käyttäjä] {username}'
+      postCreated: '[Uusi viesti] {username} kirjoitti viestin {title}'
+      postFlagged: '[Uusi lippu] {username} liputti viestin {title}'
+      postUnapproved: '[Hyväksyntä] {username} kirjoitti {title}'
   forum:
     notifications:
       discussion_created_text: '{username} loi uuden keskustelun'
