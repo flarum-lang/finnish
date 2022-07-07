@@ -181,6 +181,7 @@ composer require flarum-lang/finnish:dev-master
 | [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/blomstra-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-realtime/fi/) |
 | [`convo-extensions/flarum-ext-quick-reply`](https://extiverse.com/extension/convo-extensions/flarum-ext-quick-reply) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/convo-extensions-quick-reply/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/convo-extensions-quick-reply/fi/) |
 | [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-private-facade/fi/) |
+| [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fi/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/fi/) |
 
 <!-- premium-extensions-list-stop -->
 
