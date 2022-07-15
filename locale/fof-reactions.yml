@@ -31,6 +31,8 @@ fof-reactions:
             Label: 'Muunna reaktiot tykkäyksiksi'
             legend: Tykkäykset
           warning: 'Samaa reaktiota <strong>ei voida</strong> muuntaa tykkäykseksi <strong>ja</strong> upvoteksi'
+        react_own_posts_help: 'Kun käytössä, oikeuden kohde, käyttäjät voivat reagoida omiin viesteihin foorumilla. Ottaaksesi pois käytöstä käyttäjien omiin viesteihin reagoinnin ota tämä asetus pois päältä.'
+        react_own_posts_label: 'Käyttäjät voivat reagoida omiin viesteihin'
         save_settings: 'Tallenna asetukset'
     permissions:
       react_posts_label: 'Reagoida viesteihin'
