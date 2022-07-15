@@ -4,5 +4,27 @@
 
 fof-pretty-mail:
   admin:
+    css_settings:
+      help: 'Voit valita käyttöösi foorumin CSS koodin sisällyttämisen sähköpostin HTML koodiin. Jos otat tämän käyttöön voi sinulla olla ongelmia tiettyjen sähköpostin tarjoajien kanssa.'
+      label: 'CSS asetukset'
+      switch_label: 'Sisällytä koko foorumin CSS'
     nav:
       desc: 'Mukauta omia HTML sähköpostin pohjia.'
+    settings:
+      attributes:
+        body: 'Sisältää sähköpostin sisällön'
+        forumStyle: 'Sisältää <strong>koko foorumin CSS koodin</strong>'
+        link: 'Sisältää linkin sähköpostissa'
+        settings: 'Sallii sinun vuorovaikuttaa SettingsRepositoryInterface kanssa'
+        url: 'Flarumin <code>UrlGenerator</code>'
+      attributes_label: 'Käytössä olevat atribuutit'
+      confirm: 'Haluatko varmasti palauttaa oletus sähköpostipohjan'
+      default: Oletuspohja
+      label: Sähköpostipohja
+      newPost: 'Flarum/tilaukset Uuden viestin sähköposti'
+      notificationHelp: 'On suositeltavaa käyttää "$forumStyle" näihin sähköposteihin sillä ne voivat sisältää BBCODEa. Näissä sähköposteissa on myös "$user" käytettävissä mikä sisältää koko käyttäjä mallin, jolla sähköpostia lähetetään.'
+      notifications: Ilmoituspohjat
+      postMentioned: 'Flarum/maininnat Viesti mainittu sähköposti'
+      reset: 'Palaute oletukseksi'
+      template_help: 'Katso jokaista pohjaa nähdäksesi atribuuttien käytön.'
+      userMentioned: 'Flarum/maininnat Käyttäjä mainittu sähköposti'
