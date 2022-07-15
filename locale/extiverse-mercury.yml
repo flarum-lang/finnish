@@ -17,5 +17,5 @@ extiverse-mercury:
       token-description: "Hanki API avain (token) <a>Extiverse</a> sivustolta, jotta Mercury voi turvallisesti kommunikoida Extiversen ja foorumisi välillä.\n"
   email:
     new-extension-update:
-      body: "Hei {recipient_display_name}!\n\n{count} päivitystä on löytynyt Flarum foorumillesi. On suositeltavaa päivittää ne mahdollisimman pian.\n\nPäivityksiä on saatavilla seuraaviin lisäosiin: {extensions}.\n\nKäy foorumilla saadaksesi lisää tietoa: {url}.\n"
+      body: "Hei {recipient_display_name}!\n\n{count} päivitystä on löytynyt Flarum foorumillesi. \nOn suositeltavaa päivittää ne mahdollisimman pian.\n\nPäivityksiä on saatavilla seuraaviin lisäosiin: {extensions}.\n\nKäy foorumilla saadaksesi lisää tietoa: {url}.\n"
       subject: '{count, plural, one {Yksi päivitys saatavilla foorumillesi} other {# päivitystä saatavilla foorumillesi}}'

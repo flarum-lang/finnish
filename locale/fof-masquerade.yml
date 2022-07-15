@@ -19,7 +19,8 @@ fof-masquerade:
       name: 'Kentän nimi'
       name-help: "Julkisesti näkyvillä oleva (ei käännettävä) kentän tunniste.\n"
       on_bio: 'Näytä vastaus tähän kenttään käyttäjän profiilissa'
-      option-new: 'Uusi asetus'
+      option-comma-warning: 'Vaihtoehdon tunniste ei voi sisältää pilkkuja (",").'
+      option-new: 'Uusi vaihtoehto'
       options: Vaihtoehdot
       prefix: 'Kentän etuliite'
       prefix-help: "Näyttää etuliitteen kentän arvoille jotka käyttäjä on syöttänyt.\n"
@@ -33,6 +34,12 @@ fof-masquerade:
       edit-others-profile: 'Muokkaa toisen käyttäjän profiilia'
       have-profile: 'Voi olla profiili'
       view-profile: 'Näkee profiilin'
+    types:
+      advanced: Lisäasetukset
+      boolean: Valintalaatikko
+      email: Sähköposti
+      select: Alasvetovalikko
+      url: URL
   forum:
     alerts:
       profile-completed: 'Profiili valmis. <a>Jatka etusivulle</a>'
