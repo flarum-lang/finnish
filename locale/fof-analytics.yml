@@ -19,7 +19,7 @@ fof-analytics:
         piwikTrackAccounts: 'Seuraa yksittäisiä käyttäjätilejä'
         piwikTrackSubdomain: 'Seuraa käyttäjiä kaikkien Flarumin alidomainien kanssa'
         piwikUrl: 'Matomon domain tai URL'
-        statusGoogle: 'Ota käyttöön Google Analytics'
+        statusGoogle: 'Ota käyttöön Google Analytics (UA/GA4)'
         statusPiwik: 'Ota käyttöön Matomo'
       placeholder:
         piwikAuthToken: "Syötä tämä ottaaksesi käyttöön Matomon tilasto vimpaimen hallintapaneelissa.\nLöydät sen: Settings > Personal > API Authentication Token.\n"
