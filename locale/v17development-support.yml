@@ -146,6 +146,10 @@ v17development-flarum-support:
         not_allowed: 'Et voi avata uutta tukipyyntöä juuri nyt'
         private_support: 'Yksityistä tukea varten voitte luoda uuden tukipyynnön meidän tukialustalle. Julksita tukea varten katsokaa meidän <a>julkisia foorumeita</a>.'
         title: 'Kirjoita uusi tukipyyntö'
+      convert_to_discussion:
+        button: 'Muunna keskusteluksi'
+        confirm: 'Haluatko varmasti muuttaa tämän tukipyynnön julkiseksi keskusteluksi? Jos joku jakoi yksityistä tietoa niin tämä tulee myös julkiseksi.'
+        event: "Tukipyyntö {ticket_title} muutettiin julkiseksi keskusteluksi\n\nHaluatko mennä tähän keskusteluun?\n"
       convert_to_ticket:
         button: 'Muunna tukipyynnöksi'
         confirm: 'Haluatko varmasti muuntaa tämän keskustelun tukipyynnöksi?'
