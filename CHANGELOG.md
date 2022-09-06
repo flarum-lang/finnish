@@ -13,6 +13,7 @@ CHANGELOG
 **Päivitetty käännöksiä lisäosille**:
 
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 Kaikki muutokset: [v1.3.0...v1.4.0](https://github.com/flarum-lang/finnish/compare/v1.3.0...v1.4.0).
