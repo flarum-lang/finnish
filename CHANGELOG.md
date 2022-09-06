@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.3.1 (XXXX-XX-XX)
+------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+
+
+Kaikki muutokset: [v1.3.0...v1.3.1](https://github.com/flarum-lang/finnish/compare/v1.3.0...v1.3.1).
+
+
 1.3.0 (2022-09-06)
 ------------------
 
