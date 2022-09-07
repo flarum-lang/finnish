@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.4.0 (XXXX-XX-XX)
+1.4.0 (2022-09-07)
 ------------------
 
 **Lisätty tuki uusille lisäosille**:
