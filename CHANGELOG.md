@@ -7,7 +7,12 @@ CHANGELOG
 
 **Lisätty tuki uusille lisäosille**:
 
+* [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
+* [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
+* [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page)
+* [`ianm/html-head`](https://github.com/imorland/html-head)
+* [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
 
 
 **Päivitetty käännöksiä lisäosille**:
