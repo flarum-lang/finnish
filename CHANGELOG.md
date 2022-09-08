@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.5.0 (XXXX-XX-XX)
+------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+
+
+Kaikki muutokset: [v1.4.0...v1.5.0](https://github.com/flarum-lang/finnish/compare/v1.4.0...v1.5.0).
+
+
 1.4.0 (2022-09-07)
 ------------------
 
