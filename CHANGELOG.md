@@ -9,9 +9,22 @@ CHANGELOG
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions)
+* [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message)
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`datlechin/flarum-remove-sidenav`](https://github.com/datlechin/flarum-remove-sidenav)
+* [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
+* [`justoverclock/custom-html-widget`](https://github.com/justoverclockl/custom-html-widget)
+* [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
+* [`nearata/flarum-ext-copy-code-to-clipboard`](https://github.com/Nearata/flarum-ext-copy-code-to-clipboard)
+* [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
+* [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
+* [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically)
 
 
 Kaikki muutokset: [v1.4.0...v1.5.0](https://github.com/flarum-lang/finnish/compare/v1.4.0...v1.5.0).
