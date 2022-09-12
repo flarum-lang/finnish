@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.5.1 (XXXX-XX-XX)
+------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+
+
+Kaikki muutokset: [v1.5.0...v1.5.1](https://github.com/flarum-lang/finnish/compare/v1.5.0...v1.5.1).
+
+
 1.5.0 (2022-09-09)
 ------------------
 
