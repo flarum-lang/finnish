@@ -6,6 +6,7 @@ fof-sentry:
   admin:
     settings:
       dsn_label: 'Sentry DSN'
+      environment_label: 'Sentry ympäristö (enviroment)'
       javascript_console_label: 'Tallenna JavaScript konsoli'
       javascript_label: 'Raportoi JavaScript virheet'
       javascript_trace_sample_rate: 'Käyttöliittymän suorituskyvyn tarkkailuaste (0-100)'
