@@ -5,6 +5,11 @@ CHANGELOG
 1.5.1 (XXXX-XX-XX)
 ------------------
 
+**Yleiset muutokset**:
+
+* Päivitetty Flarumin ytimen käännöksiä.
+
+
 **Päivitetty käännöksiä lisäosille**:
 
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
