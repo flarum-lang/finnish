@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'Värillinen yläosa'
       colors_heading: Värit
+      colors_primary_label: 'Ensisijainen väri'
+      colors_secondary_label: 'Toissijainen väri'
       colors_text: 'Valitse kaksi väriä foorumin teemaksi. Ensimmäistä käytetään korostusvärinä, kun taas toista väriä käytetään taustaelementeissä.'
       custom_footer_heading: 'Mukautettu alaosa'
       custom_footer_text: '=> core.ref.custom_footer_text'
