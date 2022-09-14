@@ -23,6 +23,7 @@ flarum-subscriptions:
       new_post_text: '{username} kirjoitti'
     settings:
       follow_after_reply_label: 'Automaattisesti seuraa keskusteluita joihin osallistun'
+      notify_for_all_posts_label: 'Ilmoita jokaisesta uudesta viestistä keskustelussa vain viimeisen viestin sijaan'
       notify_new_post_label: 'Joku kirjoitti keskusteluun, jota seuraan'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
