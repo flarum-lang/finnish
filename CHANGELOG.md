@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.5.1 (2022-09-14)
+------------------
+
+**Yleiset muutokset**:
+
+* Päivitetty Flarumin ytimen käännöksiä.
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+
+
+Kaikki muutokset: [v1.5.0...v1.5.1](https://github.com/flarum-lang/finnish/compare/v1.5.0...v1.5.1).
+
+
 1.5.0 (2022-09-09)
 ------------------
 
