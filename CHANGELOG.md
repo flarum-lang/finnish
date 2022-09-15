@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.5.2 (XXXX-XX-XX)
+------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+
+
+Kaikki muutokset: [v1.5.1...v1.5.2](https://github.com/flarum-lang/finnish/compare/v1.5.1...v1.5.2).
+
+
 1.5.1 (2022-09-14)
 ------------------
 
