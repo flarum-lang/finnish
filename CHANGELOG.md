@@ -8,6 +8,7 @@ CHANGELOG
 **Päivitetty käännöksiä lisäosille**:
 
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 
 
 Kaikki muutokset: [v1.5.1...v1.5.2](https://github.com/flarum-lang/finnish/compare/v1.5.1...v1.5.2).
