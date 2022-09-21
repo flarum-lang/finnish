@@ -17,6 +17,15 @@ fof-gamification:
         converted: 'Onnistuneesti muunnettiin kaikki {number} tykkäystä'
         converting: 'Tykkäyksiä muunnetaan. Päivitä sivu muutaman minuutin päästä nähdäksesi prosessin loppuneen. (Muunnos voi kestää jonkin aikaa riippuen foorumisi. tykkäyksien määrästä)'
         help: 'Muunna entiset tykkäykset flarumin omasta tykkäykset lisäosasta plus ääniksi sekä laske nykyisen keskustelujen suosio.'
+      groups:
+        add: 'Lisää uusi sääntö'
+        column:
+          group: Ryhmä
+          maxPoints: 'Maksimi pisteet (kattava)'
+          minPoints: 'Minimi pisteet (kattava)'
+        delete: 'Poista sääntö'
+        help: "Valitut ryhmät asetetaan tai poistetaan automaattisesti tarvittaessa riippuen käyttäjän pisteistä. Jos teet näihin muutoksia pitää sinun ajaa komento <code> php flarum fof:gamification:assign-groups</code> päivittääksesi olemassa olevien käyttäjien määreet. Jos haluat poistaa säännön ja poistaa käyttäjät ryhmästä, aseta sekä minimi ja maksimi arvot tyhjäksi, tallenna asetukset ja aja edellä oleva komento. Lopuksi voit poistaa koko säännön asetuksista.\n"
+        title: 'Automaattisesti määritetyt ryhmät'
       rankings:
         blocked:
           help: 'Näytä käyttäjiä ei näytetä sijoitukset sivulla. Käyttäjätunnukset tulee erotella pilkulla jonka jälkeen tulee väli.'
