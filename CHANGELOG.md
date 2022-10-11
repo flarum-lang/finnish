@@ -10,6 +10,7 @@ CHANGELOG
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 Kaikki muutokset: [v1.5.1...v1.5.2](https://github.com/flarum-lang/finnish/compare/v1.5.1...v1.5.2).
