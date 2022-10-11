@@ -108,6 +108,7 @@ v17development-flarum-support:
         change_icon: 'Vaihda ikoni'
         edit_description: 'Muokkaa kuvausta'
         new_article: 'Uusi artikkeli'
+        recount_articles: 'Laske artikkelit uudelleen'
         rename_category: 'Nimeä kategoria uudelleen'
     reopen: 'avaa uudelleen'
     return_to_home: 'Palaa tietopankin etusivulle'
@@ -168,7 +169,7 @@ v17development-flarum-support:
           title: Kieli
         private_note:
           edit_button: 'Muokkaa huomiota'
-          info: 'Yksityiset huomiot eivät ole näkyviä. Ne ovat vain käsittelijöille ja eivät näy asiakkaalle.'
+          info: 'Yksityiset huomiot ovat vain näkyville muille käsittelijöille. Ne eivät ole näkyviä asiakkaille.'
           placeholder: 'Esimerkki: 2.4.2022 - Matti Meikäläinen: Poistin asiakkaan tietokannasta'
           tip: 'VINKKI: Jos työskentelet useamman käsittelijän kanssa yhdessä tukipyynnössä, lisää nimi ja päivämäärä huomioon.'
           title: 'Yksityiset huomiot'
