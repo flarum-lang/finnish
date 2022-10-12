@@ -7,6 +7,7 @@ CHANGELOG
 
 **Päivitetty käännöksiä lisäosille**:
 
+* [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
