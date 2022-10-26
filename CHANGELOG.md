@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.5.3 (XXXX-XX-XX)
+------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+Kaikki muutokset: [v1.5.2...v1.5.3](https://github.com/flarum-lang/finnish/compare/v1.5.2...v1.5.3).
+
+
 1.5.2 (2022-10-12)
 ------------------
 
