@@ -29,7 +29,7 @@ fof-gamification:
       rankings:
         blocked:
           help: 'Näytä käyttäjiä ei näytetä sijoitukset sivulla. Käyttäjätunnukset tulee erotella pilkulla jonka jälkeen tulee väli.'
-          placeholder: 'CDK2020, Ralkage, AngelAvila'
+          placeholder: 'ylläpitäjä, käyttäjä1, käyttäjä2'
           title: 'Huomiotta jätetyt käyttäjät'
         custom_image_1: '1 sijan kuva'
         custom_image_2: '2 sijan kuva'
@@ -47,6 +47,7 @@ fof-gamification:
         title: Sijat
       save_settings: 'Tallenna asetukset'
       votes:
+        allow_self_votes: 'Käyttäjät voivat äänestää omia viestejään'
         alternate_layout: 'Käytä vaihtoehtoista äänestys ulkoasua keskustelulistassa'
         alternate_post_layout: 'Käytä vaihtoehtoista äänestys ulkoasua viesteissä'
         auto_upvote: 'Automaattisesti annan plus ääni kirjoittaessa viestiä'
