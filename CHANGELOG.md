@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.6.0 (2022-11-16)
+------------------
+
+**Yleiset muutokset**:
+
+* Päivitetty Flarumin ytimen käännöksiä.
+
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Kaikki muutokset: [v1.5.3...v1.6.0](https://github.com/flarum-lang/finnish/compare/v1.5.3...v1.6.0).
+
+
 1.5.3 (2022-10-27)
 ------------------
 
