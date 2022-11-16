@@ -62,6 +62,17 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Valitse käyttäjätunnus mitä käytetään täällä foorumilla'
+    unlink: 'Poista linkki'
+    user:
+      settings:
+        linked-account:
+          help: 'Nämä linkitetyt tilit sallivat sinun kirjautua sisään foorumille käyttäen muita toimijoita.'
+          identifier-label: '{provider} ID'
+          label: 'Linkitetyt tilit'
+          last-used-label: 'Viimeksi käytetty'
+          link-created-label: 'Linkki luotu'
+          orphaned-account: 'Olet rekisteröitynyt tämän palvelun kautta, mutta foorumi on poistanut tämän metodin pois käytöstä.'
+          unlink-confirm: 'Haluatko varmasti poistaa linkityksen palveluun {provider}? Et voi enää kirjautua sisään foorumille käyttäen tätä palvelu ellet uudelleen autentikoi.'
   lib:
     providers:
       discord: Discord
