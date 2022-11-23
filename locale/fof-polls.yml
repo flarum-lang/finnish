@@ -11,6 +11,8 @@ fof-polls:
       start: 'Aloita kysely'
       view_results_without_voting: 'Näytä tulokset ilman vastaamista'
       vote: 'Vastata kyselyissä'
+    settings:
+      allow_option_image: 'Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon'
   forum:
     composer_discussion:
       add_poll: 'Lisää kysely'
@@ -21,6 +23,7 @@ fof-polls:
       add_title: 'Lisää kysely'
       date_placeholder: 'Kyselyn loppupäivä (valinnainen)'
       edit_title: 'Muokkaa kyselyä'
+      image_option_placeholder: 'Kuvan osoite (valinnainen)'
       include_question: 'SInun pitää sisällyttää kysymys'
       max: 'Sinulla voi olla enintään 10 vastausta'
       min: 'Sinulla pitää olla vähintään 2 vastausta'
