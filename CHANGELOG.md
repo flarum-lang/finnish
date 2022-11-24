@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.6.1 (2022-11-24)
+------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Kaikki muutokset: [v1.6.0...v1.6.1](https://github.com/flarum-lang/finnish/compare/v1.6.0...v1.6.1).
+
+
 1.6.0 (2022-11-16)
 ------------------
 
