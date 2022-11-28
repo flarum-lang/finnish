@@ -5,7 +5,10 @@
 blomstra-turnstile:
   admin:
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       secret_key: 'Salainen avain (Secret key)'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key: 'Sivuston avain (Site key)'
   forum:
     not_loaded_error: 'Cloudflare Turnstilen lataus epäonnistui. Lataa sivu uudestaan ja tarkista mainoksenesto.'
