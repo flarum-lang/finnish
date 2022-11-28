@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.6.2 (XXXX-XX-XX)
+------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+
+
+Kaikki muutokset: [v1.6.1...v1.6.2](https://github.com/flarum-lang/finnish/compare/v1.6.1...v1.6.2).
+
+
 1.6.1 (2022-11-24)
 ------------------
 
