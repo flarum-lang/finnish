@@ -7,6 +7,8 @@ fof-default-user-preferences:
     settings:
       followAfterReply: 'Seuraa vastauksen jälkeen'
       followAfterReply-help: 'Kun laitettu päälle, uudet käyttäjät seuraavat automaattisesti keskusteluita mihin he vastaavat tai kommentoivat.'
+      groupMentioned: 'Ryhmän maininnan sähköposti'
+      groupMentioned-help: 'Kun laitettu päällä, uudet käyttäjät saavat automaattisesti ilmoituksen sähköpostiin, kun ryhmä jonka jäsenenä he ovat mainitaan.'
       postMentioned: 'Lähetä vastauksesta sähköposti'
       postMentioned-help: 'Kun laitettu päälle, uudet käyttäjät saavat automaattisesti sähköpostiin ilmoituksen, kun heidän viesteihin vastataan.'
       userMentioned: 'Käyttäjä mainittu sähköposti'
