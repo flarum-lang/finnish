@@ -8,6 +8,7 @@ CHANGELOG
 **Päivitetty käännöksiä lisäosille**:
 
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 
 
 Kaikki muutokset: [v1.6.1...v1.6.2](https://github.com/flarum-lang/finnish/compare/v1.6.1...v1.6.2).
