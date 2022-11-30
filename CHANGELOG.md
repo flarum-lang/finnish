@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.6.2 (XXXX-XX-XX)
+1.6.2 (2022-11-30)
 ------------------
 
 **Päivitetty käännöksiä lisäosille**:
