@@ -6,10 +6,12 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Käytä canonical osoitetta jakamiseen'
+      plain-copy: 'Näytä osoite kopioinnissa'
   forum:
     discussion:
       share_button: Jaa
     modal:
+      copy_button: Kopioi
       title: Jaa
   lib:
     networks:

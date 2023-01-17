@@ -8,7 +8,14 @@ datlechin-link-preview:
       blacklist_help: 'Syötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka estetään linkin esikatselusta.'
       blacklist_label: Estolista
       blacklist_placeholder: 'esim. facebook.com,https://domain.fi/polku'
+      cache_time_help: 'Aika miten pitkään haetut linkit pysyvät välimuistissa ennen kuin ne haetaan uudelleen. Aseta 0 ottaaksesi pois käytöstä. Oletuksena 60 minuuttia ellei ole muuta asetettuna.'
+      cache_time_label: 'Välimuistin aika'
       convert_media_urls_help: 'Jos käytössä niin tämä muuntaa median osoitteet linkin esikatseluiksi.'
       convert_media_urls_label: 'Muunna mediat osoitteiksi'
+      use_google_favicons_help: 'Jos käytössä käyttää Googlen palveluita hakeakseen sivuston kuvakkeen.'
+      use_google_favicons_label: 'Käytä Google Favicon rajapintaa'
+      whitelist_help: 'yötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka sallitaan linkin esikatselussa.'
+      whitelist_label: 'Sallittujen lista'
+      whitelist_placeholder: 'esim. facebook.com,https://domain.fi/polku'
   forum:
     site_cannot_be_reached: 'Sivustoa ei saavutettu.'
