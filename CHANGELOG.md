@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.7.0 (XXXX-XX-XX)
+------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+Kaikki muutokset: [v1.6.2...v1.7.0](https://github.com/flarum-lang/finnish/compare/v1.6.2...v1.7.0).
+
+
 1.6.2 (2022-11-30)
 ------------------
 
