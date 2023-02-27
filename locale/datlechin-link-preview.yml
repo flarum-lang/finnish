@@ -12,6 +12,8 @@ datlechin-link-preview:
       cache_time_label: 'Välimuistin aika'
       convert_media_urls_help: 'Jos käytössä niin tämä muuntaa median osoitteet linkin esikatseluiksi.'
       convert_media_urls_label: 'Muunna mediat osoitteiksi'
+      open_links_in_new_tab_help: 'Jos käytössä, linkit avataan uuteen välilehteen.'
+      open_links_in_new_tab_label: 'Avaa linkit uuteen välilehteen'
       use_google_favicons_help: 'Jos käytössä käyttää Googlen palveluita hakeakseen sivuston kuvakkeen.'
       use_google_favicons_label: 'Käytä Google Favicon rajapintaa'
       whitelist_help: 'yötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka sallitaan linkin esikatselussa.'
