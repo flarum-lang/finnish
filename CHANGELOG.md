@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+
+
+Kaikki muutokset: [v1.7.0...v1.8.0](https://github.com/flarum-lang/finnish/compare/v1.7.0...v1.8.0).
+
+
 1.7.0 (2023-01-17)
 ------------------
 
