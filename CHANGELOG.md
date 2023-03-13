@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.8.1 (XXXX-XX-XX)
+1.8.1 (2023-03-13)
 ------------------
 
 **Yleiset muutokset**:
