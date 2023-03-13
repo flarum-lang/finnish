@@ -5,6 +5,11 @@ CHANGELOG
 1.8.1 (XXXX-XX-XX)
 ------------------
 
+**Yleiset muutokset**:
+
+* Päivitetty Flarumin ytimen käännöksiä.
+
+
 **Päivitetty käännöksiä lisäosille**:
 
 * [`flarum/lock`](https://github.com/flarum/lock)
