@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.8.1 (2023-03-13)
+------------------
+
+**Yleiset muutokset**:
+
+* Päivitetty Flarumin ytimen käännöksiä.
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Kaikki muutokset: [v1.8.0...v1.8.1](https://github.com/flarum-lang/finnish/compare/v1.8.0...v1.8.1).
+
+
 1.8.0 (2023-02-27)
 ------------------
 
