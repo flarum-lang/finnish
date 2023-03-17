@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.9.0 (XXXX-XX-XX)
+------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+
+
+Kaikki muutokset: [v1.8.1...v1.9.0](https://github.com/flarum-lang/finnish/compare/v1.8.1...v1.9.0).
+
+
 1.8.1 (2023-03-13)
 ------------------
 
