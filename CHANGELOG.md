@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.9.0 (XXXX-XX-XX)
+1.9.0 (2023-03-18)
 ------------------
 
 **Lisätty tuki uusille lisäosille**:
