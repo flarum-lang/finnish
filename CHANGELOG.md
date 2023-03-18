@@ -8,11 +8,18 @@ CHANGELOG
 **Lisätty tuki uusille lisäosille**:
 
 * [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
+* [`clarkwinkelmann/flarum-ext-shadow-ban`](https://github.com/clarkwinkelmann/flarum-ext-shadow-ban)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 
 
 **Päivitetty käännöksiä lisäosille**:
