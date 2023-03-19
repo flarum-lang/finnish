@@ -26,6 +26,7 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "Finnish",
+			"category": "language",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundColor": "#ffffff",
