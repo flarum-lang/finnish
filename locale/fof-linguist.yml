@@ -88,6 +88,8 @@ fof-linguist:
       validation: 'Validaatio virheet'
     locales:
       all: Kaikki
+    permissions:
+      view_string_keys: 'Näytä käännöksen tekstin avaimet'
     placeholder:
       all-locales: 'Tässä määritetty teksti näkyy kaikilla kielillä'
       hint: 'Alkuperäinen arvo:'
