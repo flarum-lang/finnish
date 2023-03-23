@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.1 (XXXX-XX-XX)
+------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+
+
+Kaikki muutokset: [v1.9.0...v1.9.1](https://github.com/flarum-lang/finnish/compare/v1.9.0...v1.9.1).
+
+
 1.9.0 (2023-03-18)
 ------------------
 
