@@ -2,15 +2,27 @@ CHANGELOG
 =========
 
 
-1.9.1 (XXXX-XX-XX)
-------------------
+1.10.0 (XXXX-XX-XX)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
+* [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+* [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
+* [`justoverclock/feautured-discussions-widget`](https://github.com/justoverclockl/feautured-discussions-widget)
+* [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location)
+* [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+
 
 **Päivitetty käännöksiä lisäosille**:
 
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 
 
-Kaikki muutokset: [v1.9.0...v1.9.1](https://github.com/flarum-lang/finnish/compare/v1.9.0...v1.9.1).
+Kaikki muutokset: [v1.9.0...v1.10.0](https://github.com/flarum-lang/finnish/compare/v1.9.0...v1.10.0).
 
 
 1.9.0 (2023-03-18)
