@@ -2,6 +2,72 @@ CHANGELOG
 =========
 
 
+1.10.0 (2023-03-24)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
+* [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack)
+* [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler)
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
+* [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`flamarkt/matomo`](https://github.com/flamarkt/matomo)
+* [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+* [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
+* [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+* [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
+* [`justoverclock/feautured-discussions-widget`](https://github.com/justoverclockl/feautured-discussions-widget)
+* [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
+* [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
+* [`justoverclock/flarum-ext-realtimecode`](https://github.com/justoverclockl/flarum-ext-realtimecode)
+* [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards)
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist)
+* [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location)
+* [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
+* [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
+* [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox)
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+* [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter)
+* [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+
+
+Kaikki muutokset: [v1.9.0...v1.10.0](https://github.com/flarum-lang/finnish/compare/v1.9.0...v1.10.0).
+
+
 1.9.0 (2023-03-18)
 ------------------
 
