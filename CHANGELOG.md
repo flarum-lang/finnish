@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.11.1 (XXXX-XX-XX)
+-------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+
+
+Kaikki muutokset: [v1.11.0...v1.11.1](https://github.com/flarum-lang/finnish/compare/v1.11.0...v1.11.1).
+
+
 1.11.0 (2023-03-27)
 -------------------
 
