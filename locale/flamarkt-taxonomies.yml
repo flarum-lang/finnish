@@ -102,6 +102,11 @@ flamarkt-taxonomies:
       seeOwnUser: 'Näe oman käyttäjän taksonomiat'
     settings:
       goToPage: 'Mene asetussivulle'
+  api:
+    error:
+      cannot_use_taxonomies_on_model: 'Et saa käyttää taksonomioita tässä yhteydessä'
+      discussion_taxonomy_not_in_scope: 'Taksonomia "{slug}" ei ole käytössä valituille avainsanoille'
+      invalid_filter_taxonomy: 'Virheellinen "{type}" taksonomia suodattimen avain "{slug}"'
   forum:
     blog:
       widget:
@@ -123,3 +128,15 @@ flamarkt-taxonomies:
       title:
         edit: 'Muokkaa {taxonomy} resurssille {title}'
         new: 'Valitse {taxonomy} keskustelullesi'
+  ref:
+    delete: Poista
+    field:
+      color: Väri
+      description: Kuvaus
+      icon: Ikoni
+      iconDescription: 'Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen.'
+      name: Nimi
+      slug: Tunniste
+    submit:
+      edit: Tallenna
+      new: Luo
