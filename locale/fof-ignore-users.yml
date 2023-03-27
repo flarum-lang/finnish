@@ -11,6 +11,8 @@ fof-ignore-users:
       discussion_label: 'Aloitti huomioimaton käyttäjä'
       user_label: 'Huomioimaton käyttäjä'
     profile_link: 'Älä huomioi käyttäjiä'
+    profile_page:
+      no_ignored: 'Näyttää siltä ettet ole huomioimatta ketään.'
     user_controls:
       ignore_button: 'Älä huomioi'
       ignore_confirmation: 'Haluatko varmasti olla huomioimatta tätä käyttäjää?'
