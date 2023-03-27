@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+1.11.0 (2023-03-27)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`dem13n/discussion-cards`](https://github.com/Dem13n/discussion-cards)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`justoverclock/flarum-ext-newsletter`](https://github.com/justoverclockl/flarum-ext-newsletter)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
+* [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Kaikki muutokset: [v1.10.0...v1.11.0](https://github.com/flarum-lang/finnish/compare/v1.10.0...v1.11.0).
+
+
 1.10.0 (2023-03-24)
 -------------------
 
