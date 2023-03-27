@@ -7,11 +7,16 @@ CHANGELOG
 
 **Lisätty tuki uusille lisäosille**:
 
+* [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
 * [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
 * [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
 * [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`dem13n/discussion-cards`](https://github.com/Dem13n/discussion-cards)
 * [`justoverclock/flarum-ext-newsletter`](https://github.com/justoverclockl/flarum-ext-newsletter)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
 * [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 
 
