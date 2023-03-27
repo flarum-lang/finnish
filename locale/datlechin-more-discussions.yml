@@ -7,4 +7,16 @@ datlechin-more-discussions:
     settings:
       block_name_help: 'Lohkon nimi (oletus <code>Viimeisimmät keskustelut</code>)'
       block_name_label: 'Lohkon nimi'
+      discussion_limit_help: 'Näytettävien keskustelujen määrä (oletus <code>5</code>)'
       discussion_limit_label: 'Keskustelujen määrä'
+      filter_by_help: 'Suodata keskusteluja (oletus: <code>viimeisin</code>)'
+      filter_by_label: Suodatus
+      filter_dropdown:
+        hot: 'Suositut (vaatii fof/gamification)'
+        latest: Viimeisin
+        newest: Uusimmat
+        oldest: Vanhimmat
+        top: Parhaat
+        votes: 'Tykkäykset (vaatii fof/gamification)'
+  forum:
+    block_default_name: 'Viimeisimmät keskustelut'
