@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.11.2 (XXXX-XX-XX)
+-------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+
+
+Kaikki muutokset: [v1.11.1...v1.11.2](https://github.com/flarum-lang/finnish/compare/v1.11.1...v1.11.2).
+
+
 1.11.1 (2023-03-27)
 -------------------
 
