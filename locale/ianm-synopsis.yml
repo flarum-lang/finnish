@@ -5,6 +5,9 @@
 ianm-synopsis:
   admin:
     settings:
+      disable-when-searching:
+        help: 'Kun käytössä käytetään relevanteimman viestin kuvausta lyhennelmän sijaan'
+        label: 'Ota lyhennelmä pois käytöstä haussa'
       excerpt-length:
         help: 'Kuinka monta merkkiä viestistä näytetään.'
         label: 'Yhteenvedon lyhenteen pituus merkkeinä'
