@@ -8,6 +8,7 @@ CHANGELOG
 **Päivitetty käännöksiä lisäosille**:
 
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 
 
 Kaikki muutokset: [v1.11.1...v1.11.2](https://github.com/flarum-lang/finnish/compare/v1.11.1...v1.11.2).
