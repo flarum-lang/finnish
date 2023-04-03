@@ -7,9 +7,14 @@ antoinefr-money:
     automoderator:
       action_name: 'Anna rahaa'
       metric_name: Raha
+    autoremove:
+      - 'Älä koskaan poista rahaa'
+      - 'Kun keskustelu/viesti on piilotettu tai palautettu (oletus)'
+      - 'Kun keskustelu/viesti on poistettu'
     permissions:
       edit_money_label: 'Muokkaa rahaa'
     settings:
+      autoremove: 'Päivitä raha automaattisesti'
       helpextensionlikes: 'Vaatii <code>flarum/likes</code> lisäosan'
       moneyfordiscussion: 'Uudesta keskustelusta annettava raha'
       moneyforlike: 'Tykätystä viestistä annettava raha'
