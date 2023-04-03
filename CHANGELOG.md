@@ -7,6 +7,7 @@ CHANGELOG
 
 **Päivitetty käännöksiä lisäosille**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 
