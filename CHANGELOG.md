@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.11.2 (2023-04-04)
+-------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+
+
+Kaikki muutokset: [v1.11.1...v1.11.2](https://github.com/flarum-lang/finnish/compare/v1.11.1...v1.11.2).
+
+
 1.11.1 (2023-03-27)
 -------------------
 
