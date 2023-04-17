@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.11.3 (XXXX-XX-XX)
+-------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+
+
+Kaikki muutokset: [v1.11.2...v1.11.3](https://github.com/flarum-lang/finnish/compare/v1.11.2...v1.11.3).
+
+
 1.11.2 (2023-04-04)
 -------------------
 
