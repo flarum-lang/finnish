@@ -16,6 +16,7 @@ clarkwinkelmann-mailing:
       mail_all: 'Lähetä sähköposti'
       mail_individual: 'Lähetä sähköposti käyttäjälle'
     modal_mail:
+      as_html_label: 'Lähetä HTML muodossa'
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: Viesti
       recipients_label: Vastaanottajat

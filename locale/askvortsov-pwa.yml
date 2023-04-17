@@ -36,6 +36,8 @@ askvortsov-pwa:
       other:
         force_portrait_text: 'Pakota pystytila?'
         heading: Muu
+        user_max_subscriptions_label: 'Enimmäismäärä Push tilauksia per käyttäjä'
+        user_max_subscriptions_text: 'Kuinka monta push tilausta käyttäjällä voi olla kerrallaan. Kun käyttäjä vastaanottaa push ilmoituksen, jokainen tilaus tekee API kutsun. Jokainen tilaus yleensä vastaa selainta mitä käyttäjä on käyttänyt.'
       refreshed_message: 'PWA määritykset päivitetty onnistuneesti.'
       status_check_heading: Tilanne
       submit_button: 'Tallenna asetukset'
@@ -43,7 +45,7 @@ askvortsov-pwa:
     status:
       config_no_https: 'Osoite, jota käytetään config.php tiedostoon ei käytä HTTPS:ssää. HTTPS on vaadittu, jotta PWA toimii.'
       key_gen_failed: 'Push ilmoitusten avainten luonti epäonnistui. Koko virhe viesti oli: {error}'
-      no_logo: 'Sinun täytyy siirtää vähintään yksi logo joka on vähintään 196px jotta sovelluksesi toimii.'
+      no_logo: 'Sinun täytyy siirtää vähintään yksi logo joka on vähintään 144x144px jotta PWA voidaan asentaa.'
       no_name: 'Sinun täytyy syöttää sovelluksen koko nimi jotta sovellus toimii.'
       no_vapid_keys: 'VAPID avaimia ei löytynyt. Nämä ovat pakollisia push notifikaatioita varten. Voit nollata VAPID avaimet alta.'
       possible_https_disabled: 'Sivustosi ei ehkä toimi HTTPS yli. Välimuistin tyhjennys (Hallinnan etusivu => Työkalut painike) voi auttaa. Jos se on jo HTTPS yli niin voit olla huomioimatta tätä. Jos ei ole niin huomio se, että HTTPS on pakollinen, jotta PWA toimii.'
