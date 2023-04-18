@@ -27,6 +27,7 @@ fof-links:
       links: '=> fof-links.ref.links'
     settings:
       show_icons_only_on_mobile: 'Näytä ikonit vain mobiilissa'
+      show_icons_only_on_tablet: 'Näytä ikonit vain tabletti näkymällä'
   ref:
     create_link: 'Luo linkki'
     links: Linkit
