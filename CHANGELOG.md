@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 
 
 Kaikki muutokset: [v1.11.2...v1.11.3](https://github.com/flarum-lang/finnish/compare/v1.11.2...v1.11.3).
