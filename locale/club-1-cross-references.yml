@@ -8,7 +8,7 @@ club-1-cross-references:
       help: 'Muuttaa #<ID> tekstin viesteissä (esim. #42) linkiksi kyseiseen keskusteluun.'
       label: 'Ota käyttöön lyhyet viittaukset'
     retrofit_links_in_frontend:
-      help: "Näyttää keskustelujen otsikot linkeissä viesteissä, jotka on lähetetty, kun tämä lisäosa ei ole käytössä. Tämä on tehty julkisella puolella joten se voi aiheuttaa huonoa käytettävyyttä ja hidastelua. Jos haluat vaihtaa tämän taustalla käytä `chore:reparse` komentoa [`club-1/flarum-ext-chore-commands`](https://github.com/club-1/flarum-ext-chore-commands) lisäosasta.\n"
+      help: "<p><strong>Vanhentunut</strong> (poistetaan versiossa <code>v1.2.0</code>) Harkitse <code>chore:reparse</code> komennon käyttöä <code>club-1/flarum-ext-chore-commands</code> lisäosassa. Katso: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Näytä keskustelun otsikkojen linkit viesteissä kun tämä lisäosa ei ollut käytössä. Tämä tapahtuu julkisella puolen, joten voi vaikuttaa heikosti käyttäjäkokemukseen.</p>\n"
       label: 'Muunna linkit sopivaksi'
     show_discussion_id:
       help: 'Lisää keskustelun ID numeron jokaiseen näytettävään keskusteluun.'

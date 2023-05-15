@@ -7,6 +7,9 @@ askvortsov-article-series:
     edit_tags:
       is_article_series: 'Onko artikkeli osa sarjaa?'
   forum:
+    article_item:
+      next_article: 'Seuraava artikkeli'
+      prev_article: 'Edellinen artikkeli'
     article_list:
       title: '{series} artikkelisarja'
     article_series_modal:
