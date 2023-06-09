@@ -21,6 +21,7 @@ flarum-likes:
       unlike_link: 'Peru tykkäys'
       you_text: '=> core.ref.you'
     post_likes:
+      load_more_button: '=> core.ref.load_more'
       title: 'Käyttäjät jotka tykkäsivät tästä'
     settings:
       notify_post_liked_label: 'Joku tykkäsi viestistäni'

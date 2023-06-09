@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Poisti `{1}` ryhmän'
       renamed: 'Nimeri ryhmän `{1}`'
     post:
+      approved: 'Hyväksytyt viestit `{1}`'
       deleted: 'Poisti viestin keskustelussa `{1}`'
       hidden: 'Piilotti viestin keskustelussa `{1}`'
       posted: 'Uusi viesti keskustelussa `{1}`'
@@ -41,6 +42,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Viesti hyväksytty'
+            title: 'Flarum hyväksyntä'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'

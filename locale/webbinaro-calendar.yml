@@ -10,12 +10,26 @@ flarum-calendar:
       add: 'Luo uusi tapahtuma'
       moderate: 'Poista tai muokkaa tapahtumia (kaikki käyttäjät voivat muokata omiaan)'
       view: 'Näytä tapahtumat'
+    settings:
+      hide_host: 'Piilota tapahtumapaikka'
   forum:
     button:
       create: 'Uusi tapahtuma'
       landing: Tapahtumakalenteri
       login: 'Lisää tapahtumasi '
     event:
+      confirm_delete: 'Haluatko varmasti poistaa tämän tapahtuman?'
+      deleted: 'Tämä tapahtuma on poistettu'
       details: 'Lisätietoja tästä tapahtumasta'
+      ends: 'Loppuu:'
+      hosted_by: 'Tapahtumapaikka:'
+      starts: 'Alkaa:'
     modal:
+      dates_label: Milloin
+      description_label: Tiedot
+      description_placeholder: 'Tapahtuman tiedot'
+      requirement_message: 'Tapahtuma vaatii nimen ja kuvauksen'
       submit: Lähetä
+      title_create: 'Luo uusi kalenterin tapahtuma'
+      title_edit: 'Muokkaa tapahtuman tietoja'
+      title_label: Mikä

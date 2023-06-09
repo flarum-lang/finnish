@@ -18,6 +18,13 @@ nearata-cloudflare:
         js: 'Minimoi JS'
         js_help: 'Automaattisesti minimoi kaikki JavaScript tiedostot sivuillasi.'
         section_title: 'Minimointi asetukset'
+      r2:
+        access_key_id: 'Pääsyavaimen (Access Key) ID'
+        access_key_secret: 'Pääsyavaimen (Access Key) salaisuus (secret)'
+        bucket_name: 'Ämpärin (bucket) nimi'
+        public_domain: 'Julkinen domain'
+        s3_api: 'S3 API'
+        section_title: R2
       refer_to: 'Katso <strong><url>tältä sivulta</url></strong> lisää tietoa.'
       refresh_zone_button_label: 'Päivitä Zone ID'
       refresh_zone_help: 'Klikkaa ylläolevaa painiketta <strong>vain</strong> jos domainin nimi on vaihtunut.'

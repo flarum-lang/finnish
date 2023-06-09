@@ -4,12 +4,16 @@
 
 flarum-ext-keywords:
   admin:
+    addRow: 'Lisää määritelmä'
     definition: Merkitys
     parseonce: 'Käy sanat läpi viesteistä'
     removedef: 'Poista merkitys'
     word: Sana
   forum:
+    definition: Määritelmä
+    loadMore: 'Lataa lisää'
     pagetitle: Sanasto
     searchtext: 'Hae sanastosta...'
     tagline: 'Haluatko tietää lisää sivustolla käytetyistä termeistä? Katso sanastosta lisää tietoa'
+    term: Avainsana
     title: Sanasto

@@ -45,6 +45,15 @@ core:
       title: Yleiset
       welcome_banner_heading: Tervetulobanneri
       welcome_banner_text: 'Määritä teksti mikä näkyy keskustelulistauksessa olevassa bannerissa. Käytä tätä toivottaaksesi vieraat tervetulleeksi.'
+    create_user:
+      email_confirmed_label: 'Vaadi käyttäjää vahvistamaan sähköposti'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Luo ja lisää toinen'
+      submit_button: 'Luo käyttäjä'
+      title: 'Luo uusi käyttäjä'
+      use_random_password: 'Luo satunnainen salasana'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Tyhjennä välimuisti'
       description: 'Foorumisi yhdellä silmäyksellä.'
@@ -163,6 +172,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Salli omien viestien poistaminen'
       allow_post_editing_label: 'Salli viestien muokkaus'
       allow_renaming_label: 'Salli uudelleennimeäminen'
       create_access_token_label: 'Luo pääsy avain'
@@ -195,6 +205,7 @@ core:
       view_post_ips_label: 'Näytä viestin IP osoite'
     permissions_controls:
       allow_indefinitely_button: Ikuisesti
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {yhdeksi minuutiksi} other {# minuutiksi}}'
       allow_ten_minutes_button: '10 minuutiksi'
       allow_until_reply_button: 'Seuraavaan vastaukseen asti'
@@ -209,6 +220,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Valitse kuva...'
     users:
+      create_user_button: 'Uusi käyttäjä'
       description: 'Sivutettu lista foorumisi käyttäjistä.'
       grid:
         columns:
@@ -244,6 +256,10 @@ core:
       title: '=> core.ref.users'
       total_users: 'Käyttäjiä yhteensä: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'Suodatin {filter} pitää olla numeerinen.'
+      must_not_be_array_message: 'Suodatin {filter} ei saa olla taulukko.'
+      must_not_be_multidimensional_array_message: 'Suodatin {filter} ei saa olla moniulotteinen taulukko.'
     invalid_username_message: 'Käyttäjätunnus voi sisältää vai kirjaimia, numeroita ja viivoja.'
   email:
     activate_account:
@@ -412,7 +428,7 @@ core:
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 'Piilota tunniste'
       last_activity: 'Viimeisin aktiivisuus'
-      never: 'Ei koskaan'
+      never: '=> core.ref.never'
       new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
         submit_button: 'Luo tunniste'
@@ -512,6 +528,7 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Poikkeavia vaatimuksia havaittu: {extensions}. Peruutetaan. Ole hyvä ja ota jokin lisäosista pois käytöstä ja yritä uudelleen.'
       dependent_extensions_message: '{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}'
       extension_initialiation_failed_message: '{extension} alustus epäonnistui. Tarkista selaimen konsolista lisätietoja.'
       generic_cross_origin_message: 'Hups! Jotain meni pieleen cross-origin pyynnössä. Päivitä sivu ja yritä uudelleen.'
@@ -567,6 +584,7 @@ core:
     log_in: 'Kirjaudu sisään'
     log_out: 'Kirjaudu ulos'
     mark_all_as_read: 'Merkitse kaikki luetuksi'
+    never: 'Ei koskaan'
     new_token: 'Uusi tunniste'
     next_page: 'Seuraava sivu'
     notifications: Ilmoitukset

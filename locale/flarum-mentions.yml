@@ -25,12 +25,16 @@ flarum-mentions:
       reply_to_post_text: 'Vastaus viestiin #{number}'
     group_mention:
       deleted_text: '[tuntematon ryhmä]'
+    mentioned_by:
+      load_more_button: '=> core.ref.load_more'
+      title: 'Vastaukset tähän viestiin'
     notifications:
       group_mentioned_text: '{username} mainitsi ryhmän, jossa olet jäsenenä'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} vastasi viestiisi'
       user_mentioned_text: '{username} mainitsi sinut'
     post:
+      mentioned_by_more_text: '{count} lisää vastausta.'
       mentioned_by_self_text: '{users} vastasit tähän.'
       mentioned_by_text: '{users} vastasi tähän.'
       others_text: '=> core.ref.some_others'
