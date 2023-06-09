@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+1.12.0 (XXXX-XX-XX)
+-------------------
+
+**Yleiset muutokset**:
+
+* Päivitetty Flarumin ytimen käännöksiä.
+
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+
+
+Kaikki muutokset: [v1.11.3...v1.12.0](https://github.com/flarum-lang/finnish/compare/v1.11.3...v1.12.0).
+
+
 1.11.3 (2023-05-15)
 -------------------
 
