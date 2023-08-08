@@ -7,7 +7,8 @@ fof-polls:
     permissions:
       change_vote: 'Vaihtaa vastausta'
       moderate: 'Muokata & poistaa kyselyitä'
-      self_edit: 'Salli käyttäjien muokata omia kyselyitä'
+      self_edit: 'Muokkaa luotuja kyselyitä (vaatii viestin muokkaus oikeuden)'
+      self_post_edit: 'Muokkaa *kaikkia* kyselyitä omissa viesteissä (vaatii viestin muokkaus oikeuden)'
       start: 'Aloita kysely'
       view_results_without_voting: 'Näytä tulokset ilman vastaamista'
       vote: 'Vastata kyselyissä'
@@ -15,21 +16,25 @@ fof-polls:
       allow_option_image: 'Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon'
       max_options: 'Maksimi määrä vaihtoehtoja per kysely'
       options_color_blend: 'Värimuunnos teksti viestin vaihtoehdoista'
+      options_color_blend_help: 'Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.'
   forum:
     composer_discussion:
-      add_poll: 'Lisää kysely'
+      add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
+      no_permission_alert: 'Sinulla ei ole oikeuksia aloittaa kyselyä.'
     days_remaining: 'Kysely loppuu {time}.'
     max_votes_allowed: 'Kyselyt sallivat äänestyksen {max, plural, one {# vaihtoehdon} other {# vaihtoehtoon}}.'
     modal:
       add_option_label: 'Lisää vaihtoehto'
       add_title: 'Lisää kysely'
+      allow_change_vote_label: 'Salli käyttäjän vaihtaa ääntään'
       allow_multiple_votes_label: 'Salli käyttäjien vastata useampaan vaihtoehtoon'
       date_placeholder: 'Kyselyn loppupäivä (valinnainen)'
       edit_title: 'Muokkaa kyselyä'
+      hide_votes_label: 'Piilota äänet kunnes kysely päättyy'
       image_option_placeholder: 'Kuvan osoite (valinnainen)'
       include_question: 'SInun pitää sisällyttää kysymys'
-      max: 'Sinulla voi olla enintään 10 vastausta'
+      max: 'Sinulla voi olla enintään {max} vastausta'
       max_votes_help: 'Aseta arvoksi 0, jotta voi vastata kaikkiin vaihtoehtoihin.'
       max_votes_label: 'Enimmäismäärä ääniä per käyttäjä'
       min: 'Sinulla pitää olla vähintään 2 vastausta'
@@ -40,10 +45,14 @@ fof-polls:
       question_placeholder: Kysymys
       submit: Lähetä
     moderation:
+      add: 'Lisää kysely'
       delete: 'Poista kysely'
       delete_confirm: 'Haluatko varmasti poistaa tämän kyselyn?'
       edit: 'Muokkaa kyselyä'
     no_permission: 'Sinulla ei ole oikeutta vastata'
+    poll:
+      cannot_change_vote: 'Et voi vaihtaa ääntäsi äänestämisen jälkeen.'
+      submit_button: Äänestä
     poll_ended: 'Kysely on loppunut.'
     public_poll: 'Näytä vastaajat'
     tooltip:
