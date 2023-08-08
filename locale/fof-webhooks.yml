@@ -35,6 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Palvelua "{service}" ei löytynyt.'
+      tag_disabled: 'Tällä webhookilla oli avainsana rajoitus määritettynä. Avainsana lisäosa ei ole käytössä. Rajoitukset eivät toimi. Tarkista onko tämä oikein.'
       tag_invalid: 'Tämä webhook on rajoitettu virheelliselle avainsanalla. Rajoitukset eivät koske tätä. Pidä huolta, että tämä on tarkoituksellista.'
       url_invalid: 'URL ei ole oikea valitulle palvelulle.'
     nav:
@@ -74,9 +75,10 @@ fof-webhooks:
       help:
         disabled: 'Tämä webhook on poistettu käytöstä, koska siinä ei ole tapahtumia käytössä.'
         general: 'Täällä voit lisätä, muokata ja poistaa foorumisi webhookkeja.'
+        tags: 'Voit rajoittaa webhookin tiettyyn avainsanaan. Jos valitset minkä tahansa avainsanan, webhook ajetaan vain kun tapahtuma kyseisessä avainsanassa laukeaa.'
         url: 'Webhookin suoritettava päätepiste'
       item:
-        tag_any_label: 'Mikä tahansa'
+        tag_any_label: 'Mikä tahansa avainsana'
       modal:
         description: 'Täällä voit muokata mitä tapahtumia webhook suorittaa.'
         events_label: Tapahtumat

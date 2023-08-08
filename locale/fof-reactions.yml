@@ -18,6 +18,8 @@ fof-reactions:
         reactions: 'Nykyiset reaktiot'
         title: 'Muokatut reaktiot'
       settings:
+        allow-anonymous: 'Salli tuntemattomien (vieraiden) reaktiot'
+        allow-anonymous-help: 'Jos käytössä vieraat ja tuntemattomat käyttäjät voivat reagoida viesteihin. Huomioi, että tuntemattomat reaktiot eivät linkity käyttäjän profiiliin ja ne listataan reaktio listaan.'
         integrations:
           gamification:
             downvoteHelptext: 'Syötä reaktion tunniste minkä haluat muuntaa automaattisesti downvoteksi'
@@ -41,6 +43,7 @@ fof-reactions:
     disabled-reaction: 'Reaktioita ei voi käyttää juuri nyt, ole hyvä ja päivitä sivu'
     mod_item: 'Näytä reaktiot'
     modal:
+      anonymous_count: '{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}'
       title: Reaktiot
     notification: '{username} reagoi {reaction} viestiisi'
     react_button_label: Reagoi

@@ -38,6 +38,8 @@ fof-oauth:
           api_key_label: 'API avain'
           api_secret_label: 'API salaisuus (secret)'
           description: 'Luo sovellus osoitteessa {link}. Sinun täytyy asettaa Käyttöehtojen ja Yksityisyysselosteen (Terms of Service & Privacy Policy) osoitteet. Muista myös asettaa "request email permission" määre.'
+      update_email_from_provider_help: 'Jos käytössä, käyttäjän sähköpostiosoite vastaa OAuth toimittajan toimittamaa sähköpostia aina kirjautumisen yhteydessä. Kaikki toimittajat eivät toimita päivitettyä sähköpostia, jolloin niiden toimittajien kohdalla tällä asetuksella ei ole vaikutusta.'
+      update_email_from_provider_label: 'Päivitä sähköpostiosoite toimittajalta'
     settings_accessibility_label: '{name} asetukset'
   forum:
     error:

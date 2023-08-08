@@ -31,4 +31,15 @@ fof-sitemap:
         runtime: Ajonaikainen
       risky_performance_improvements: 'Ota käyttöön kokeelliset suorityskyky parannukset'
       risky_performance_improvements_help: 'Nämä parannukset tekevät CRON tehtävän nopeammaksi miljonaa rivisissä tietopaketeissa, mutta voivat rikkoa yhteensopivuutta lisäosien kanssa.'
+      soft_404:
+        heading: 'Kevyt 404 esto'
+        help: 'Kun mallilla ei ole tai on vähän relevanttia tietoa Google ja muut seuraimet voivat merkitä nämä "kevyeksi 404" sivuiksi. Estääksesi tämän aseta minimimäärä sivuja/asioita jokaiselle.'
+        tags:
+          discussion:
+            minimum_item_threshold_help: 'Minimimäärä käyttäjiä keskusteluita jotta se näytetään sivukartasta.'
+            minimum_item_threshold_label: 'Avainsana: Minimäärä keskusteluita'
+        user:
+          comments:
+            minimum_item_threshold_help: 'Minimimäärä kommentteja/viestejä, joita käyttäjällä pitää olla, että tulee mukaan sivukarttaan.'
+            minimum_item_threshold_label: 'Käyttäjä: Vähimmäismäärä kommentteja/viestejä'
       title: 'FoF Sivukartta'

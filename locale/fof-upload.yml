@@ -111,9 +111,17 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Levylle ei voida kirjoittaa.'
       could_not_detect_mime: 'Tiedoston MIME tyyppia ei voitu tunnistaa. Yritä uudelleen.'
       forbidden_type: 'Tämän tyyppisten tiedostojen siirtäminen ei ole sallittua.'
+      max_upload_file_size_form: 'Siirron maksimi tiedostokoko saavutettu lomakkeelta.'
+      max_upload_file_size_ini: 'Siirron maksimi tiedosto koko saavutettu php.inistä.'
+      no_file_uploaded: 'Ei siirrettyä tiedostoa.'
+      no_files_made_it_to_upload: 'Ethän siirrä tiedostoja, jotka ovat isompia kuin {max} kb.'
+      no_upload_tmp_folder: 'Ei tmp kansiota tiedostojen siirrolle.'
+      partial_upload: 'Osittainen siirto.'
       unsupported_type: 'Siirtoadapteri ei tue tätä tiedostotyyppiä: {mime}.'
+      upload_blocked_by_php_extension: 'PHP lisäosa on estetty siirrossa.'
   forum:
     buttons:
       attach: Liitä

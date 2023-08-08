@@ -51,6 +51,16 @@ kilowhat-cimaise:
         bottomRight: 'Oikea alanurkka'
         topLeft: 'Vasen ylänurkka'
         topRight: 'Oikea ylänurkka'
+    status:
+      loading: Ladataan...
+      pictures:
+        drafts: '({count} luonnosta)'
+        section: Kuvat
+      refresh: Päivitä
+      storage:
+        conversions: 'Muunnokset: {size}'
+        originals: 'Alkuperäiset: {size}'
+        section: 'Tallennustila (arvioitu)'
   api:
     post-edit:
       cannotAttachAlreadySubmitted: 'Kuvaa {id} ei voida liittää sillä se on jo lisätty'

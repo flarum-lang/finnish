@@ -29,8 +29,12 @@ fof-best-answer:
       schedule_stop_overnight_help: '21:00 - 08:00 palvelimen aikaa'
       select_best_answer_reminder_days: 'Muistutuksien väli'
       select_best_answer_reminder_days_help: 'Lähetä muistutus määritettyjen päivien jälkeen aloitus viestin kirjoittajalle, jotta hän voi valita parhaan vastauksen, 0 = ota muistutus pois käytöstä.'
+      select_best_answer_tags_help: 'Valitse mitkä avainsanat, jos mitkään haluat lisätä keskusteluun kun Best Answer lisäosa on käytössä. Vain toissijaiset avainsanat ovat sallittuja. Nämä avainsanat poistetaan Best Answer lisäosasta mikäli poistettuja.'
+      select_best_answer_tags_label: 'Avainsanat joissa on Best Answers lisäosa'
       show_filter_help: 'Kaikille avainsanoille missä on parhaat vastaukset käytössä, näytä ratkaistu/ratkaisematon suodatin keskustelulistassa'
       show_filter_label: 'Näytä parhaat vastaukset suodatin alasvetovalikossa'
+      show_max_lines_help: 'Aseta arvoon 0 ottaaksesi pois käytöstä. Jos viesti on pidempi kuin asetettu rivimäärä, viestiä lyhennetään esikatselussa.'
+      show_max_lines_label: 'Viestin esikatselussa näytettävien rivien määrä (max)'
       use_alt_ui: 'Toissijainen ulkoasu'
       use_alt_ui_help: 'Parhaan vastauksen työkalut viestin alaosassa'
   email:
@@ -72,3 +76,8 @@ fof-best-answer:
     this_best_answer: 'Valitse paras vastaus'
     user:
       best-answer-count: '{count, plural, one { {count} paras vastaus} other {{count} parasta vastausta}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: 'Vähiten parhaita vastauksia'
+      most_best_answers: 'Eniten määrä parhaita vastauksia'

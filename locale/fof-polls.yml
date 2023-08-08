@@ -13,6 +13,8 @@ fof-polls:
       vote: 'Vastata kyselyissä'
     settings:
       allow_option_image: 'Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon'
+      max_options: 'Maksimi määrä vaihtoehtoja per kysely'
+      options_color_blend: 'Värimuunnos teksti viestin vaihtoehdoista'
   forum:
     composer_discussion:
       add_poll: 'Lisää kysely'

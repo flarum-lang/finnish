@@ -13,6 +13,8 @@ fof-geoip:
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Käytä <b>https://ipdata.co</b> tehdäksesi jopa 1 500 tarkistusta päivittäin ilmaiseksi.'
       service_ipdata_label: IPData
+      service_iplocation_description: 'Käytä <b>https://www.iplocation.net/</b> saadaksesi maan ja ISP tiedon. Tarkistusrajat ovat tuntemattomat.'
+      service_iplocation_label: 'IP sijainti'
       service_ipstack_description: 'Käytä <b>https://ipstack.com</b> saadaksesi jopa 10 000 tarkistusta per kuukausi ilmaiseksi. Maksulliset suunnitelmat sisältävät yhteyden tietoa (ISP, organisaatio) sekä uhka-arvion.'
       service_ipstack_label: IPStack
       service_label: Palvelu
