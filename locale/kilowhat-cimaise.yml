@@ -62,6 +62,9 @@ kilowhat-cimaise:
         originals: 'Alkuperäiset: {size}'
         section: 'Tallennustila (arvioitu)'
   api:
+    picture-edit:
+      unauthorized:
+        title: 'Virhellinen otsikko, muokkaa ei oikeutettua'
     post-edit:
       cannotAttachAlreadySubmitted: 'Kuvaa {id} ei voida liittää sillä se on jo lisätty'
       cannotAttachFromExternalAlbum: 'Kuvaa {id} ei voida liittää sillä se kuuluu ulkopuoliseen albumiin'
@@ -172,6 +175,7 @@ kilowhat-cimaise:
       drop-file: 'tai raahaa ja tiputa tähän'
       processing: Käsitellään
       publishSilently: 'Julkaise hiljaisesti'
+      reload: 'Lataa luonnokset uudelleen'
       select-file: 'Valitse tiedosto'
       submit: Lähetä
       submitInComposer: Jatka

@@ -36,6 +36,8 @@ kilowhat-formulaire:
         standaloneEdit: 'Erillinen täytä/muokkaa sivu'
         standaloneView: 'Erillinen näytä sivu'
       max-file-size: 'Tiedoston enimmäiskoko (kB)'
+      noByobuFields: 'Älä integroi keskustelun kenttiä yksityisen keskustelun kenttien kanssa Byobu lisäosassa'
+      noByobuFieldsHelp: 'Oletuksena keskustelun kentät jotka ei ole avainsanassa on käytössä kaikissa viesteissä, myös yksityisissä.'
       radio-style: 'Valintanappi tyylinen'
       side-nav-on-submission: 'Näytä sivuvalikko merkinnät sivulla'
       style-options:
@@ -71,6 +73,7 @@ kilowhat-formulaire:
     unauthorized-form: 'Sinulla ei ole tarvittavia oikeuksia lomakkeen ID {id} täyttämiseen'
     unauthorized-scoped-form: 'Et voi täyttää lomaketta ID {id} nykyisillä avainsanoilla'
     unknown-form: 'Tuntematon lomakkeen ID {id}'
+    unsupported-discussion-form: 'Et voi täyttää lomake ID:tä {id} tämän tyyppisessä keskustelussa'
   forum:
     auto-discussion-options-modal:
       field:
