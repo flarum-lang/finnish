@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+
+
+Kaikki muutokset: [v1.12.0...v1.13.0](https://github.com/flarum-lang/finnish/compare/v1.12.0...v1.13.0).
+
+
 1.12.0 (2023-08-08)
 -------------------
 
