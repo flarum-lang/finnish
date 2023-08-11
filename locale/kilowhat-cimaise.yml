@@ -64,7 +64,20 @@ kilowhat-cimaise:
   api:
     picture-edit:
       unauthorized:
-        title: 'Virhellinen otsikko, muokkaa ei oikeutettua'
+        author: 'Virhellinen kirjoittaja, ei oikeuksia muokata'
+        crop: 'Virheellinen rajaus, ei oikeuksia muokata'
+        description: 'Virheellinen kuvaus, ei oikeuksia muokata'
+        isApprovedApprove: 'Virheellinen hyväksynnän tila, ei oikeuksia hyväksyä'
+        isApprovedUnApprove: 'Virheellinen hyväksynnän tila, ei oikeuksia poistaa hyväksyntää'
+        isDraftSubmit: 'Virheellinen luonnoksen tila, ei oikeuksia julkaista'
+        isDraftUnSubmit: 'Virheellinen luonnoksen tila, ei oikeuksia muuttaa luonnokseksi'
+        isFavorite: 'Virheellinen suosikin tila, ei oikeuksia muokata'
+        isHiddenHide: 'Virheellinen piilotuksen tila, ei oikeuksia piilottaa'
+        isHiddenRestore: 'Virheellinen piilotuksen tila, ei oikeuksia palauttaa'
+        license: 'Virhellinen lisenssi, ei oikeuksia muokata'
+        stickers: 'Virheelliset tarrat, ei oikeuksia muokata'
+        takenAt: 'Virhellinen päivämäärä, ei oikeuksia muokata'
+        title: 'Virhellinen otsikko, ei oikeuksia muokata'
     post-edit:
       cannotAttachAlreadySubmitted: 'Kuvaa {id} ei voida liittää sillä se on jo lisätty'
       cannotAttachFromExternalAlbum: 'Kuvaa {id} ei voida liittää sillä se kuuluu ulkopuoliseen albumiin'
