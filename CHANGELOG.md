@@ -12,6 +12,7 @@ CHANGELOG
 
 **Päivitetty käännöksiä lisäosille**:
 
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 
