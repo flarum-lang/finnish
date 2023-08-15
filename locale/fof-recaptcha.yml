@@ -13,8 +13,17 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Sivuston avain (site key)'
+      type_help: 'Tämä lisäosa tukee vain reCAPTCHA v2. Valitun tyypin tulee vastata sinun reCAPTCHA tunnuksiasi.'
       type_label: 'reCAPTCHAn tyyppi'
+    test:
+      help_text: "Tämä testi käyttää syötettyjä arvoja. Lataathan testin uudelleen, jos muokkaat asetuksia ja älä unohda tallentaa asetuksia, kunnes testi onnistuu.\nAlla olevat eivät välttämättä vaikuta tallennettuihin asetuksiin.\n"
+      load_test_button: Lataa
+      reload_button: 'Lataa uudelleen'
+      submit_button: Lähetä
+      success_message: 'Onnistui! reCAPTCHA on oikein määritetty.'
+      title: 'Testaa reCAPTCHAa'
   forum:
     error: 'Virhe reCAPTCHAn tarkistuksessa. Yritä uudelleen.'
 validation:
   recaptcha: 'reCAPTCHA tarkastus epäonnistui.'
+  recaptcha-unknown: 'Tuntematon virhe tapahtui reCAPTCHA validoidessa ({errors}).'
