@@ -5,12 +5,17 @@
 clarkwinkelmann-composer-page:
   admin:
     settings:
+      forPrivateDiscussions: 'Käytä yksityisiin keskusteluihin'
+      forPrivateDiscussionsHelp: 'Integroi Byobu keskustelun luojan sivuille'
       onlyInTags: 'Vain seuraavilla avainsanoilla (valinnainen)'
       onlyInTagsHelp: "Pilkulla eroteltu lista avainsanojen polkutunnuksista. Jätä tyhjäksi jos haluat käyttää joka sivulla vaikka avainsanaa ei olisi valittuna.\n"
   forum:
     nav:
       cancel: Poistu
       continue: 'Jatka keskusteluun'
+    page-private:
+      heading: 'Aloita yksityinen keskustelu'
+      title: 'Aloita yksityinen keskustelu'
     page:
       heading: 'Aloita keskustelu'
       title: 'Aloita keskustelu'

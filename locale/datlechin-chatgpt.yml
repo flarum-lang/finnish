@@ -17,5 +17,5 @@ datlechin-chatgpt:
       model_label: Malli
       user_prompt_badge_help: 'Teksti mikä näytetään käyttäjän kehoitteen vieressä.'
       user_prompt_badge_label: 'Käyttäjän kehoituksen merkki'
-      user_prompt_help: 'Kehote jota käytetään vastauksen luomiseen. Oletus on se joka aloitti keskustelun.'
+      user_prompt_help: 'Syötä käyttäjän id jota käytetään vastauksen luomiseen. Oletus on se joka aloitti keskustelun.'
       user_prompt_label: 'Käyttäjän kehote'
