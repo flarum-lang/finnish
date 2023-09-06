@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.13.1 (XXXX-XX-XX)
+-------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+
+
+Kaikki muutokset: [v1.13.0...v1.13.1](https://github.com/flarum-lang/finnish/compare/v1.13.0...v1.13.1).
+
+
 1.13.0 (2023-08-16)
 -------------------
 
