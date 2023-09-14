@@ -25,9 +25,13 @@ ianm-syndication:
       forum_new_discussions: 'Foorumin uudet keskustelut'
       tag_activity: 'Aktiivisuus {tag} avainsanalle'
       tag_new_discussions: 'Avainsanan {tag} keskustelut'
+      user_last_posts: 'Tämän käyttäjän viestit ja kommentit'
     discussion:
       feed_link: Syöte
     feeds:
+      entries:
+        user_posts:
+          title_reply: 'Re: {discussion}'
       titles:
         discussion_subtitle: 'Uusimmat viestit tässä keskustelussa'
         discussion_title: '{discussion_name}'
@@ -39,3 +43,5 @@ ianm-syndication:
         tag_d_title: 'Avainsanan {tag} uudet keskustelut'
         tag_subtitle: 'Avainsanan {tag} uusimmat viestit'
         tag_title: 'Avainsanan {tag} aktiivisuus'
+        user_subtitle: 'Tämän käyttäjän viimeisimmät viestit ja kommentit.'
+        user_title: '{username}'
