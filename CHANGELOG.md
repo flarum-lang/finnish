@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
 Kaikki muutokset: [v1.13.0...v1.13.1](https://github.com/flarum-lang/finnish/compare/v1.13.0...v1.13.1).
