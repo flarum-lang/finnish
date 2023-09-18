@@ -12,7 +12,7 @@ fof-best-answer:
       best_answer_not_own_discussion: 'Valitse paras vastaus (muiden keskustelu)'
     settings:
       allow_select_own_post: 'Valitse oma viesti'
-      allow_select_own_post_help: 'Salli aloittajan valita oma viesti keskustelusta parhaaksi vastaukseksi'
+      allow_select_own_post_help: 'Salli käyttäjän valita joku omista viesteistään keskustelun parhaaksi vastaukseksi'
       documentation: Dokumentaatio
       enable_all_tags_button: 'Ota käyttöön Parhaat vastaukset kaikille avainsanoille'
       enable_all_tags_reminder_button: 'Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille'
