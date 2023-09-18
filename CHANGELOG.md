@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
