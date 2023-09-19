@@ -10,6 +10,8 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
