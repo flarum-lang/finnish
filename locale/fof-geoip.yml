@@ -11,7 +11,7 @@ fof-geoip:
       service_freegeoip_label: FreeGeoIP
       service_ipapi_description: 'Käytä <b>http://ip-api.com</b> tehdäksesi jopa 45 tarkistusta per minuutti ilmaiseksi. Jos teet enemmän, kuin sen IP-osoitteesi saatetaan estää, tämän eston voit poistaa osoitteessa <b>http://ip-api.com/docs/unban</b>.'
       service_ipapi_label: 'IP Api'
-      service_ipdata_description: 'Käytä <b>https://ipdata.co</b> tehdäksesi jopa 1 500 tarkistusta päivittäin ilmaiseksi.'
+      service_ipdata_description: 'Käytä <b>https://ipdata.co</b> tehdäksesi jopa 1 500 tarkistusta päivittäin ilmaiseksi. Saatavilla myös maksullisia tilauksia isoimmille määrille.'
       service_ipdata_label: IPData
       service_iplocation_description: 'Käytä <b>https://www.iplocation.net/</b> saadaksesi maan ja ISP tiedon. Tarkistusrajat ovat tuntemattomat.'
       service_iplocation_label: 'IP sijainti'
@@ -22,3 +22,14 @@ fof-geoip:
   forum:
     alerts:
       ip_copied: 'Kopioitu IP-osoite'
+    map_button_label: 'IP tiedot'
+    map_modal:
+      country_code: Maakoodi
+      error: Virhe
+      ip_address: IP-osoite
+      isp: 'Internet palveluntarjoaja'
+      organization: Organisaatio
+      threat_level: Uhkataso
+      threat_types: 'Uhka tyypit'
+      title: 'IP tieto'
+      zip_code: Postinumero
