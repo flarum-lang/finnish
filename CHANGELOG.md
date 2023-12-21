@@ -2,21 +2,43 @@ CHANGELOG
 =========
 
 
-1.13.1 (XXXX-XX-XX)
+1.14.0 (XXXX-XX-XX)
 -------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
 
 **Päivitetty käännöksiä lisäosille**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
-Kaikki muutokset: [v1.13.0...v1.13.1](https://github.com/flarum-lang/finnish/compare/v1.13.0...v1.13.1).
+Kaikki muutokset: [v1.13.0...v1.14.0](https://github.com/flarum-lang/finnish/compare/v1.13.0...v1.14.0).
 
 
 1.13.0 (2023-08-16)
