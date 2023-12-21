@@ -11,6 +11,8 @@ datlechin-chatgpt:
       api_key_label: 'API avain'
       enable_on_discussion_started_help: 'Keskustelu saa vastauksen ensimmäisen viestin perusteella, kun keskustelu aloitetaan.'
       enable_on_discussion_started_label: 'Ota käyttöön keskustelun aloituksessa'
+      enabled_tags_help: 'Valitse mitä avainsanoja käytetään vastauksien luomiseen.'
+      enabled_tags_label: 'Käytössä olevat avainsanat'
       max_tokens_help: '<a>Mitä ovat tokenit ja miten ne lasketaan?</a>'
       max_tokens_label: 'Maksimi tokenit'
       model_help: 'Lue lisää <a>malleista</a> (oletus: <code>text-davinci-003</code>).'

@@ -10,7 +10,7 @@ fof-filter:
     countLabel: 'Sensuurin toleranssi'
     email:
       default_subject: 'Liittyen viimeisimpään viestiisi'
-      default_text: "Kiitos viestistäsi! Jouduimme kuitenkin poistamaan viestisi, koska se sisälsi jotain mitä emme halua nähdä foorumeillamme.\n\nJos uskot, että tämä oli virhe niin olet onnekas. Jokainen poistettu viesti tarkistetaan moderaattorien toimesta. Jos he toteavat, että tämä oli virhe niin he palauttavat sen.                \n\nKiitos ymmärryksestä."
+      default_text: "Kiitos viestistäsi! Jouduimme kuitenkin poistamaan viestisi, koska se sisälsi jotain mitä emme halua nähdä foorumeillamme.\n\nJos uskot, että tämä oli virhe niin olet onnekas. Jokainen poistettu viesti tarkistetaan moderaattorien toimesta. Jos he toteavat, että tämä oli virhe niin he palauttavat sen.                \n\nKiitos ymmärryksestä.\n"
     email_help: 'Liputetun sähköpostin sisältö. Hyväksyy HTML koodia tai tavallista tekstiä.'
     filter_label: 'Suodatettavat merkit'
     help2: 'Aika väli minuutteina jona viestit samalta käyttäjältä samaan keskusteluun yhdistetään.'
@@ -21,6 +21,7 @@ fof-filter:
       filter_title: 'Suodatettavat merkit'
       placeholder: 'Suodatettavat merkit'
       switch:
+        delete: 'Automaattisesti poista suodatetut viestit'
         email: 'Lähetä sähköposti käyttäjälle, kun viesti on suodatettu'
         merge: 'Automaattisesti yhdistä duplikaatti viestit'
     nav:

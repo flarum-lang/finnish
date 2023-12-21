@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Oletus järjestys'
       disable-global-search-source: 'Älä lisää käyttäjälistaukseen Flarumin globaalia hakukenttää'
       link: 'Lisää linkki kotisivulle, jotta kävijät näkee listauksen'
+      link-group-mentions: 'Linkitä ryhmien maininnat viesteissä käyttäjälistauksessa'
       use-small-cards: 'Käytä pieniä käyttäjäkortteja'
   forum:
     header:

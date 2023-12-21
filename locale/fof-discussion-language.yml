@@ -32,3 +32,6 @@ fof-discussion-language:
       change_language_button: 'Aseta kieli'
     index_language:
       any: 'Mikä tahansa kieli'
+    sub_controls:
+      subscription_language_help: 'Kun valitset kielen, sinulle tulee ilmoitus vain sillä kielellä olevasta aktiivisuudesta.'
+      subscription_language_label: 'Keskustelun kieli'

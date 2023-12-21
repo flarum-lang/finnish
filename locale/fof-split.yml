@@ -15,5 +15,6 @@ fof-split:
       was_split_from: '{count, plural, one {{count} viesti jaettiin kohteesta {target}.} other {{count} viestiä jaettiin kohteesta {target}.}}'
       was_split_to: '{count, plural, one {{count} viesti jaettiin kohteeseen {target}.} other {{count} viestiä jaettiin kohteeseen {target}.}}'
     split:
+      cancel: 'Peruuta jako'
       from: 'Jaa tästä'
       to: 'Jaa tänne'

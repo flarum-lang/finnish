@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-upload/fi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Poistaa käyttäjän tiedon siirretyistä tiedostoista. Tiedostot pysyvät saatavilla käyttäjille, jotka pystyivät katsomaan niitä ennen anonymisaatiota.'
+        delete_description: 'Poistaa kaikki käyttäjän siirtämät tiedostot.'
+        export_description: 'Kaikki käyttäjän siirtämät tiedostot.'
 fof-upload:
   admin:
     help_texts:
@@ -80,14 +87,24 @@ fof-upload:
         position: 'Vesileiman sijainti'
         title: 'Kuvien vesileimat'
         toggle: 'Laita kuviin vesileima'
+    nav:
+      shared-uploads-button: 'Jaetut lataukset'
     pane:
       description: 'Määritä siirtopalvelut ja asetukset.'
       title: Siirrä
     permissions:
+      access_shared_label: 'Pääsy jaettuihin tiedostoihin median hallinnassa'
       delete_uploads_of_others_label: 'Poistaa käyttäjän siirtoja'
       download_label: 'Lataa tiedostot'
       upload_label: 'Siirrä tiedostoja'
+      upload_shared_label: 'Siirrä jaettuihin tiedostoihin'
       view_user_uploads_label: 'Nähdä käyttäjän siirrot'
+    shared-uploads:
+      description: 'Ladatut tiedostot mitä foorumin kaikki käyttäjät voivat käyttää.'
+      introduction: "Jaetut lataukset ovat tiedostoja joita jokainen käyttäjä voi käyttää. Niitä ei ole liitetty mihinkään viestiin, mutta niitä voi laittaa viesteihin käyttämällä median hallintaa.\n\n<strong>Varoitus:</strong> Jaettuja tiedostoja ei suojata millään oikeuksilla. Kuka vain osoitteen saanut voi niitä nähdä.\n"
+      no-files: 'Ei jaettuja tiedostoja siirrettynä.'
+      title: 'Jaetut lataukset'
+      upload-new-button: 'Siirrä uusi tiedosto'
     templates:
       bbcode-image: 'BBCode kuvan pohja'
       bbcode-image_description: "Näyttää kuvan käyttäen BBCodea. <strong>Sinulla pitää olla flarum/bbcode lisäosa asennettuna, jotta tämä toimii.</strong> Ei latausta, ei tilastoja ja ei hotlink suojausta.\n"
@@ -127,7 +144,9 @@ fof-upload:
       attach: Liitä
       cancel: Peruuta
       media: 'Oma Media'
+      shared_media: 'Jaettu media'
       upload: Siirrä
+      upload_shared: Jaettu
       user_uploads: 'Käyttäjän siirrot'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Ei valittuja} one {Valitse tiedosto} other {Valitse tiedostot}}'
@@ -157,3 +176,40 @@ fof-upload:
       no_snippet_preview: '<esikatselu tulee tähän>'
     validation:
       max_size: 'Yli {max} kb siirrot eivät ole sallittuja.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Ei valittuja} one {Valitse tiedosto} other {Valitse tiedostot}}'
+      delete_confirmation: 'Haluatko varmasti poistaa tiedoston "{fileName}"?'
+      delete_file_a11y_label: 'Poista tiedosto "{fileName}"'
+      empty: 'Ei näytettäviä tiedostoja.'
+      hide_file:
+        btn_a11y_label_hide: 'Piilota "{fileName}" median hallinnasta'
+        btn_a11y_label_show: 'Näytä "{fileName}" median hallinnassa'
+        hide_confirmation: 'Haluatko varmasti piilottaa tiedoston "{fileName}"? Piilottaminen vain piilottaa sen median hallinnasta, mutta ei vaikuta olemassaoleviin viesteihin.'
+        hide_fail: 'Ei voitu piilottaa tiedostoa "{fileName}"'
+        hide_success: 'Piilotettu tiedosto'
+        loading: 'Piilotetaan tiedostoa...'
+        show_confirmation: 'Haluatko varmasti näyttää tiedoston "{fileName}"? Tiedoston näyttäminen asettaa tiedoston näkyviin median hallintaan.'
+        show_fail: 'Ei voitu näyttää tiedostoa "{fileName}"'
+        show_success: 'Tiedosto näytetty'
+      hide_shared_file:
+        btn_a11y_label_hide: 'Aseta "{fileName}" yksityiseksi (ei julkista osoitetta)'
+        btn_a11y_label_show: 'Aseta "{fileName}" julkisesti (julkinen osoite)'
+        hide_confirmation: 'Haluatko varmasti asettaa tiedoston "{fileName}" yksityiseksi. Tiedoston asettaminen yksityiseksi poistaa sen julkisen osoitteen, mutta ei vaikuta olemassaoleviin viesteihin. Se myös poistaa tiedoston median hallinnasta käyttäjiltä joilla ei ole pääsyä siihen.'
+        hide_fail: 'Ei voitu asettaa tiedostoa "{fileName}" yksityiseksi'
+        hide_success: 'Tiedosto asetettu yksityiseksi'
+        loading: 'Asetetaan tiedostoa yksityiseksi...'
+        show_confirmation: 'Haluatko varmasti asettaa tiedoston "{fileName}" julkisesti? Tiedoston asettaminen julkiseksi sallii siihen pääsyn kaikilta julkisella osoitteella ja kuka vaan voi käyttää sit median hallinnassa.'
+        show_fail: 'Ei voitu asettaa tiedostoa "{fileName}" julkiseksi'
+        show_success: 'Tiedosto asetettu julkiseksi'
+      load_more_files_btn: 'Lataa lisää tiedostoja'
+      loading: 'Ladataan tiedostoja...'
+      modal_empty_desktop: 'Tiedostolistasi on tyhjä. Klikkaa painiketta tai raahaa tiedosto tähän siirtääksesi.'
+      modal_empty_phone: 'Tiedostolista on tyhjä. Klikkaa ylläolevaa painiketta siirtääksesi tiedosto.'
+      release_to_upload: 'Päästä irti siirtääksesi'
+      select_file_a11y_label: 'Valitse tiedosto "{fileName}"'
+    upload-shared-file-modal:
+      dropzone: 'Raahaa ja pudota tiedostoja tänne tai klikkaa selataksesi'
+      hide-from-media-gallery: 'Piilota käyttäjän media galleriasta'
+      title: 'Uusi jaettu tiedosto'
+      upload: Siirrä

@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/fi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Poistaa käyttäjän avainsanan tilauksen.'
+        export_description: 'Vie tiedot avainsanan tilauksen tasoista, jos on olemassa.'
 fof-follow-tags:
   admin:
     settings:
@@ -39,6 +45,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Ilmoita kaikista uusista keskusteluista.'
+      header: 'Avainsanan {tagName} tilaus'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Piilota keskustelut kaikki keskustelut sivulla.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +56,8 @@ fof-follow-tags:
       not_following_text: 'Ilmoita vain kun sinut @mainitaan.'
       notify_alert_tooltip: 'Saa foorumin ilmoitus, kun on uusia keskusteluita tai viestejä'
       notify_email_tooltip: 'Saa sähköposti , kun on uusia keskusteluita tai viestejä'
+      submit_button: 'Vahvista tilaus'
+      subscription_label: 'Valitse tilaustasosi avainsanalle {tagName}'
     user:
       settings:
         filter_label: 'Mitä näytetään oletuksena Seurataan sivulla'

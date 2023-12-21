@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-ban-ips/fi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'Käyttäjään liittyvät IP osoitteet erotetaan, mutta IP itsessään pysyy estettynä syyn lisäksi. Pidä huolta, että mitään henkilötietoja ei ole tallennettuna ''syy'' kentässä.'
+        export_description: 'Jos IP esto liittyy käyttäjään (esim. käyttäjä on estetty IP:n perusteella), käyttäjän IP osoite sisällytetään vientiin, mukana on myös eston syy sekä päivämäärä.'
 fof-ban-ips:
   admin:
     empty_text: 'Estettyjä IP-osoitteita ei löytynyt.'

@@ -6,6 +6,10 @@ fof-oauth:
   admin:
     configure_button_label: 'Määritä FoF OAuth'
     settings:
+      advanced:
+        heading: Edistynyt
+        log-oauth-errors-help: 'Jos käytössä OAuth virheet kirjataan Flarumin lokeihin. Tämä voi auttaa OAuth ongelmien tutkimisessa, mutta voi sisältää myös arkaluontoista tietoa.'
+        log-oauth-errors-label: 'Kirjaa OAuth virheet'
       fullscreen_popup_help: 'Kun käytössä, OAuthin kirjautuminen aukeaa kokoruutuun. Jos tämä on käytössä korkeus ja leveys asetuksia ei huomioida.'
       fullscreen_popup_label: 'Käytä kokoruudun ponnahdusikkunaa OAuthiin'
       only_icons_label: 'Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)'
@@ -36,6 +40,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Luo sovellus osoitteessa {link}.'
+          hosted_domain_label: 'Ylläpidetyt domainit (G suite/Google Apps for Business, valinnainen)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
