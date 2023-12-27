@@ -18,6 +18,7 @@ sycho-private-facade:
       screen_banner_description: 'Ruudun viesti'
       screen_banner_heading: 'Ruudun banneri'
       screen_banner_title: 'Ruudun otsikko'
+      url_exclusions: 'Osoitteet jotka jätetään huomiotta ja ei ohjata kirjautumis/rekisteröitymis sivulle.'
       use_welcome_hero_text: 'Käytä Tervetulobannerin tekstiä'
   forum:
     log_in_label: '=> core.ref.log_in'
