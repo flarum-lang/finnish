@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.14.1 (XXXX-XX-XX)
+1.15.0 (XXXX-XX-XX)
 -------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
 
 **Päivitetty käännöksiä lisäosille**:
 
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 
 
-Kaikki muutokset: [v1.14.0...v1.14.1](https://github.com/flarum-lang/finnish/compare/v1.14.0...v1.14.1).
+Kaikki muutokset: [v1.14.0...v1.15.0](https://github.com/flarum-lang/finnish/compare/v1.14.0...v1.15.0).
 
 
 1.14.0 (2023-12-21)
