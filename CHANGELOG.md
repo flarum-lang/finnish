@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.14.1 (XXXX-XX-XX)
+-------------------
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+
+
+Kaikki muutokset: [v1.14.0...v1.14.1](https://github.com/flarum-lang/finnish/compare/v1.14.0...v1.14.1).
+
+
 1.14.0 (2023-12-21)
 -------------------
 
