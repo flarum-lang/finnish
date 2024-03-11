@@ -347,7 +347,6 @@ composer require flarum-lang/finnish:dev-master
 | [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/webbinaro-age-check/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-age-check/fi/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/fi/) |
 | [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/widayn-avatar-cropper/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/widayn-avatar-cropper/fi/) |
-| [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/zerosonesfun-expired-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/fi/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/ziiven-post-number/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/fi/) |
 | [`ziiven/view-history`](https://github.com/Ziiven/view-history) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/ziiven-view-history/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-view-history/fi/) |
 
