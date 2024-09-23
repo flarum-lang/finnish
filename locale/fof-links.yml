@@ -9,6 +9,7 @@ fof-links:
       delete_link_confirmation: 'Haluatko varmasti poistaa tämän linkin?'
       everyone-label: Kaikki
       guests-label: Vieraat
+      icon_additional_text: 'Jos haluat käyttää brändi ikoneita, käytä etuliitettä <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Onko sisäinen linkki?'
@@ -21,6 +22,7 @@ fof-links:
       url_description: 'Jätä tyhjäksi näyttääksesi nimikkeenä (label).'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      use_rel_me: 'Lisää <code>rel="me"</code> attribuutti, muiden sivujen verifiointia varten'
       visibility: 'Linkin näkyvyys'
     links:
       create_button: '=> fof-links.ref.create_link'

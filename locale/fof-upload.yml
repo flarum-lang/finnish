@@ -14,6 +14,7 @@ fof-upload:
     help_texts:
       client_extension: "Oletuksen siirto valitsee turvalliset päätteet perustuen MIME tyyppiin.\nJotkut tiedostotyypit perustuen ZIP tai binaariseen dataan voi johtaa geneerisen päätteen käyttöön oletetun sijaan.\nTässä voit määrittää pilkuilla erotetun listan päätteistä joita käytetään.\n"
       composer_buttons: "Oletuksena mediahallinta ja siirto napit ovat näkyvillä. Voit myös valita näytettäväksi vain yhden napin.\n"
+      custom_s3_url: "Käytä tätä asetusta jos käytät S3-yhteensopivaa palvelua joka vaatii tietyn URL formaatin (esim. Backblaze B2) tai jos sinulla on ongelmia oletus URL formaatin kanssa. Tämä asetus ei ole välttämätön useimpien palveluiden kautta. Pidä huoli, että URL sisältää protokollan (https://) ja on oikein muotoiltu. Esimerkiksi: https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Ota pois käytöstä jokaisen käyttäjän tekemän siirron lokitus foorumilla. Tämän päällä pito sallii sinun nähdä latausmäärät ja muita tilastoja.\n"
       disable-hotlink-protection: "Hotlink suojaus estää latausten avaukset muilta sivuilta. Nykyinen tapa vaatii crsf tunnisteen ja viestin id:n.\n"
       download_templates: "Latauspohjat ovat kuinka siirretyt tiedostot näkyy foorumillasi. Esim. esikatselut, napit. Tällä hetkellä saatavilla:\n"
@@ -40,6 +41,7 @@ fof-upload:
         acl: 'Pääsylistaus (Access Control List / ACL)'
         advanced_title: 'S3 lisäasetukset'
         bucket: 'Ämpäri (bucket)'
+        custom_url: 'Mukautettu S3 URL'
         endpoint: 'Päätepiste (endpoint)'
         key: 'Avain (key)'
         region: 'Alue (region)'

@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'Oletus: {url}'
-        help: "Oletuksena reaktioiden tiedostot jaetaan Cloudflaren CDN:n kautta. Voit myös asettaa minkä tahansa muun CDN:n osoitteen \nmikäli on tarve. <code>[codepoint]</code> korvataan emojin koodilla.\n\nEsimerkiksi jos käytetään Noto Emojia jsdelivr kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Tätä kentää EI SAA koskaan jättää tyhjäksi.\n"
+        help: "Oletuksena reaktioiden tiedostot jaetaan Cloudflaren CDN:n kautta. Voit myös asettaa minkä tahansa muun CDN:n osoitteen\nmikäli on tarve. <code>[codepoint]</code> korvataan emojin koodilla.\n\nEsimerkiksi jos käytetään Noto Emojia jsdelivr kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Tätä kentää EI SAA koskaan jättää tyhjäksi.\n"
         label: URL
         title: CDN
       convert:
@@ -17,6 +17,7 @@ fof-reactions:
         help: 'Jos päivitit juuri lisäosan niin reaktiot pitää muuntaa. Jos vasta asensit tämän lisäosan voit olla huomioimatta tätä viestiä.'
       reactions:
         Helptext: 'Syötä emojin nimi (tunniste) tai font-awesome ikonin luokka ja valitse minkä tyyppisen haluat.'
+        delete_confirmation: 'Haluatko varmasti poistaa tämän reaktion? Tätä ei voi peruuttaa.'
         help:
           display: Näytä
           identifier: Tunniste
@@ -42,6 +43,7 @@ fof-reactions:
         react_own_posts_label: 'Käyttäjät voivat reagoida omiin viesteihin,'
         save_settings: 'Tallenna asetukset'
     permissions:
+      delete_post_reactions_label: 'Poista viestin reaktiot'
       react_posts_label: 'Reagoida viesteihin'
       see_reactions_label: 'Nähdä kuka reagoi viesteihin'
   forum:
@@ -49,6 +51,7 @@ fof-reactions:
     mod_item: 'Näytä reaktiot'
     modal:
       anonymous_count: '{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}'
+      no_reactions: 'Ei vielä reaktioita'
       title: Reaktiot
     notification: '{username} reagoi {reaction} viestiisi'
     react_button_label: Reagoi

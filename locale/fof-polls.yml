@@ -13,7 +13,10 @@ fof-polls:
       view_results_without_voting: 'Näytä tulokset ilman vastaamista'
       vote: 'Vastata kyselyissä'
     settings:
+      allow_image_uploads: 'Salli kuvien siirto kyselyihin ja valintoihin'
+      allow_image_uploads_help: 'Mikäli käytössä, käyttäjät voivat siirtää kuvia antamalla kuvan osoitteen (jos käytössä valinnoille, aina käytössä kyselylle).'
       allow_option_image: 'Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon'
+      enable_global_polls: 'Ota käyttöön yleiset kyselyt'
       max_options: 'Maksimi määrä vaihtoehtoja per kysely'
       options_color_blend: 'Värimuunnos teksti viestin vaihtoehdoista'
       options_color_blend_help: 'Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.'

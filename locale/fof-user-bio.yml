@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Kuvauksen merkkiraja'
       maxLines: 'Enimmäismäärä näytettäviä rivejä'
   forum:
+    profile:
+      cancel_button: Peruuta
+      cancel_confirm: 'Haluatko varmasti peruuttaa oman kuvauksen muokkauksen? Menetät kaikki tekemäsi muutokset.'
+      edit_bio_label: 'Muokkaa kuvausta'
+      save_button: Tallenna
     userbioPlaceholder: 'Kirjoita jotain itsestäsi'
     userbioPlaceholderOtherUser: 'Kirjoita kuvaus käyttäjälle {username}'

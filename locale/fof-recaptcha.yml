@@ -24,6 +24,7 @@ fof-recaptcha:
       title: 'Testaa reCAPTCHAa'
   forum:
     error: 'Virhe reCAPTCHAn tarkistuksessa. Yritä uudelleen.'
+    unknown_error: 'Tapahtui tuntematon virhe. Tarkista captcha ja yritä uudelleen.'
 validation:
   recaptcha: 'reCAPTCHA tarkastus epäonnistui.'
   recaptcha-unknown: 'Tuntematon virhe tapahtui reCAPTCHA validoidessa ({errors}).'

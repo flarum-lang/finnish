@@ -21,11 +21,11 @@ datlechin-birthdays:
     invalid_dob_message: 'Virheellinen syntymäpäivä'
   forum:
     change_dob:
-      date_of_birth_text: Syntymäpäivä
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
       title: 'Muokkaa syntymäpäivää'
     edit_user:
-      dob_heading: Syntymäpäivä
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     header:
       edit_dob_button: 'Muokkaa syntymäpäivää'
     nav:
@@ -35,10 +35,14 @@ datlechin-birthdays:
       post_count: '{count, plural, one {Viesti: #} other {Viestiä: #}}'
     settings:
       change_dob_label: 'Muuta syntymäpäivä'
-      dob_heading: Syntymäpäivä
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Näytä päivä ja kuukausi'
       show_dob_year_help: 'Tämä näyttää sinun iän muille.'
       show_dob_year_label: 'Näytä syntymävuosi'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: 'Ikä: {age}'
       birthday_text: 'Syntymäpäivä: {date}'
+  ref:
+    date_of_birth: Syntymäpäivä

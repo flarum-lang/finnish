@@ -6,10 +6,13 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Käytä canonical osoitetta jakamiseen'
+      default-option: 'Oletus jako valinta'
+      default-option-help: "Valitsemalla oletus jako valinnan, muuntaa modaali ikkunan alasvetovalikoksi.\nJos \"Oletus valinta\" on valittuna, näyttää sen jos selain tukee, muuten käytetään alkuperäistä modaalia.\n"
       plain-copy: 'Näytä osoite kopioinnissa'
   forum:
     discussion:
       share_button: Jaa
+      share_dropdown_accessible_label: 'Vaihda keskustelun jako alasvetovalikoksi'
     modal:
       copy_button: Kopioi
       title: Jaa

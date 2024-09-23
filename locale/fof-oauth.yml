@@ -5,6 +5,8 @@
 fof-oauth:
   admin:
     configure_button_label: 'Määritä FoF OAuth'
+    permissions:
+      moderate_user_providers: 'Moderoi käyttäjän linkitettyjä tilejä'
     settings:
       advanced:
         heading: Edistynyt
