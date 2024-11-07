@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 
 
 **Päivitetty käännöksiä lisäosille**:
