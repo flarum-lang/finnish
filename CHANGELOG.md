@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+1.15.0 (XXXX-XX-XX)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+
+
+Kaikki muutokset: [v1.14.0...v1.15.0](https://github.com/flarum-lang/finnish/compare/v1.14.0...v1.15.0).
+
+
 1.14.0 (2023-12-21)
 -------------------
 
