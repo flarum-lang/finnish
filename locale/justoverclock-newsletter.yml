@@ -15,3 +15,40 @@ flarum-ext-newsletter:
     prconsent: Yksityisyys
     submitbutton: Lähetä
     subscribe: 'Tilaa uutiskirjeemme. Syötä sähköpostisi ja klikkaa Lähetä painiketta.'
+justoverclock-newsletter:
+  admin:
+    ctaText: 'Vieraile yhteisössämme'
+    emailSentErrorMessage: 'Sähköpostien lähetys epäonnistui.'
+    emailSentSuccessMessage: 'Sähköpostit lähetetty onnistuneesti!'
+    emailTitle: 'Uutiskirjeen otsikko'
+    lastNewsletterSent: 'Viimeisin uutiskirje lähtetty'
+    lastNewsletterSentDescription: 'viimeisimmän lähetetyn uutiskirjeen otsikko'
+    lastNewsletterSentText: 'lähetetty: '
+    newsLetterOptOutFooter: 'Etkö pidä näistä sähköposteista?'
+    newsLetterOptOutFooterUnsubscribe: 'Peruuta tilaus.'
+    newsletterCountText: 'Uutiskirjeesi lähetetään kaikille yllä oleville tilaajille.'
+    newsletterCountTextTwo: käyttäjää!
+    noNewsletterSent: 'Ei tietoa'
+    sendEmailButtonText: 'Lähetä sähköposti kaikille tilaajille'
+    sendingText: Lähetetään...
+    textOrHtml: 'Uutiskirjeen sisältö (teksti tai html)'
+    totalSubscribers: 'Tilaajia yhteensä'
+    totalSubscribersCount: 'tilaajien määrä yhteensä'
+  forum:
+    consent: Luin
+    dataProcessingModalContent: "<p><strong>Tarkoitus</strong></p>\n\n<p>Tämä käytäntö kuvaa lähestymistapamme henkilökohtaisten tietojen keräämiseen, käsittelyyn ja säilyttämiseen\nuutiskirjeiden tilauksia varten, yleisen tietosuoja-asetuksen (GDPR) mukaisesti. Se varmistaa, että yksilöillä on täysi hallinta\nomista tiedoistaan ja he ymmärtävät, miten niitä käytetään.</p>\n\n<p><strong>Selkeä suostumus</strong></p>\n\n<p>Keräämme uutiskirjeiden tilauksia vain selkeän ja myönteisen suostumusprosessin kautta. Tilaajien on aktiivisesti valittava\nvalintaruutu tai klikattava omistettua \"Hyväksy\"-painiketta antaakseen suostumuksensa. Ennalta valitut valintaruutut tai\nepäsuora suostumus eivät ole käytössä.</p>\n\n<p><strong>Tietojen minimointi</strong></p>\n\n<p>Keräämme vain tarvittavat tiedot uutiskirjeiden lähettämistä varten: Sähköpostiosoite (pakollinen).</p>\n\n<p><strong>Peruuttaminen</strong></p>\n\n<p>Tilaajat voivat peruuttaa tilauksen milloin tahansa. Jokaisessa uutiskirjeessä on peruutuslinkki, joka on helppo löytää ja käyttää.\n</p>\n\n<p><strong>Tietojen säilyttäminen</strong></p>\n\n<p>Henkilötiedot säilytetään tietokannassamme vain tilauksen voimassaolon ajan. Jos tilaaja peruuttaa tilauksen, heidän\nsähköpostiosoitteensa ja muut henkilötiedot poistetaan, ellei laki tai lailliset syyt (esim. estoluettelon ylläpitäminen tulevia sähköposteja varten) vaadi niiden säilyttämistä.</p>\n\n<p><strong>Tietojen turvallinen käsittely</strong></p>\n\n<p>Varmistamme asianmukaiset tekniset ja organisatoriset toimenpiteet tilaajien tietojen suojaamiseksi, kuten:\nTietojen salaaminen siirron aikana. Säännölliset tarkastukset tietojen säilytyksestä ja käsittelyjärjestelmistä.</p>\n"
+    emailNotFound: 'Tilaajaa ei löytynyt tai on jo poistettu'
+    emailRequired: 'Sähköposti vaaditaan'
+    invalidEmailHint: 'Virheellinen sähköposti'
+    newsLetterDescription: 'uutiskirjeemme. Syötä sähköpostisi ja paina enteriä'
+    newsLetterModalTitle: 'Tietoa tietojenkäsittelystä *'
+    newsLetterTitle: Tilaa
+    optOutPageDescription: "<p>Ymmärrämme, että mieltymykset voivat muuttua, ja olemme pahoillamme, että päätit peruuttaa tilauksesi. Jos et enää halua vastaanottaa uutiskirjeitämme, klikkaa alla olevaa painiketta. Et enää saa tulevia päivityksiä, tarjouksia tai uutisia meiltä.</p>\n\n<p>Haluaisimme tietää, voisimmeko parantaa uutiskirjettämme tai jos sinulla on palautetta jaettavana. Jos muutat mieltäsi, voit aina tilata uutiskirjeemme uudelleen tulevaisuudessa!</p>\n\n<p>Kiitos ajastasi, ja toivomme, että pysymme yhteyksissä.</p>\n"
+    optOutPageTitle: 'Onko saapuneet kansiosi täynnä? Täällä voit peruuttaa uutiskirjeemme tilauksen.'
+    optOutPlaceholder: 'Syötä tähän sähköpostisi...'
+    subscribe: Tilaa
+    subscriberDeleted: 'Tilaaja onnistuneesti poistettu'
+    subscriberExist: 'Sähköposti on jo tilannut uutiskirjeen.'
+    successMessage: 'Olet tilannut uutiskirjeemme!'
+    successUnsubscribedMessage: 'Olet peruuttanut uutiskirjeemme tilauksen!'
+    unSubscribe: 'Peruuta tilaus'

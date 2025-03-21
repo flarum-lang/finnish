@@ -9,6 +9,7 @@ nearata-embed-twitch:
     permissions:
       create_twitch: 'Upota Twitch'
   forum:
+    button_tooltip_title: 'Upota Twitch'
     modal:
       label:
         channel: 'Kanavan nimi'
@@ -16,3 +17,8 @@ nearata-embed-twitch:
         layout: Ulkoasu
         type: 'Sisällön tyyppi'
         video: 'Videon ID'
+      options:
+        channel: Kanava
+        collection: Kokoelma
+        video: Video
+      save_changes: 'Tallenna asetukset'
