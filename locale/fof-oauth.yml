@@ -82,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Nämä linkitetyt tilit sallivat sinun kirjautua sisään foorumille käyttäen muita toimijoita.'
+          identification-label: '{provider} ID'
           identifier-label: '{provider} ID'
           label: 'Linkitetyt tilit'
           last-used-label: 'Viimeksi käytetty'

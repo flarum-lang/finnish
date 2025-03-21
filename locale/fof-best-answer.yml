@@ -15,6 +15,8 @@ fof-best-answer:
       allow_select_own_post_help: 'Salli käyttäjän valita joku omista viesteistään keskustelun parhaaksi vastaukseksi'
       discussion_sidebar_jump_button: 'Näytä hyppää parhaaseen vastaukseen nappi keskustelun sivupalkissa'
       discussion_sidebar_jump_button_help: 'Lisää napin keskustelun sivupalkkiin, josta pääsee parhaaseen vastaukseen.'
+      display_tags: 'Näytä avainsanat hakutuloksissa'
+      display_tags_help: 'Näyttää avainsana(t) hakutuloksessi Parhaiden vastausten keskusteluissa'
       documentation: Dokumentaatio
       enable_all_tags_button: 'Ota käyttöön Parhaat vastaukset kaikille avainsanoille'
       enable_all_tags_reminder_button: 'Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille'
@@ -30,6 +32,8 @@ fof-best-answer:
         tags: 'Parhaan vastauksen avainsanat'
       remind_tags_help: 'Valitse mistä avainsanoista, jos mistään, lähetetään muistutuksia. Muistutukset lähetetään vain näistä avainsanoista.'
       remind_tags_label: 'Muistutettavat avainsanat'
+      remove_solutions_from_main_search: 'Poista kaikki ratkaisut ensisijaisesta hausta'
+      remove_solutions_from_main_search_help: 'Poistaa Parhaiden vastausten keskustelut ensisijaisesta ''kaikki keskustelut'' hakutuloksista'
       schedule_log_output: 'Lisää ajastusten tulosteet lokeihin'
       schedule_on_one_server: 'Käytä ''onOneServer()'' määritelmää ajastuksia varten'
       schedule_on_one_server_help: 'Vaatii Redis/Memcache'

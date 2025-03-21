@@ -10,6 +10,8 @@ fof-polls:
       self_edit: 'Muokkaa luotuja kyselyitä (vaatii viestin muokkaus oikeuden)'
       self_post_edit: 'Muokkaa *kaikkia* kyselyitä omissa viesteissä (vaatii viestin muokkaus oikeuden)'
       start: 'Aloita kysely'
+      start_global: 'Aloita yleinen kysely'
+      upload_images: 'Salli käyttäjien siirtää kuvia kyselyihin'
       view_results_without_voting: 'Näytä tulokset ilman vastaamista'
       vote: 'Vastata kyselyissä'
     settings:
@@ -17,10 +19,30 @@ fof-polls:
       allow_image_uploads_help: 'Mikäli käytössä, käyttäjät voivat siirtää kuvia antamalla kuvan osoitteen (jos käytössä valinnoille, aina käytössä kyselylle).'
       allow_option_image: 'Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon'
       enable_global_polls: 'Ota käyttöön yleiset kyselyt'
+      enable_global_polls_help: 'Yleiset kyselyt eivät ole kiinnitettyjä johonkin tiettyyn viestiin ja ne näkyy määritetyllä kyselyt sivulla.'
+      general:
+        heading: 'Yleiset asetukset'
+        help: 'Nämä asetukset hallitsee Kyselyt lisäosan yleisiä ominaisuuksia.'
+      global_polls:
+        heading: 'Yleiset kyselyt'
+        help: 'Nämä asetukset määrittää yleiset kyselyt ominaisuuden.'
+      image:
+        heading: Kuva-asetukset
+        help: 'Nämä asetukset hallitsee kyselyiden kuvien asetuksia.'
+      image_height: 'Muuta kuvan korkeutta'
+      image_width: 'Muuta kuvan leveyttä'
       max_options: 'Maksimi määrä vaihtoehtoja per kysely'
       options_color_blend: 'Värimuunnos teksti viestin vaihtoehdoista'
       options_color_blend_help: 'Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.'
   forum:
+    answers: Vastaukset
+    compose:
+      add_title: 'Lisää kysely'
+      continue_editing: 'Jatka muokkausta'
+      edit_title: 'Muokkaa kyselyä'
+      polls_manager: 'Kyselyiden hallinta'
+      polls_preview: 'Näytä kysely'
+      success: 'Kysely tallennettu onnistuneesti.'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -33,8 +55,11 @@ fof-polls:
       allow_change_vote_label: 'Salli käyttäjän vaihtaa ääntään'
       allow_multiple_votes_label: 'Salli käyttäjien vastata useampaan vaihtoehtoon'
       date_placeholder: 'Kyselyn loppupäivä (valinnainen)'
+      delete: '=> core.ref.delete'
       edit_title: 'Muokkaa kyselyä'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Piilota äänet kunnes kysely päättyy'
+      hide_votes_label_help: 'Kyselyn aloittanut käyttäjä näkee aina äänet.'
       image_option_placeholder: 'Kuvan osoite (valinnainen)'
       include_question: 'SInun pitää sisällyttää kysymys'
       max: 'Sinulla voi olla enintään {max} vastausta'
@@ -44,22 +69,66 @@ fof-polls:
       no_voters: 'Ei vastauksia'
       option_placeholder: Vastaa
       options_label: Vastaukset
+      poll_image:
+        alt_help_text: 'Tämä teksti vaaditaan, kun kuva on asetettu. Se näytetään, jos kuvan lataaminen epäonnistuu.'
+        alt_label: 'Kuvan Alt teksti'
+        help: 'Siirrä kuva, joka näytetään kyselyn rinnalla (valinnainen).'
+        label: 'Kyselyn kuva'
+        later_help: 'Voit siirtää kuvan kyselyn luonnin jälkeen.'
+      poll_option_image:
+        help: 'Siirrä kuva, joka näytetään vastauksen rinnalla (valinnainen).'
+        label: 'Kyselyn vastauksen kuva'
       public_poll_label: 'Salli käyttäjien nähdä kuka vastasi'
       question_placeholder: Kysymys
       submit: Lähetä
+      subtitle_placeholder: 'Otsikko/kuvaus (valinnainen)'
+      tooltip:
+        options:
+          add-button: 'Lisää vastaus'
     moderation:
       add: 'Lisää kysely'
       delete: 'Poista kysely'
       delete_confirm: 'Haluatko varmasti poistaa tämän kyselyn?'
       edit: 'Muokkaa kyselyä'
     no_permission: 'Sinulla ei ole oikeutta vastata'
+    page:
+      nav: Kyselyt
+      nav-all: 'Kaikki yleiset kyselyt'
     poll:
       cannot_change_vote: 'Et voi vaihtaa ääntäsi äänestämisen jälkeen.'
+      cannot_start_poll_button: 'Kyselyä ei voi aloittaa'
+      start_poll_button: 'Aloita yleinen kysely'
       submit_button: Äänestä
+      total_votes: '{count, plural, one {# ääni annettu} other {# ääntä annettu}}'
+    poll_controls:
+      delete_confirmation: 'Haluatko varmasti poistaa tämän kyselyn?'
+      delete_error_message: 'Jotain meni pieleen, kun poistimme kyselyä.'
+      delete_label: '=> core.ref.delete'
+      delete_success_message: 'Kysely poistettu onnistuneesti.'
+      edit_label: '=> core.ref.edit'
+      view_label: '=> core.ref.view'
     poll_ended: 'Kysely on loppunut.'
+    poll_form:
+      delete: 'Poista kysely'
+      error: 'Virhe tallentaessa kyselyä, ota yhteys ylläpitoon.'
+    poll_never_ends: 'Kysely ei pääty koskaan'
+    polls_count: '{count, plural, one { {count} ääni} other {{count} ääntä}}'
+    polls_list:
+      empty_text: 'Näyttää siltä, että ei ole vielä yhtään yleistä kyselyä luotuna.'
+      load_more_button: '=> core.ref.load_more'
+    polls_page:
+      title: Kyselyt
     public_poll: 'Näytä vastaajat'
+    showcase:
+      active-polls: 'Aktiiviset kyselyt'
+      ended-polls: 'Päättyneet kyselyt'
+      no-active-polls: 'Tällä hetkellä ei ole yhtään aktiivista kyselyä.'
+      no-recent-polls: 'Tällä hetkellä ei ole yhtään päättynyttä kyselyä.'
     tooltip:
       badge: Kysely
       votes: '{count, plural, one {# vastaus} other {# vastausta}}'
+    upload_image:
+      remove_button: 'Poista kuva'
+      upload_button: 'Siirrä kuva'
     votes_modal:
       title: Vastaajat

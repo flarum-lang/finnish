@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Kirjaudu toisena käyttäjänä'
     user_controls:
       impersonate_button: 'Kirjaudu käyttäjänä'
+  lib:
+    modal:
+      impersonate_username: 'Kirjaudu {username}'
+      label: 'Suuren vallan myötä tulee suuri vastuu. Jatkamalla sinusta tulee {username}, kunnes kirjaudut ulos.'
+      placeholder_optional: '(Valinnainen) Ilmoita syy täksi käyttäjäksi siirtymiselle'
+      placeholder_required: 'Sinun täytyy ilmoittaa syy vaihdolle ennen kuin jatkat'
+      title: 'Kirjaudu toisena käyttäjänä'
+    user_controls:
+      impersonate_button: 'Kirjaudu käyttäjänä'

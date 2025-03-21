@@ -8,6 +8,12 @@ blomstra-gdpr:
       userpolicydata:
         delete_description: 'Poistaa käyttäjän ehtojen hyväksynnän'
         export_description: 'Tietoja käyttäjän ehtojen hyväksymisestä'
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Poistaa käyttäjän ehtojen hyväksynnät'
+        export_description: 'Käyttäjän ehtojen hyväksynnän tiedot'
 fof-terms:
   admin:
     buttons:
@@ -28,6 +34,8 @@ fof-terms:
       export-url-help: "Kaikki käyttäjät joilla on oikeus \"Viedä ehtojen data\" voi mennä haluttuun osoitteeseen ja ladata käyttäjien lista niistä, jotka ovat hyväksyneet ehdot. Voit löytää tietoja asetuksista <a>lisäosan wikistä</a>.\n"
       name: Nimi
       name-help: 'Tämä nimi näytetään valintalaatikon vieressä päivitys modaalin otsikkona.'
+      optional: 'Valinnainen ehto'
+      optional-help: 'Kun käytössä, käyttäjät voivat käyttää foorumia ilman ehdon hyväksymistä.'
       terms-updated-at: Päivitetty
       terms-updated-at-help: "Ehtojen viimeisimmän muutoksen päivämäärä. Tämän määritys pakottaa käyttäjien hyväksymään ehdot uudelleen mikäli he ovat hyväksyneet jo ne ennen tätä päivämäärää. Pitää olla menneisyydessä (muuten käyttäjät eivät voi hyväksyä ehtoja ja päästä modaalista eteenpäin).\n"
       terms-updated-at-placeholder: 'DD.MM.YYYY (hh:mm:ss)'
@@ -61,7 +69,11 @@ fof-terms:
       title: 'Ehtojen tila käyttäjällä {username}'
     update-alert:
       can-accept-message: 'Olemme päivittäneet ehtoja. Sinun täytyy hyväksyä ne käyttääksesi sivustoa.'
+      can-accept-optional-message: 'Päivitimme äskettäin ehtoja. Voit tarkastaa ne kun joudat.'
+      close: Sulje
       must-accept-message: 'Olemme väliaikaisesti estäneet pääsyn tilillesi, kunnes tutkit uudet ehdot.'
       review: 'Klikkaa tästä tarkistaaksesi ja hyväksyäksesi uudet ehdot'
     user_controls:
       state_button: 'Ehtojen hyväksynnän tila'
+    user_settings:
+      optional_policies_label: Ehdot

@@ -4,8 +4,12 @@
 
 afrux-online-users-widget:
   admin:
+    permissions:
+      view_online_users_widget: 'Näytä käyttäjät paikalla vimpain'
     settings:
-      max_users: 'Näytettävien käyttäjien enimmäismäärä'
+      cache_ttl: 'Käyttäjälistan välimuistin pituus (sekunteina)'
+      last_seen_interval: 'Viimeksi nähty aikaväli, jonka perusteella käyttäjä katsotaan paikalla olevaksi (minuuteissa)'
+      max_users: 'Enimmäismäärä näytettäviä käyttäjiä'
   forum:
     widget:
       empty: 'Ei käyttäjiä paikalla.'

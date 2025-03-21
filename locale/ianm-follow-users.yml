@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: '=> blomstra-gdpr.lib.data.followuser.delete_description'
         delete_description: 'Poistaa kaiken datan liittyen käyttäjän seuraamiseen.'
         export_description: 'Vie tiedot käyttäjän seuraamisista ja seuratuista.'
+flarum-gdpr:
+  lib:
+    data:
+      followuser:
+        anonymize_description: '=> flarum-gdpr.lib.data.followuser.delete_description'
+        delete_description: 'Poistaa kaiken tiedon liittyen käyttäjien seuraamisiin.'
+        export_description: 'Vie tiedot seuratuista ja seuraajista.'
 ianm-follow-users:
   admin:
     permissions:

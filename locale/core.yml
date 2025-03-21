@@ -239,6 +239,8 @@ core:
             title: Ryhmät
           join_time:
             title: Liittynyt
+          user_actions:
+            title: Toiminnot
           user_id:
             title: ID
           username:
@@ -511,6 +513,10 @@ core:
       hidden_tooltip: Piilotettu
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: Vianetsintä
     dropdown:
       toggle_dropdown_accessible_label: Alasvetovalikko

@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: Jäädytetty
     user_controls:
       suspend_button: Jäädytä
+  validation:
+    attributes:
+      suspendedUntil: 'jäädytetty kunnes'

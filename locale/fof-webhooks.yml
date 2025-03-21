@@ -86,8 +86,11 @@ fof-webhooks:
         extra_text_label: 'Ylimääräinen teksti'
         group_help: 'Lähetä resurssit, jotka vain tämä ryhmä voi nähdä'
         group_label: Ryhmä
+        include_matching_tags_label: 'Sisällytä täsmäävät avainsanat -- webhookeille, jotka on rajoitettu avainsanoilla, näytä vain jotka täsmäävät'
         max_post_content_length_help: 'Aseta määrä mikä rajoittaa viestin sisällön määrää liittyvissä tapahtumissa. Muuta arvoon 0 poistaaksesi rajoituksen.'
         max_post_content_length_label: 'Viestin sisällön maksimi pituus'
+        name_help: 'Webhookin nimi. Tätä käytetään esimerkiksi Discordin käyttäjänimenä, Slack botin nimenä tai muissa vastaavissa.'
+        name_label: Nimi
         title: 'Webhookin asetukset'
         use_plain_text_label: 'Vähennä viestin sisällön muotoilun määrää'
       services:

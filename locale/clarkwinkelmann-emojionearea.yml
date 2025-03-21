@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Sulje valitsin, kun emoji on valittu'
       enableRecent: 'Ota viimeisimmät käyttöön'
       enableSearch: 'Ota haku käyttöön'
       enableTones: 'Ota sävyt käyttöön'
@@ -12,5 +13,16 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Piilota Flarumin hymiö valitsin nappi'
       searchPosition: 'Siirrä haku ja sävyt alas'
   forum:
+    filters:
+      activity: Aktiivisuus
+      animals_nature: 'Eläimet & Luonto'
+      flags: Liput
+      food_drink: 'Ruoka & Juoma'
+      objects: Esineet
+      recent: Viimeisimmät
+      smileys_people: 'Hymiöt & Ihmiset'
+      symbols: Symbolit
+      tones: Monimuotoisuus
+      travel_places: 'Matkustus & Paikat'
     picker_button: 'Valitse Hymiö'
     search_placeholder: Etsi..

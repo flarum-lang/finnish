@@ -20,6 +20,7 @@ fof-moderator-notes:
       created_text: '{username} loi tämän huomion {date}'
       delete: Poista
       dismiss_button: Valmis
+      filter_by_me: 'Vain muistiinpanot, jotka olen luonut'
       input_heading: 'Syötä huomiot käyttäjälle <strong>{username}</strong>, (markdown on tuettu)'
       noNotes: 'Näyttää siltä, että täällä ei ole huomioita.'
       submit_button: 'Tallenna huomio'

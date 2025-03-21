@@ -24,6 +24,11 @@ fof-links:
       url_placeholder: '=> fof-links.ref.url'
       use_rel_me: 'Lisää <code>rel="me"</code> attribuutti, muiden sivujen verifiointia varten'
       visibility: 'Linkin näkyvyys'
+      visibility.guest-only.help: 'Vain {guest} voivat nähdä tämän linkin. Oikeus yllä pitäisi olla asetettu kohtaan ''{everyone}''.'
+      visibility.guest-only.label: 'Vain {guest}?'
+      visibility.help: 'Oletuksena linkit ovat näkyvillä vain <code>{admin}</code> käyttäjille. Säädä oikeuksia määrittääksesi kuka näkee tämän linkin.'
+      visibility.help-disabled: 'Tallenna linkki ennen, kuin muutat näkyvyysasetuksia.'
+      visibility.label: 'Linkin näkyvyys'
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'

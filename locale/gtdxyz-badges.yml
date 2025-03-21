@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Voit valita {limit, plural, one {<b>yhden merkin</b>} other {<b># merkkiä</b>}} näkyville kortillesi.'
       title: 'Merkit käyttäjän kortilla'
     give_badge: 'Anna merkki'
+    hidden_badges: 'Tämä käyttäjä ei näytä vielä merkkejä.'
     moderation:
       give_badge: 'Anna merkki'
       remove_badge: 'Poista merkki käyttäjältä'
