@@ -12,6 +12,7 @@ CHANGELOG
 
 **Lisätty tuki uusille lisäosille**:
 
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
 * [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
 * [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
@@ -22,6 +23,7 @@ CHANGELOG
 * [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
 * [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
@@ -34,9 +36,11 @@ CHANGELOG
 * [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
 * [`nearata/flarum-ext-embed-twitch`](https://github.com/Nearata/flarum-ext-embed-twitch)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* `nodeloc-ignore-hidden-tags`
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`shebaoting/repost`](https://github.com/shebaoting/Repost)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
@@ -44,6 +48,8 @@ CHANGELOG
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+* [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
+* [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
 
 
 **Päivitetty käännöksiä lisäosille**:
