@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
 * [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
 * [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
@@ -33,6 +34,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 * [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
 * [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
