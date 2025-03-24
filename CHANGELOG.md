@@ -28,6 +28,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-infocards`](https://github.com/justoverclockl/flarum-ext-infocards)
 * [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag)
 * [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 * [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 * [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
