@@ -5,4 +5,9 @@
 akr-chevereto:
   admin:
     setting:
+      insert_type: 'Upotus koodit, jotka lisätään automaattisesti kohteena oleviin muokattaviin sisältöihin'
       url: 'Chevereto sivun osoite'
+  forum:
+    composer:
+      upload_button: 'Siirrä kuva'
+      upload_button_details: 'Siirrä ja aseta kuva'
