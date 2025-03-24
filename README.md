@@ -403,6 +403,7 @@ composer require flarum-lang/finnish:dev-master
 | [`justoverclock/website-live-screenshot`](https://flarum.org/extension/justoverclock/website-live-screenshot) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/fi/) |
 | [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/kilowhat-cimaise/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise/fi/) |
 | [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/kilowhat-formulaire/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-formulaire/fi/) |
+| [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/kilowhat-wordpress/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress/fi/) |
 | [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum/fi/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/fi/) |
 
 <!-- premium-extensions-list-stop -->
