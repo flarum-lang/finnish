@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.15.0 (XXXX-XX-XX)
+1.15.0 (2025-03-24)
 -------------------
 
 **Yleiset muutokset**:
