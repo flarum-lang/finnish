@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.16.0 (XXXX-XX-XX)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+
+
+Kaikki muutokset: [v1.15.0...v1.16.0](https://github.com/flarum-lang/finnish/compare/v1.15.0...v1.16.0).
+
+
 1.15.0 (2025-03-24)
 -------------------
 
