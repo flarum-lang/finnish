@@ -8,6 +8,7 @@ CHANGELOG
 **Lisätty tuki uusille lisäosille**:
 
 * [`blazite/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
