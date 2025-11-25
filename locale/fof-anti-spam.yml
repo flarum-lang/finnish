@@ -29,7 +29,7 @@ fof-anti-spam:
         delete_user_help: 'Käyttäjä poistetaan lopullisesti. Kun pois käytöstä, käyttäjä estetään sen sijaan.'
         delete_user_label: 'Poista käyttäjä'
         heading: 'Moderoinnin oletus toimet'
-        introduction: "Kun käyttäjä merkitään roskapostittajaksi, moderaattorit voivat valita käytössä olevista toimista miten toimia kyseisessä tilanteessa. Nämä asetukset asettavat oletukset tähän tilanteeseen, prosessin nopeuttamiseksi, mutta voidaan myös säätää tapauskohtaiseksi.\n"
+        introduction: 'Kun käyttäjä merkitään roskapostittajaksi, moderaattorit voivat valita käytössä olevista toimista miten toimia kyseisessä tilanteessa. Nämä asetukset asettavat oletukset tähän tilanteeseen, prosessin nopeuttamiseksi, mutta voidaan myös säätää tapauskohtaiseksi.'
         move_discussions_to_tags_help: 'Tämä siirtää kaikki tämän käyttäjän aloittamat keskustelut määrittämiisi avainsanoihin. Tyhjennä avainsanavalinta jättääksesi keskustelut niiden alkuperäisiin avainsanoihin. Ei vaikuta, jos ‘Poista keskustelut’ -vaihtoehto on otettu käyttöön.'
         move_discussions_to_tags_label: 'Siirrä keskustelut avainsanaan'
       stopforumspam:

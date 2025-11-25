@@ -12,10 +12,13 @@ antoinefr-money:
       - 'Kun keskustelu/viesti on piilotettu tai palautettu (oletus)'
       - 'Kun keskustelu/viesti on poistettu'
     permissions:
+      disable_money_label: 'Ota raha pois käytöstä'
       edit_money_label: 'Muokkaa rahaa'
     settings:
       autoremove: 'Päivitä raha automaattisesti'
+      cascaderemove: 'Poista raha viesteistä, kun keskustelu poistetaan'
       helpextensionlikes: 'Vaatii <code>flarum/likes</code> lisäosan'
+      ignore_notifying_users: 'Kun lasketaan sanamäärää, keskity vain sisältöosioon'
       moneyfordiscussion: 'Uudesta keskustelusta annettava raha'
       moneyforlike: 'Tykätystä viestistä annettava raha'
       moneyforpost: 'Uudesta viestistä annettava raha'

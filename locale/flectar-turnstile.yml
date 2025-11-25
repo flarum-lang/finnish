@@ -12,6 +12,9 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Sivuston avain (Site key)'
   forum:
+    error: 'Virhe tapahtui, kun yritimme vahvistaa, että olet ihminen. Yritätkö uudelleen.'
     not_loaded_error: 'Cloudflare Turnstilen lataus epäonnistui. Lataa sivu uudestaan ja tarkista mainoksenesto.'
+    validation_error: 'Ole hyvä ja suorita Turnstile haaste.'
 validation:
+  required: 'Ole hyvä ja suorita Turnstile haaste.'
   turnstile: 'Emme voineet vahvistaa oletko robotti vai et. Lataa sivu uudelleen ja yritä uudestaan.'

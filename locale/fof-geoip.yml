@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'Näytä aina IP osoiteen maa'
     settings:
       access_key_label: 'Pääsy avain (access key)'
+      error_code_prefix: 'Koodi:'
+      error_prefix: 'Virhe:'
       general:
         heading: 'Yleiset asetukset'
         help: 'Nämä asetukset hallitsee lisäosan yleisiä toimintoja.'
@@ -20,6 +22,10 @@ fof-geoip:
         heading: IP-paikannuspalvelu
         help: 'Valitse palvelu IP-paikannuksiin. Joillakin palveluilla on nopeusrajoituksia, joten tarkista palvelun dokumentaatio saadaksesi lisätietoja.'
       quota_label: 'Tarkistus raja'
+      raw_http_response_label: 'Raaka HTTP vastaus'
+      request_options_label: 'Pyynnön asetukset'
+      request_url_label: 'Pyynnön osoite'
+      response_headers_label: 'Vastauksen otsikot'
       security_label: 'Turvallisuus moduuli (Security Module) (vaatii professional plus)'
       service_freegeoip_description: 'Käytä <b>https://freegeoip.app/</b> saadaksesi jopa 15 000 IP maakoodia per tunti, ilmaiseksi.'
       service_freegeoip_label: FreeGeoIP
@@ -29,6 +35,8 @@ fof-geoip:
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Käytä <b>https://ipdata.co</b> tehdäksesi jopa 1 500 tarkistusta päivittäin ilmaiseksi. Saatavilla myös maksullisia tilauksia isoimmille määrille.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: 'Käytä <b>https://ipinfo.io</b> palvelua saadaksesi IP osoite ilman hakurajoitusta tai estoja. Vaatii rekisteröitymisen ja ilmaisen API avaimen.'
+      service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: 'Käytä <b>https://www.iplocation.net/</b> saadaksesi maan ja ISP tiedon. Tarkistusrajat ovat tuntemattomat.'
       service_iplocation_label: 'IP sijainti'
       service_ipsevenex_description: 'Käytä <b>https://7x.ax</b> saadaksesi ilmaisen API avaimen jolla saa 20 pyyntöä per minuutti. Saatavilla myös maksullisia tilauksia.'
@@ -38,6 +46,26 @@ fof-geoip:
       service_label: Palvelu
       show_flag_help: 'Ilman IP-osoitteen paljastamista näytä viestin kirjoittajan IP-osoitteen mukainen maan lippu, kun käyttäjä valitsee tämän asetuksistaan.'
       show_flag_label: 'Näytä maan lippu jokaisessa viestissä'
+      status_error: '✗ Virhe'
+      status_success: '✓ Onnistui'
+      status_unknown: Tuntematon
+      test:
+        heading: 'Testaa palvelun asetuksia'
+        help: 'Testaa IP-hakupalvelun määritykset käyttämällä esimerkkiosoitetta. Varmista ensin, että tallennat asetuksesi ennen testausta.'
+      test_button: Testipalvelu
+      test_error: 'Virhe tapahtui palvelua testatessa.'
+      test_error_details_label: 'Virheen tiedot:'
+      test_http_status_code_label: 'HTTP tilakoodi:'
+      test_ip_required: 'Syötä IP osoite jota testataan.'
+      test_processed_service_response_label: 'Käytetyn palvelun vastaus:'
+      test_response_time_label: 'Vastausaika:'
+      test_result_title: Testitulos
+      test_service_help: 'Syötä IPv4 tai IPv6 osoite testataksesi nykyisiä määreitä.'
+      test_service_label: 'Testi IP tarkistuspalvelu'
+      test_service_label_result: 'Palvelu:'
+      test_status_label: 'Tila:'
+      test_timestamp_label: 'Aikaleima:'
+      testing: Testataan...
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:

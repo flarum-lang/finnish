@@ -12,6 +12,8 @@ fof-oauth:
         heading: Edistynyt
         log-oauth-errors-help: 'Jos käytössä OAuth virheet kirjataan Flarumin lokeihin. Tämä voi auttaa OAuth ongelmien tutkimisessa, mutta voi sisältää myös arkaluontoista tietoa.'
         log-oauth-errors-label: 'Kirjaa OAuth virheet'
+      disable_avatars_help: "Jos tämä on käytössä, käyttäjän profiilikuvaa ei päivitetä vastaamaan palveluntarjoajan profiilikuvaa rekisteröitymisen yhteydessä. Huomaa, että tämä koskee vain tulevia rekisteröitymisiä eikä muuta olemassa olevien käyttäjien profiilikuvia.\n"
+      disable_avatars_label: 'Ota toimittajan avatarit pois käytöstä'
       fullscreen_popup_help: 'Kun käytössä, OAuthin kirjautuminen aukeaa kokoruutuun. Jos tämä on käytössä korkeus ja leveys asetuksia ei huomioida.'
       fullscreen_popup_label: 'Käytä kokoruudun ponnahdusikkunaa OAuthiin'
       only_icons_label: 'Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)'
@@ -43,10 +45,13 @@ fof-oauth:
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Luo sovellus osoitteessa {link}.'
           hosted_domain_label: 'Ylläpidetyt domainit (G suite/Google Apps for Business, valinnainen)'
+        group_help: 'Valitse ryhmä mikä annetaan käyttäjälle, joka rekisteröityy tämän toimittajan kautta.'
+        group_label: 'Määritä ryhmä'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Luo sovellus osoitteessa {link}.'
+        no_group_label: 'Ei ryhmän määritystä'
         twitter:
           api_key_label: 'API avain'
           api_secret_label: 'API salaisuus (secret)'

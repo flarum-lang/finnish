@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: Lisäasetukset
+      exclude_tags: 'Jätä kaikki avainsanat pois sivukartasta'
+      exclude_tags_help: 'Oletuksena kaikki vieraille näkyvät avainsanat indeksoidaan'
       exclude_users: 'Älä sisällytä käyttäjä profiileja sivukarttaan'
       exclude_users_help: 'Oletuksena kaikki vieraille näkyvät käyttäjät indeksoidaan'
       frequency:
@@ -13,6 +15,10 @@ fof-sitemap:
         hourly: Tunneittain
         twice_daily: 'Kahdesti päivässä'
       frequency_label: 'Kuinka usein pitäisi luoda uudelleen välimuistiin päivitetty sivukartta?'
+      include_changefreq: 'Ota käyttöön päivitysvälien arvot sivukartassa'
+      include_changefreq_help: 'Päivitysvälien arvot jätetään huomiotta Googlessa, mutta ne saattavat olla käytössä muiden hakukoneiden indeksoinnin aikataulutuksessa'
+      include_priority: 'Sisällytä prioriteettiarvot sivustokarttaan'
+      include_priority_help: 'Google jättää prioriteettiarvot huomiotta, mutta ne saattavat olla käytössä muissa hakukoneissa, kuten Bingissä ja Yandexissä'
       mode_help: 'Oikean tilan valinta foorumillesi on todella tärkeää.'
       mode_help_cache_disk: 'Paras pienille tai keskisuurille foorumeille. Todennäköisesti webhotelleissa, jotka sallii ajastetut tehtävät ja Flarumin (alhaalla lisää) ja jossa on keskusteluita, käyttäjiä, avainsanoja sekä sivuja alle 50 000.'
       mode_help_cache_disk_label: 'Välimuisti/levy tila'

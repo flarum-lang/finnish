@@ -63,6 +63,7 @@ fof-upload:
           media-btn: 'Vain median hallinta nappi'
           upload-btn: 'Vain siirrä nappi'
         title: 'Tekstieditorin napit'
+      configured_by_environment: 'Tallennustilan asetukset on esimääritetty ympäristömuuttujista.'
       disable-download-logging:
         title: 'Poista käytöstä latausten lokitus'
         toggle: 'Poista käytöstä'
@@ -91,6 +92,11 @@ fof-upload:
         max_width: 'Kuvan maksimi leveys/korkeus'
         title: 'Kuvan koon muunnos'
         toggle: 'Muunna kuvakoot'
+      svg-sanitizer:
+        allow_animate: 'Salli SVG animaatiot'
+        allow_animate_help: 'SVG-animaatioiden salliminen voi aiheuttaa tietoturva-aukkoja, sillä animoidut SVG-tiedostot voivat sisältää haitallista koodia. Ota tämä asetus käyttöön omalla vastuullasi ja vain, jos luotat käyttäjiisi.'
+        help: 'Määritä, miten SVG-tiedostoja käsitellään ja puhdistetaan latauksen yhteydessä. SVG-tiedostot voivat sisältää potentiaalisesti haitallisia skriptejä, joten niitä tulee käsitellä huolellisesti. Ladatuille SVG-tiedostoille suoritetaan puhdistus latauksen yhteydessä, ja haitalliset skriptit sekä tagit poistetaan.'
+        title: 'SVG sanitoija'
       watermark:
         file: 'Siirrä vesileiman kuva'
         position: 'Vesileiman sijainti'

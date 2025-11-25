@@ -10,12 +10,13 @@ fof-filter:
     countLabel: 'Sensuurin toleranssi'
     email:
       default_subject: 'Liittyen viimeisimpään viestiisi'
-      default_text: "Kiitos viestistäsi! Jouduimme kuitenkin poistamaan viestisi, koska se sisälsi jotain mitä emme halua nähdä foorumeillamme.\n\nJos uskot, että tämä oli virhe niin olet onnekas. Jokainen poistettu viesti tarkistetaan moderaattorien toimesta. Jos he toteavat, että tämä oli virhe niin he palauttavat sen.                \n\nKiitos ymmärryksestä.\n"
-    email_help: 'Liputetun sähköpostin sisältö. Hyväksyy HTML koodia tai tavallista tekstiä.'
+      default_text: "%USERNAME%,\n\nKiitos viestistäsi! Jouduimme kuitenkin poistamaan viestisi, koska se sisälsi jotain mitä emme halua nähdä foorumeillamme.\n\nJos uskot, että tämä oli virhe niin olet onnekas. Jokainen poistettu viesti tarkistetaan moderaattorien toimesta. Jos he toteavat, että tämä oli virhe niin he palauttavat sen. \n\nKiitos ymmärryksestä.\n"
+    email_help: "Liputetun sähköpostin sisältö. Hyväksyy HTML koodia tai tavallista tekstiä. Voit käyttää %USERNAME% merkkijonoa asettaaksesi käyttäjätunnuksen kenen viesti on merkitty.\n"
     filter_label: 'Suodatettavat merkit'
     help2: 'Aika väli minuutteina jona viestit samalta käyttäjältä samaan keskusteluun yhdistetään.'
     input:
       email_body: Sisältö
+      email_help: 'Jätä tyhjäksi jos käytetään käännöstä. Voit käyttää FoF Linguist lisäosaa sähköpostin kääntämiseen.'
       email_label: Sähköpostiasetukset
       email_subject: Aihe
       filter_title: 'Suodatettavat merkit'

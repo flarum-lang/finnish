@@ -7,11 +7,14 @@ fof-polls:
     permissions:
       change_vote: 'Vaihtaa vastausta'
       moderate: 'Muokata & poistaa kyselyitä'
+      moderate_group: 'Muokkaa ja poista kyselyryhmiä'
       self_edit: 'Muokkaa luotuja kyselyitä (vaatii viestin muokkaus oikeuden)'
       self_post_edit: 'Muokkaa *kaikkia* kyselyitä omissa viesteissä (vaatii viestin muokkaus oikeuden)'
       start: 'Aloita kysely'
       start_global: 'Aloita yleinen kysely'
+      start_group: 'Luo kyselyryhmiä'
       upload_images: 'Salli käyttäjien siirtää kuvia kyselyihin'
+      view_group: 'Näytä kyselyryhmät'
       view_results_without_voting: 'Näytä tulokset ilman vastaamista'
       vote: 'Vastata kyselyissä'
     settings:
@@ -20,6 +23,8 @@ fof-polls:
       allow_option_image: 'Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon'
       enable_global_polls: 'Ota käyttöön yleiset kyselyt'
       enable_global_polls_help: 'Yleiset kyselyt eivät ole kiinnitettyjä johonkin tiettyyn viestiin ja ne näkyy määritetyllä kyselyt sivulla.'
+      enabled_poll_groups: 'Ota käyttöön kyselyryhmät'
+      enabled_poll_groups_help: 'Kyselyryhmät sallii ryhmittää yleiset kyselyt yhteen ja näyttää ne määritetyllä sivulla.'
       general:
         heading: 'Yleiset asetukset'
         help: 'Nämä asetukset hallitsee Kyselyt lisäosan yleisiä ominaisuuksia.'
@@ -94,6 +99,7 @@ fof-polls:
     page:
       nav: Kyselyt
       nav-all: 'Kaikki yleiset kyselyt'
+      nav-groups: Kyselyryhmät
     poll:
       cannot_change_vote: 'Et voi vaihtaa ääntäsi äänestämisen jälkeen.'
       cannot_start_poll_button: 'Kyselyä ei voi aloittaa'
@@ -111,6 +117,31 @@ fof-polls:
     poll_form:
       delete: 'Poista kysely'
       error: 'Virhe tallentaessa kyselyä, ota yhteys ylläpitoon.'
+    poll_groups:
+      composer:
+        add_title: 'Lisää kyselyryhmä'
+        delete: 'Poista kyselyryhmä'
+        edit_title: 'Muokkaa kyselyryhmää'
+        groups_manager: 'Kyselyryhmän hallitsija'
+        save_changes: '=> core.ref.save_changes'
+        success: 'Kyselyryhmät tallennettu onnistuneesti.'
+        view_group: 'Näytä kyselyryhmä'
+      controls:
+        add_poll_label: 'Lisää kysely'
+        delete_confirmation: 'Haluatko varmasti poistaa tämän kyselyryhmän?'
+        delete_error_message: 'Jotain meni pieleen, kun kyselyryhmää poistettiin.'
+        delete_label: '=> core.ref.delete'
+        delete_success_message: 'Kyselyryhmä poistettu onnistuneesti.'
+        edit_label: '=> core.ref.edit'
+        view_label: 'Näytä kyselyryhmä'
+      list_page:
+        add_poll_button: 'Lisää kysely ryhmään'
+        cannot_start_poll_group_button: 'Et voi aloittaa kyselyryhmää'
+        empty_text: 'Näyttää siltä, että täällä ei ole kyselyryhmiä.'
+        load_more_button: '=> core.ref.load_more'
+        no_polls: 'Tässä kyselyryhmässä ei ole kyselyitä.'
+        start_poll_group_button: 'Aloita kyselyryhmä'
+        title: Kyselyryhmät
     poll_never_ends: 'Kysely ei pääty koskaan'
     polls_count: '{count, plural, one { {count} ääni} other {{count} ääntä}}'
     polls_list:
