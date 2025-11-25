@@ -2,6 +2,48 @@ CHANGELOG
 =========
 
 
+1.16.0 (2025-11-25)
+-------------------
+
+**Yleiset muutokset**:
+
+* Päivitetty Flarumin ytimen käännöksiä.
+* Päivitetty validointi käännöksiä.
+
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`blazite/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`capybash/magicread`](https://github.com/capybash/magicread)
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+
+
+Kaikki muutokset: [v1.15.0...v1.16.0](https://github.com/flarum-lang/finnish/compare/v1.15.0...v1.16.0).
+
+
 1.15.0 (2025-03-24)
 -------------------
 
