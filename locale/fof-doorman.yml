@@ -6,6 +6,32 @@ fof-doorman:
   admin:
     doorkey_required: 'Teidän täytyy syöttää kutsukoodi'
     invalid_doorkey: 'Syöttämäsi kutsukoodi on virheellinen.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: Luonut
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Hallitse
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Käytöt
+      content:
+        delete: 'Haluatko varmasti poistaa kutsukoodin "{key}"?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Tuntematon käyttäjä'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {Käytetty {totalUses} kerran} other {Käytetty {totalUses} kertaa}}'
+          used_times: '{remaining, plural, =0 {Loputon käyttö} one {{remainingUses} käyttö jäljellä} other {{remainingUses} käyttöä jäljellä}}'
+        warning: 'Kutsukoodia on jo käytetty enimmäismäärä.'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Lähetä kutsut ryhmään {group}'
       help: 'Hyväksyy pilkut, välilyönnit tai pilkulla/välilyönnillä erotetut listat. Syötä yksittäinen sähköpostiosoite tai liitä lista sähköposteja ja klikkaa space lisätäksesi.'
@@ -33,7 +59,29 @@ fof-doorman:
         submit_button: 'Luo kutsukoodi'
         title: 'Luo uusi kutsukoodi'
       edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Tallenna asetukset'
         title: 'Muokkaa kutsukoodia'
+      send_invites:
+        group: 'Lähetä kutsukoodit {group} ryhmälle'
+        help: 'Hyväksyy pilkulla, välilyönnillä tai pilkku‑välilyönti-erotellun luettelon. Kirjoita yksittäinen sähköpostiosoite tai liitä luettelo ja paina sitten välilyöntiä lisätäksesi sen/ne.'
+        invalid_emails: 'Seuraavat sähköpostit ovat virheellisiä: {emails}'
+        max_use_conflict: 'Sähköpostien määrä ylittää tämän koodin enimmäiskäyttömäärän.'
+        placeholder: 'Syötä sähköpostit tähän'
+        send: 'Lähetä sähköpostit'
+        success: 'Sähköpostit lähetetty onnistuneesti'
+        title: 'Lähetä kutsukoodit'
     nav:
       desc: 'Luo kutsukoodeja rekisteröitymiseen ja ryhmään liittymiseen'
     page:
@@ -72,6 +120,14 @@ fof-doorman:
         max_uses:
           help: 'Kuinka, monta kertaa enintään koodia voidaan käyttää. Aseta arvoon 0, jos haluat loputtomat käytöt'
           label: 'Maksimi käyttömäärä'
+    settings:
+      create_doorkey_button: 'Luo kutsukoodi'
+      optional_usage: 'Tee kutsukoodista valinnainen rekisteröityessä'
+      search: 'Etsi koodeja'
+      total_doorkeys: 'Koodeja yhteensä: {count}'
+  email:
+    body: "Hei,\n\nSinut on kutsuttu liittymään foorumille {forum}.\n\nKun olet valmiina luomaan tilisi niin klikkaa alla olevaa linkkiä ja syötä kutsukoodi rekisteröityessäsi:\n\nOsoite: {url}\nKutsukoodi: {code}\n\nJos sait tämän sähköpostin virheellisesti, voit poistaa tämän viestin ja jättää huomiotta.\n"
+    subject: 'Kutsu liittymään'
   forum:
     email:
       body: "Hei,\n\nTeidät on kutsuttu liittymään {forum}.\n\nKun olette valmiita luomaan tilin voitte klikata seuraava linkkiä ja syöttää alla olevan koodin rekisteröityessänne:\n\nOsoite: {url}\nKutsukoodi: {code}\n\nJos sait tämän sähköpostin virheellisesti, voitte poistaa ja unohtaa tämän sähköpostin.\n"

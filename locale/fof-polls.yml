@@ -147,6 +147,13 @@ fof-polls:
     polls_list:
       empty_text: 'Näyttää siltä, että ei ole vielä yhtään yleistä kyselyä luotuna.'
       load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        least_voted: 'Vähiten äänestetty'
+        most_voted: 'Eniten äänestetty'
+        newest: Uusin
+        oldest: Vanhin
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     polls_page:
       title: Kyselyt
     public_poll: 'Näytä vastaajat'
