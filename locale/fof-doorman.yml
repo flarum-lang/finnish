@@ -15,6 +15,25 @@ fof-doorman:
       send: 'Lähetä sähköpostit'
       success: 'Sähköpostit lähetetty onnistuneesti'
       title: 'Lähetä kutsukoodeja'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Luo ja lisää uusi'
+        submit_button: 'Luo kutsukoodi'
+        title: 'Luo uusi kutsukoodi'
+      edit_doorkey:
+        title: 'Muokkaa kutsukoodia'
     nav:
       desc: 'Luo kutsukoodeja rekisteröitymiseen ja ryhmään liittymiseen'
     page:
@@ -39,6 +58,20 @@ fof-doorman:
         used_times: '{remaining, plural, =0 {Loputtomasti käyttöjä} one {{remaining} käyttö jäljellä} other {{remaining} käyttöä jäljellä}}'
         warning: 'Tätä kutsukoodia on jo käytetty enimmäismäärä.'
       title: Doorman
+    ref:
+      fields:
+        activates_user:
+          help: 'Automaattisesti aktivoi käyttäjän, kun he rekisteröityy.'
+          label: 'Aktivoi käyttäjän'
+        group:
+          help: 'Ryhmä johon käyttäjä lisätään, kun koodilla rekisteröidytään.'
+          label: Ryhmä
+        key:
+          help: 'Koodi, jonka käyttäjä kirjoittaa rekisteröityessä.'
+          label: Avain
+        max_uses:
+          help: 'Kuinka, monta kertaa enintään koodia voidaan käyttää. Aseta arvoon 0, jos haluat loputtomat käytöt'
+          label: 'Maksimi käyttömäärä'
   forum:
     email:
       body: "Hei,\n\nTeidät on kutsuttu liittymään {forum}.\n\nKun olette valmiita luomaan tilin voitte klikata seuraava linkkiä ja syöttää alla olevan koodin rekisteröityessänne:\n\nOsoite: {url}\nKutsukoodi: {code}\n\nJos sait tämän sähköpostin virheellisesti, voitte poistaa ja unohtaa tämän sähköpostin.\n"
