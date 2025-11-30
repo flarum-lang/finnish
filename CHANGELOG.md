@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.17.0 (XXXX-XX-XX)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+
+
+**Päivitetty käännöksiä lisäosille**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+
+
+Kaikki muutokset: [v1.16.0...v1.17.0](https://github.com/flarum-lang/finnish/compare/v1.16.0...v1.17.0).
+
+
 1.16.0 (2025-11-25)
 -------------------
 
