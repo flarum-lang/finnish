@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.17.1 (XXXX-XX-XX)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+Kaikki muutokset: [v1.17.0...v1.17.1](https://github.com/flarum-lang/finnish/compare/v1.17.0...v1.17.1).
+
+
 1.17.0 (2025-11-30)
 -------------------
 
