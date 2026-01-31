@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
 Kaikki muutokset: [v1.17.0...v1.17.1](https://github.com/flarum-lang/finnish/compare/v1.17.0...v1.17.1).
