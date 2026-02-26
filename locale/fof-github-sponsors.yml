@@ -8,8 +8,12 @@ fof-github-sponsors:
       organization: Organisaatio
       user: Käyttäjä
     settings:
+      account_type_help: 'Valitse, seuraatko sponsoreita henkilökohtaiselta GitHub-käyttäjätililtä vai organisaation tililtä.'
       account_type_label: 'Tilin tyyppi'
+      api_token_help: 'Luo henkilökohtainen käyttöoikeustunnus osoitteessa <a>https://github.com/settings/tokens/new</a> ja valitse sille <code>user</code>- ja <code>read:org</code>-oikeudet. Tätä tunnusta käytetään sponsoritietojen hakemiseen GitHubista.'
       api_token_label: 'API avain (API token)'
       desc: 'Hanki API avain (API token) osoitteesta: <a>https://github.com/settings/tokens/new</a>. Tämä lisäosa vaatii: <code>user</code> ja <code>read:org</code> määreet (scopes).'
+      group_help: 'Valitse, mihin Flarum-käyttäjäryhmään sponsorit lisätään. Käyttäjät lisätään automaattisesti, kun heistä tulee sponsoreita, ja poistetaan, kun he lopettavat sponsoroinnin.'
       group_label: 'Ryhmä joka asetetaan'
+      login_help: 'Syötä GitHub-käyttäjänimesi (henkilötilille) tai organisaation nimi (organisaatioille). Tämän tilin sponsorit synkronoidaan.'
       login_label: Kirjaudu

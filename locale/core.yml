@@ -57,6 +57,12 @@ core:
     dashboard:
       clear_cache_button: 'Tyhjennä välimuisti'
       description: 'Foorumisi yhdellä silmäyksellä.'
+      info_button: 'Järjestelmän tiedot'
+      info_modal:
+        copy_button: 'Kopioi leikepöydälle'
+        copy_error: 'Leikepöydälle kopiointi epäonnistui'
+        copy_success: 'Järjestelmän tiedot kopioitu leikepöydälle'
+        title: 'Järjestelmän tiedot'
       io_error_message: 'Tiedostoihin ei voitu kirjoittaa. Tarkista tiedostojen ja kansioiden oikeudet ja yritä uudelleen. Tai voit yrittää ajaa komentoriviltä.'
       status:
         headers:
@@ -119,9 +125,12 @@ core:
       smtp_heading: 'SMTP asetukset'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'Tätä laajennusta ei enää ylläpidä sen tekijä, eikä se välttämättä saa päivityksiä.'
+      abandoned_with_replacement: 'Tämä laajennus on korvattu paketilla {replacement}. Harkitse siirtymistä korvaavaan pakettiin.'
       configure_scopes: 'Määritä laajuudet (scopes)'
       confirm_purge: 'Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?'
       confirm_uninstall: 'Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?'
+      deprecated: 'Käytöstä poistettu'
       disabled: 'Poistettu käytöstä'
       enable_to_see: 'Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.'
       enabled: Käytössä
@@ -141,6 +150,7 @@ core:
         button_label: 'LUE MINUT'
         no_readme: 'Tällä lisäosalla ei näytä olevan README tiedostoa'
         title: '{extName} dokumentaatio'
+      replaced: Korvattu
       uninstall_button: 'Poista asennus'
     header:
       get_help: Apua

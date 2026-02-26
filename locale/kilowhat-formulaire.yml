@@ -39,6 +39,10 @@ kilowhat-formulaire:
       noByobuFields: 'Älä integroi keskustelun kenttiä yksityisen keskustelun kenttien kanssa Byobu lisäosassa'
       noByobuFieldsHelp: 'Oletuksena keskustelun kentät jotka ei ole avainsanassa on käytössä kaikissa viesteissä, myös yksityisissä.'
       radio-style: 'Valintanappi tyylinen'
+      replacementPatternLocale: 'Kieli, jota käytetään korvausmallin soveltamiseen'
+      replacementPatternLocaleHelp: "Oletusarvoinen \"auto\"-vaihtoehto tarkoittaa, että lomakkeen lähettäneen käyttäjän kieli käytetään, kun jono ei ole aktiivinen. Jos jono on aktiivinen, käytetään foorumin oletuskieltä. Tämä asetus vaikuttaa sekä ilmoitussähköposteihin että automaattiseen keskustelun luomiseen.\n"
+      replacementPatternLocaleOptions:
+        auto: Auto
       side-nav-on-submission: 'Näytä sivuvalikko merkinnät sivulla'
       style-options:
         far-circle: 'FontAwesome normaali pyöreä ikoni'
@@ -48,6 +52,10 @@ kilowhat-formulaire:
         native: 'Selaimen natiivi ohjain'
         switch: 'Flarumin kytkin'
       title: 'Lomakkeen yleiset asetukset'
+      translateManually: 'Ota käyttöön manuaalinen lomakkeen käännös'
+      translateManuallyHelp: "Kun tämä asetus on käytössä, kenttien nimet voidaan kääntää lomakehallinnan käyttöliittymässä. Foorumilla on oltava useita kieliä käytössä.\n"
+      translateWithTranslator: 'Ota käyttöön lomakkeen käännökset Flarum Translator APIn kautta'
+      translateWithTranslatorHelp: "Kun tämä asetus on käytössä, kenttien nimet voidaan mukauttaa paikallisten laajentajien ja kielipakettien kautta. Katso dokumentaatiosta, miten tätä ominaisuutta käytetään.\n"
       uniformComposerLayout: 'Yhtenäinen ulkoasu keskustelun luonnin kanssa'
       uniformComposerLayoutHelp: "Vaihtaa avainsanan, otsikon ja sisällön tyylittelyä vastaamaan Formulairen tyylittelyä. Tämä ulkoasu ottaa enemmän tilaa joten suosittelemme, että asennat <a>Composer Page</a> lisäosan.\n"
   api:
@@ -64,7 +72,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
     file-already-belongs-form: 'Tiedosto {id} kuuluu toiselle lomakkeelle'
     file-already-belongs-submission: 'Tiedosto {id} kuuluu toiselle merkinnälle'
@@ -135,7 +145,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
       more-meta: 'Lisää meta asetuksia'
       option-keys: 'Vienti avaimet otsikoiden sijaan valintalaatikoille, -napeille ja pudotusvalikoille'
@@ -175,19 +187,21 @@ kilowhat-formulaire:
         slug: 'Muokattu osoitteen tunniste (valinnainen)'
       hide: Poista
       restore: Palauta
+      show-advanced-attributes: 'Näytä lisämääritykset...'
       tabs:
         access: Pääsy
         notifications: Ilmoitukset
         placement: Sijoitus
         submissions: Merkinnät
         template: Pohja
+        translate: Käännä
       template-export: 'Pohjan tuonti/vienti'
     form-edit:
       auto-discussion-options: 'Asetukset uusille keskusteluille'
       email-confirmation-options: 'Vahvistus sähköpostin pohja'
       email-notification-options: 'Ilmoitus sähköpostin pohja'
       exiting-with-unsaved-data: 'Sinulla on tallentamattomia muutoksia. Haluatko varmasti poistua sivulta?'
-      expert-mode-warning: "Asiantuntija tila on päällä. Tämä antaa sinun muokata kentän tunnisteita ja per-kenttä kohtaisia oikeuksia. Luethan ohjeet näistä toiminnoista, sillä nämä voi rikkoa asioita!\n"
+      expert-mode-warning: "Kehittyneet kenttäattribuutit ovat näkyvissä. Lue näistä ominaisuuksista kertova dokumentaatio huolellisesti — muuten saatat rikkoa jotain!\n"
       field:
         accept-submissions: 'Hyväksy uudet merkinnät'
         allow-modification: 'Salli käyttäjien muokata olemassa olevia merkintöjään'
@@ -201,6 +215,9 @@ kilowhat-formulaire:
         permission-edit-own: 'Muokkaa omaa merkintää'
         permission-see-any: 'Näe mitkä tahansa merkinnät'
         permission-see-own: 'Näe omat merkinnät'
+        require-submission:
+          switch: 'Vaadi täyttö foorumin käyttöä varten'
+          warning: 'Tallennuksen jälkeen kaikki käyttäjät, joilla on keskeneräinen lomake, estetään pääsemästä foorumille, kunnes he lähettävät sen uudelleen. Jatketaanko?'
         send-confirmation-to-participants: 'Lähetä vahvistusviesti osallistujille'
         show-on-creation:
           discussion: 'Näytä keskustelun muokkaimessa'
@@ -222,6 +239,7 @@ kilowhat-formulaire:
       warnings:
         auto-link-permission-warning: "Lomakkeet joilla on \"automaattisesti luo keskustelu\" valinta, käytä yleistä täyttö oikeutta, kun käytetään erillisenä.\n"
         linked-form-is-draft: "Tämä lomake on luonnos. Ota käyttöön \"Pääsy\" välilehdellä, jotta lomake näkyy foorumilla.\n"
+        require-submission-invalid-permissions: "Jotta voit käyttää \"require submission to use forum\" -asetusta, sinun täytyy myöntää hyväksymättömille jäsenille \"see own\" ja \"edit own\" -oikeudet.\n"
         show-on-composer-invalid-permissions: "Pidä huolto, että \"näe oma\" ja \"muokkaa omaa\" oikeudet täsmää niihin, jotka voivat aloittaa keskusteluja valitulla avainsanalla, jotta \"näytä muokkaimessa\" toimii oikein. Aseta \"käyttäjille\" jos epävarma. Tämä ilmoitus näkyy vaikka asetuksesi olisivat oikein.\n"
         show-on-signup-invalid-permissions: "Sinulla täytyy asettaa \"näe oma\" ja \"muokkaa omaa\" oikeudet hyväksymättömille käyttäjille, jotta voit käyttää \"näytä rekisteröityessä\" tilaa.\n"
     form-index:
@@ -270,8 +288,10 @@ kilowhat-formulaire:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
       columns:
+        defaultValue: Oletuksena
         key: '(Asiantuntija) Uniikki avain'
         title: Otsikko
+        titleTranslationKey: '(Expert) Käännösavain'
       new-placeholder: 'Uusi valinta...'
       remove: 'Poista valinta'
     permission-controls:
@@ -279,6 +299,9 @@ kilowhat-formulaire:
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
       inherit: 'Käytä oletuksia'
       members_button: 'Aktivoidut käyttäjät'
+    require-submission-alert:
+      action: 'Mene lomakkeelle'
+      message: 'Olemme tilapäisesti rajoittaneet tilisi käyttöä, kunnes lähetät lomakkeen "{title}".'
     rich-text:
       preview-placeholder: 'Aloita kirjoittaminen nähdäksesi esikatselun'
     save-controls:
@@ -290,6 +313,14 @@ kilowhat-formulaire:
       validation-errors: 'Löysimme virheitä lomakkeen merkinnästäsi'
     select:
       choose: 'Valitse vaihtoehdoista'
+    show-advanced-attributes-modal:
+      attribute:
+        fillPermission: 'Täytä oikeudet'
+        key: Avain
+        translationKey: Käännösavain
+      close: Sulje
+      title: 'Näytä kenttien lisämääreet'
+      toggle: 'Vaihda kaikkien valintaa'
     submission-index:
       columns:
         actions: Toiminnot
@@ -321,8 +352,11 @@ kilowhat-formulaire:
       unlock: Avaa
     template-editor:
       add-field: 'Lisää kenttä'
+      contentTranslationKey: '(Expert) Sisällön käännösavain'
+      defaultValue: Oletusarvo
       delete: 'Poista kenttä'
       description: Kuvaus
+      descriptionTranslationKey: '(Expert) Kuvauksen käännös avain'
       duplicate: 'Kopioi kenttä'
       email: Sähköposti
       fill-permission: '(Asiantuntija) Täytön oikeudet'
@@ -338,6 +372,7 @@ kilowhat-formulaire:
       required: Pakollinen
       rich: 'Rikastettu teksti (TextFormatter)'
       title: Otsikko
+      titleTranslationKey: '(Expert) Otsikon käännösavain'
       type:
         checkbox: Valintalaatikot
         content: Sisältö
@@ -349,6 +384,9 @@ kilowhat-formulaire:
         select: Pudotusvalikko
         short: 'Lyhyt teksti'
         upload: Siirrä
+    translate:
+      option-heading: 'Valinta #{number}'
+      switch-tab-to-edit: 'Siirry Template-välilehdelle muuttaaksesi kenttien asetuksia'
     upload-editor:
       remove: 'Poista tiedosto'
       uploading: Siirretään...
@@ -381,7 +419,9 @@ kilowhat-formulaire:
       user_activated: 'Aktivoitu tili'
       user_displayname: 'Käyttäjän näyttönimi'
       user_email: 'Käyttäjän sähköpostiosoite'
+      user_groups: 'Käyttäjän ryhmät'
       user_id: 'Käyttäjän ID'
+      user_joined_at: 'Käyttäjän liittymispäivä'
       user_username: Käyttäjätunnus
     type:
       discussion: 'Keskustelun kentät'

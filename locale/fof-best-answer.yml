@@ -8,6 +8,7 @@ fof-best-answer:
       qna_label: 'Ota parhaat vastaukset käyttöön tälle avainsanalla'
       reminders: 'Lähetä muistutkset parhaista vastauksista tällä avainsanalla'
     permissions:
+      allow_select_own_post: 'Valitse oma viesti parhaaksi vastaukseksi'
       best_answer: 'Valitse paras vastaus (oma keskustelu)'
       best_answer_not_own_discussion: 'Valitse paras vastaus (muiden keskustelu)'
     settings:
