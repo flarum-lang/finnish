@@ -40,6 +40,9 @@
 		},
 		"extiverse": {
 			"discuss": "https://discuss.flarum.org/d/28810-finnish-language-pack"
+		},
+		"branch-alias": {
+			"dev-master": "1.x-dev"
 		}
 	}
 }
