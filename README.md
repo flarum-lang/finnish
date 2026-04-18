@@ -16,7 +16,7 @@ This language pack contains Finnish translations for Flarum (compatible with `1.
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/finnish
+composer require "flarum-lang/finnish:*"
 ```
 
 Then enable extension in admin panel of your Flarum.
@@ -50,7 +50,7 @@ All translations are then automatically synced to this repository.
 
 You can install the "latest and greatest" development version via composer using this command:
 ```console
-composer require flarum-lang/finnish:dev-master
+composer require "flarum-lang/finnish:@dev"
 ```
 
 ## Translation status for Flarum core
