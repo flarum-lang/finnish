@@ -4,5 +4,8 @@
 
 fof-photoswipe:
   forum:
+    arrow_next_title: Seuraava
+    arrow_prev_title: Edellinen
     close_title: Sulje
+    error_msg: 'Kuvaa ei voitu ladata'
     zoom_title: Lähennä
