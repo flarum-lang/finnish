@@ -15,7 +15,10 @@ CHANGELOG
 
 * [`flarum/messages`](https://github.com/flarum/messages)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 
 
@@ -85,6 +88,7 @@ CHANGELOG
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
@@ -229,7 +233,6 @@ CHANGELOG
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
-* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`fof/secure-https`](https://github.com/FriendsOfFlarum/secure-https)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
