@@ -13,7 +13,10 @@ CHANGELOG
 
 **Lisätty tuki uusille lisäosille**:
 
+* [`flarum/messages`](https://github.com/flarum/messages)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 
 
 **Päivitetty ja/tai poistettu vanhentuneita käännöksiä lisäosista**:
