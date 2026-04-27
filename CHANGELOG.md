@@ -11,6 +11,11 @@ CHANGELOG
 * Poistettu vanhentuneita validointi käännöksiä (versio `2.0` tai suurempi on tuettu).
 
 
+**Lisätty tuki uusille lisäosille**:
+
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+
+
 **Päivitetty ja/tai poistettu vanhentuneita käännöksiä lisäosista**:
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
