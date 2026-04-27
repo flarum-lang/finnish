@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Tallenna muutokset'
     fields:
       add: 'Lisää kenttä {field}'
+      delete-confirmation: 'Haluatko varmasti poistaa kentän {field}? Tätä ei voi peruuttaa.'
       description: 'Kentän kuvaus'
       description-help: "Vaihtoehtoinen kuvaus, jossa kerrotaan kentän tarpeellisuudesta/käytöstä.\n"
       edit: 'Muokkaa kenttää {field}'
