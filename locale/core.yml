@@ -4,6 +4,19 @@
 
 core:
   admin:
+    announcements:
+      about: 'Uusimmat uutiset ja ilmoitukset haetaan automaattisesti Flaurmin yhteisöstä osoitteesta discuss.flarum.org.'
+      comments_label: '{count, plural, one {# kommentti} other {# kommenttia}}'
+      description: 'Uusimmat uutiset ja ilmoituksen Flarumin tiimiltä.'
+      empty: 'Ilmoituksia ei löytynyt.'
+      hide: 'Piilot ilmoitukset'
+      load_error: 'Ilmoituksien lataus epäonnistui. Yritä myöhemmin uudelleen.'
+      read_more: 'Lue lisää'
+      refresh: 'Päivitä ilmoitukset'
+      retry: 'Yritä uudelleen'
+      show: 'Näytä ilmoitukset'
+      title: Ilmoitukset
+      view_all: 'Näytä kaikki osoitteessa discuss.flarum.org'
     appearance:
       colored_header_label: 'Värillinen yläosa'
       colors_heading: Värit
@@ -29,6 +42,12 @@ core:
       logo_text: 'Siirrä kuva, jota käytetään foorumin logona tekstin sijaan.'
       title: Ulkoasu
     basics:
+      abandoned_extensions_heading: 'Hylätyt lisäosat'
+      abandoned_extensions_notify_admins_label: 'Lähetä ylläpitäjille sähköposti, kun hylättyjä lisäosia löytyi viikottaisen tarkastuksen aikana'
+      abandoned_extensions_sync_button: 'Tarkista nyt'
+      abandoned_extensions_sync_error: 'Hylättyjen lisäosien listan haku epäonnistui. Yritä myöhemmin uudelleen.'
+      abandoned_extensions_sync_success: 'Hylättyjen lisäosien lista päivitetty {count} lisäosaa löytyi.'
+      abandoned_extensions_text: 'Flarum ylläpitää <a>yhteisöllistä listaa hylätyistä laajennuksista</a>. Kun asennettu laajennus esiintyy listalla, se merkitään hallintapaneelissa hylätyksi.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: Oletuskieli
       description: 'Määritä foorumin otsikko, kieli ja muita perusasetuksia.'
@@ -168,6 +187,7 @@ core:
         discussion: Keskustelu
         feature: Ominaisuudet
         formatting: Muotoilu
+        forum-widget: 'Foorumin vimpaimet'
         language: Kielet
         moderation: Moderointi
         other: 'Muut lisäosat'
@@ -275,6 +295,11 @@ core:
       must_not_be_multidimensional_array_message: 'Suodatin {filter} ei saa olla moniulotteinen taulukko.'
     invalid_username_message: 'Käyttäjätunnus voi sisältää vai kirjaimia, numeroita ja viivoja.'
   email:
+    abandoned_extensions:
+      body: "Hei {username},\n\nSeuraavat asennetut lisäosat on merkitty hylätyiksi:\n\n{extensions}\n\nTarkista lisäosat ja pohdi siirtoa vastaaviin jos on saatavilla.\n"
+      line_no_replacement: '- {package} (ei korvaavia saatavilla)'
+      line_with_replacement: '- {package} (ehdotettu korvaava: {replacement})'
+      subject: 'Toimintaa vaaditaan: hylättyjä lisäosia havaittu'
     activate_account:
       body: "Hei {username}!\n\nJoku (toivottavasti sinä) rekisteröityi {forum} tällä sähköpostiosoitteella.\n\nJos se olit sinä niin klikkaa alla olevaa linkkiä aktivoidaksesi tilisi:\n{url}\n\nJos sinä et rekisteröitynyt ole hyvä ja poista tämä sähköposti.\n"
       subject: 'Aktivoi tilisi'
@@ -654,6 +679,7 @@ core:
       csrf_token_mismatch: 'Olet ollat inaktiivinen liian pitkään.'
       csrf_token_mismatch_return_link: 'Mene takaisin yrittääksesi uudelleen'
       invalid_confirmation_token: 'Vahvistuslinkki on jo käytetty tai on virheellinen.'
+      method_not_allowed: 'Tämä sivu ei tue pyydettyä metodia.'
       not_authenticated: 'Sinulla ei ole oikeuksia tälle sivulle. Yritä uudelleen, kun olet kirjautunut sisään.'
       not_found: 'Pyydettyä sivua ei löydy.'
       not_found_return_link: 'Palaa takaisin {forum}'

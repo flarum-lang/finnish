@@ -10,6 +10,8 @@ fof-sitemap:
       build_button_help: 'Käynnistää kaikkien sivustokarttatiedostojen välittömän uudelleenrakennuksen. Tehtävä lähetetään jonoon, jos sellainen on määritetty; muuten se suoritetaan välittömästi.'
       build_error: 'Sivustokartan uudelleenrakennuksen laittaminen jonoon epäonnistui. Tarkista lokisi ja jonon asetukset.'
       build_success: 'Sivustokartan uudelleenrakennus on laitettu onnistuneesti jonoon. Tarkista lokisi seuratakseen etenemistä.'
+      column_pruning: 'Ota käyttöön sarakkeiden karsinta'
+      column_pruning_help: 'Hakee vain URL-osoitteiden luomiseen tarvittavat sarakkeet (esim. id, slug, käyttäjänimi, päivämäärät) SELECT *:n sijaan. Vähentää merkittävästi muistinkäyttöä mallia kohden suurilla foorumeilla. Käytössä oletuksena — poista käytöstä vain, jos mukautettu slug-ajuri tai näkyvyysalue vaatii sarakkeita, jotka eivät kuulu oletusmäärittelyyn.'
       exclude_tags: 'Jätä kaikki avainsanat pois sivukartasta'
       exclude_tags_help: 'Oletuksena kaikki vieraille näkyvät avainsanat indeksoidaan'
       exclude_users: 'Älä sisällytä käyttäjä profiileja sivukarttaan'
@@ -40,8 +42,8 @@ fof-sitemap:
         cache_disk: Levy
         multi_file: Monitiedosto
         runtime: Ajonaikainen
-      risky_performance_improvements: 'Ota käyttöön kokeelliset suorityskyky parannukset'
-      risky_performance_improvements_help: 'Nämä parannukset tekevät CRON tehtävän nopeammaksi miljonaa rivisissä tietopaketeissa, mutta voivat rikkoa yhteensopivuutta lisäosien kanssa.'
+      risky_performance_improvements: 'Ota käyttöön suuri lohkokoko (riskialtis)'
+      risky_performance_improvements_help: 'Kasvattaa tietokannan noutolohkon kokoa 75 000:sta 150 000 riviin. Nopeuttaa luontia miljoonien rivien tietojoukoissa, mutta kaksinkertaistaa Eloquent-mallin huippumuistinkäytön lohkoa kohden. Ota käyttöön vain, jos olet varmistanut riittävän palvelinmuistin. Aktivoi myös sarakkeiden karsimisen (ks. yllä).'
       soft_404:
         heading: 'Kevyt 404 esto'
         help: 'Kun mallilla ei ole tai on vähän relevanttia tietoa Google ja muut seuraimet voivat merkitä nämä "kevyeksi 404" sivuiksi. Estääksesi tämän aseta minimimäärä sivuja/asioita jokaiselle.'

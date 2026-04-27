@@ -12,6 +12,8 @@ fof-forum-statistics-widget:
     settings:
       cache_duration_help: 'Määritä kuinka kauan vimpaimen tilastoja pidetään välimuistissa (sekunneissa). <code>0</code> ottaa välimuistin pois käytöstä (ei suositella).'
       cache_duration_label: 'Välimuistin kesto'
+      classic_look_help: 'Palauttaa alkuperäisin vimpaimen ulkoasun ennen, kuin fof/forum-widgets-core integroitiin coreen.'
+      classic_look_label: 'Klassinen ulkonäkö'
       flush_cache_on_new_registration_help: 'Jos käytössä niin tilastojen välimuisti nollataan, kun uusi käyttäjä rekisteröityy foorumille.'
       flush_cache_on_new_registration_label: 'Nollaa tilastojen välimuisti uuden käyttäjän rekisteröityessä'
       widget_helper_text: 'Muokkaa tätä asetusta määrittääksesi vimpaimen sijainnin foorumin sivuvalikossa. Mitä isompi numero, sitä korkeammalla vimpain on sivupalkissa (arvo voi olla positiitinen tai negatiivinen).'
