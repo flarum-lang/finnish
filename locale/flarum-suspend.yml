@@ -9,8 +9,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Jäädyttämiselle ei annettu syytä.'
     suspended:
+      html:
+        body: 'Sinut on jäädytetty foorumilla {forumTitle} seuraavasta syystä:'
+      plain:
+        body: "Sinut on jäädytetty. Alta voit lukea syyn:\n\n---\n{suspension_message}\n---\n"
       subject: 'Tilisi on jäädytetty'
     unsuspended:
+      html:
+        body: 'Jäädytyksesi on poistetty. Voit palata takaisin [{forumTitle}]({forum_url}) foorumille, kun olet valmis.'
+      plain:
+        body: "Jäädytys on poistettu. Voit palata takaisin foorumille seuraavan linkin kautta:\n\n{forum_url}\n"
       subject: 'Tilisi jäädytys on poistettu'
   forum:
     notifications:
@@ -37,3 +45,8 @@ flarum-suspend:
       suspended_tooltip: Jäädytetty
     user_controls:
       suspend_button: Jäädytä
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: jäädytetty

@@ -70,6 +70,11 @@ flarum-tags:
       meta_description_text: 'Kaikki keskustelut avainsanalla {tag}'
   lib:
     deleted_tag_text: Poistettu
+    gambits:
+      discussions:
+        tag:
+          hint: 'avainsanan nimi tai pilkuin eroteltu lista avainsanoista tai "merkitsemätön"'
+          key: avainsana
     tag_selection_modal:
       bypass_requirements: 'Ohita avainsana vaatimukset'
       choose_primary_placeholder: '{count, plural, one {Valitse ensijainen avainsana} other {Valitse # ensisijaista avainsanaa}}'

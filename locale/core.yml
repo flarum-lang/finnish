@@ -4,6 +4,8 @@
 
 core:
   admin:
+    advanced:
+      description: 'Määritä foorumisi lisäasetukset.'
     appearance:
       colored_header_label: 'Värillinen yläosa'
       colors_heading: Värit
