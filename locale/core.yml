@@ -6,6 +6,83 @@ core:
   admin:
     advanced:
       description: 'Määritä foorumisi lisäasetukset.'
+      fontawesome:
+        cdn_url_help: 'Täysi osoite FontAwesome CSS tiedostoon CDN:ssä'
+        cdn_url_label: 'CDN osoite'
+        config_override:
+          help: 'FontAwesome-asetukset on määritetty config.php-tiedostossa eikä niitä voi muuttaa täällä.'
+          label: 'Määrityksen yliajo'
+        kit_url_help: 'Sinun FontAwesome kitin skriptin osoite (kit.fontawesome.com sivulta)'
+        kit_url_label: 'Kitin osoite'
+        preview:
+          button: 'Esikatsele ikoneita'
+          fa5_fa6_label: FA5/FA6-aliakset
+          fa7_label: 'FA7 luokat'
+          help: 'Tarkista FontAwesome-asetuksesi. Näkyvä kuvake tarkoittaa, että kyseinen taso on käytettävissä; rikkinäinen ruutu tarkoittaa, että sitä ei ole ladattu.'
+          label: 'Ikonin esikatselu'
+          pro_label: 'Vain Pro'
+        section_label: 'FontAwesome ikonit'
+        source_cdn: CDN
+        source_help: 'Valitse, miten FontAwesome-kuvakkeet ladataan. Paikallinen käyttää pakettiin sisältyviä fontteja, CDN lataa sisällönjakeluverkosta ja Kit käyttää FontAwesome Kit -paketteja mukautetuilla kuvakkeilla.'
+        source_kit: 'FontAwesome Kit'
+        source_label: 'Ikonin lähde'
+        source_local: 'Paikallinen (sisällytetty)'
+      maintenance:
+        bisect:
+          begin_button_text: 'Aloita vianhaku'
+          continue_button_text: 'Jatka vianhakua'
+          help: 'Auttaa tunnistamaan ongelman aiheuttavan laajennuksen. Tämä asettaa foorumin automaattisesti ylläpitotilaan (matala) prosessin ajaksi.'
+          label: 'Lisäosan vianhaku'
+        bisect_modal:
+          description: "Tämä asettaa foorumin ylläpitotilaan (matala) prosessin ajaksi. Jokaisessa vaiheessa osa laajennuksista poistetaan käytöstä, kunnes ongelman aiheuttaja löytyy. Älä siis hämmästy, jos joitain toimintoja puuttuu tai teeman ulkoasu on erilainen. Pidä tämä sivu auki ja yritä toistaa ongelma jokaisen vaiheen jälkeen erillisellä sivulla. Voit aina palata tälle sivulle, vaikka sulkisit sen vahingossa.\n"
+          end_button: 'Sulje ja mene lisäosan sivulle'
+          issue_question: 'Toistuuko tämä ongelma?'
+          issue_question_help: 'Koita toistaa ongelma eri sivulla ja vastaa perustuen tuloksiin.'
+          no_button: Ei
+          result_description: "Foorumi ei ole enää ylläpitotilassa. Laajennusten vianhaku on päättynyt. Vastaustesi perusteella ongelman aiheuttaja on seuraava laajennus:\n"
+          start_button: 'Aloita vianhaku'
+          steps_left: 'Vaihetta jäljellä: {steps}'
+          stop_button: 'Pysäytä vianhaku'
+          title: 'Lisäosan vianhaku'
+          total_steps: 'Tämä sisältää {steps} vaihetta.'
+          yes_button: Kyllä
+        config_override:
+          help: 'Voit edelleen muuttaa näitä asetuksia täällä, mutta ne eivät tule voimaan ennen kuin asetat <code>config.php</code>-tiedostossa arvon <code>offline</code> muotoon <code>0</code>.'
+          label: 'Sinun <code>config.php</code> tiedosto yliajaa nämä asetukset.'
+        help: 'Aseta foorumisi huoltotilaan, jotta käyttäjät eivät pääse sinne.'
+        options:
+          high: 'Korkea huoltotila. Kukaan ei voi päästä foorumille (voi vain pistää päälle config.php tiedostossa)'
+          low: 'Matala huoltotila. Ylläpito pääsee foorumille.'
+          none: 'Ei huoltotilaa.'
+          safe: 'Vikasietotila. Laajennuksia ei ladata ja vain ylläpitäjät voivat käyttää foorumia.'
+        safe_mode_extensions: 'Vikasietotilassa ladattavat laajennukset'
+        safe_mode_extensions_override_help: 'Tämä asetus on ohitettu <code>config.php</code>-tiedoston <code>safe_mode_extensions</code>-avaimella. (<b>{extensions}</b>)'
+        section_label: Huolto
+      pgsql:
+        search_configuration: 'Etsi käytettäviä asetuksia'
+      queue:
+        backoff_help: 'Aika ennen epäonnistuneen tehtävän uudelleenyritystä. Oletus on 0 sekuntia.'
+        backoff_label: 'Uudelleenyrityksen viive (sekuntia)'
+        custom_driver: 'Foorumisi käyttää {driver}-jonoajuria, jonka tarjoaa laajennus.'
+        memory_help: 'Maksimimäärä muistia minkä jonon työntekijä voi käyttää ennen kuin se uudelleenkäynnistetään. Oletus on 128 MB.'
+        memory_label: 'Muisti raja (MB)'
+        rest_help: 'Aika mikä odotetaan ennen työn aloitusta. Oletus on 0 sekuntia.'
+        rest_label: 'Lepo aika (sekuntia)'
+        retries_help: 'Kuinka monta kertaa jonon työ yrittää uudelleen ennen kuin se merkataan epäonnistunseeksi. Oletus on 1.'
+        retries_label: 'Jonon työn uudelleenyritykset'
+        section_label: Jono
+        sync_help: 'Paremman suorituskyvyn ja käyttäjäkokemuksen saavuttamiseksi harkitse tietokantajonoajurin käyttöä. Lue lisää dokumentaatiosta.'
+        sync_info: 'Foorumisi käyttää synkronista jonoajuria. Tehtävät käsitellään välittömästi pääprosessin säikeessä.'
+        timeout_help: 'Maksimi aika kauanko yksittäinen jonon työ voi olla käynnissä ennen aikakatkaisua. Oletus on 60 sekuntia.'
+        timeout_label: 'Työn aikakatkaisu (sekuntia)'
+      search:
+        driver_heading: 'Haun ajuri: {model}'
+        driver_options:
+          default: 'Oletus tietokantahaku'
+        driver_text: 'Valitse tämän mallin haulle ajuri jota käytetään.'
+        no_other_drivers: 'Hakuajureita ei ole vielä saatavilla. Asenna hakuajurilaajennus voidaksesi määrittää sen.'
+        section_label: 'Haun ajurit'
+      title: Lisäasetukset
     announcements:
       about: 'Uusimmat uutiset ja ilmoitukset haetaan automaattisesti Flaurmin yhteisöstä osoitteesta discuss.flarum.org.'
       comments_label: '{count, plural, one {# kommentti} other {# kommenttia}}'
@@ -20,6 +97,14 @@ core:
       title: Ilmoitukset
       view_all: 'Näytä kaikki osoitteessa discuss.flarum.org'
     appearance:
+      allow_user_color_scheme_label: 'Salli käyttäjien määrittää oma väriteema'
+      color_scheme_label: 'Väriteema (oletus)'
+      color_schemes:
+        auto_mode_label: 'Järjestelmän tai määritetty käyttäjäasetus'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 'Värillinen yläosa'
       colors_heading: Värit
       colors_primary_label: 'Ensisijainen väri'
@@ -39,28 +124,44 @@ core:
       enter_hex_message: 'Syötä värikoodi heksadesimaali muodossa.'
       favicon_heading: Favicon
       favicon_text: 'Siirrä kuva, jota käytetään foorumin faviconina.'
+      logo_dark_mode_heading: 'Tumman teeman logo'
+      logo_dark_mode_text: 'Siirrä toissijainen logo, jota käytetään, kun tumma teema on käytössä.'
       logo_heading: Logo
       logo_text: 'Siirrä kuva, jota käytetään foorumin logona tekstin sijaan.'
       title: Ulkoasu
     basics:
       abandoned_extensions_heading: 'Hylätyt lisäosat'
-      abandoned_extensions_notify_admins_label: 'Lähetä ylläpitäjille sähköposti, kun hylättyjä lisäosia löytyi viikottaisen tarkastuksen aikana'
+      abandoned_extensions_notify_admins_label: 'Lähetä sähköposti ylläpitäjille, kun viikoittaisen tarkistuksen aikana havaitaan uusi hylätty laajennus'
       abandoned_extensions_sync_button: 'Tarkista nyt'
-      abandoned_extensions_sync_error: 'Hylättyjen lisäosien listan haku epäonnistui. Yritä myöhemmin uudelleen.'
-      abandoned_extensions_sync_success: 'Hylättyjen lisäosien lista päivitetty {count} lisäosaa löytyi.'
-      abandoned_extensions_text: 'Flarum ylläpitää <a>yhteisöllistä listaa hylätyistä laajennuksista</a>. Kun asennettu laajennus esiintyy listalla, se merkitään hallintapaneelissa hylätyksi.'
+      abandoned_extensions_sync_error: 'Hylättyjen laajennusten listan hakeminen epäonnistui. Yritä myöhemmin uudelleen.'
+      abandoned_extensions_sync_success: 'Hylättyjen laajennusten lista päivitetty. {count} vastaava asennettu laajennus löydetty.'
+      abandoned_extensions_text: 'Flarum ylläpitää <a>yhteisöllistä listaa hylätyistä laajennuksista</a>. Kun asennettu laajennus esiintyy listalla, se merkitään hallintapaneelissa.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Käyttäjän avatar'
+      avatar_driver_options:
+        default: Oletus
+      avatar_driver_text: 'Valitse ajuri, jota käytetään käyttäjien avatareille, kun käyttäjän itse lataamaa avataria ei ole saatavilla. Oletuksena avataria ei näytetä, jos käyttäjä ei ole ladannut sellaista.'
       default_language_heading: Oletuskieli
       description: 'Määritä foorumin otsikko, kieli ja muita perusasetuksia.'
+      display_name_driver_options:
+        username: Käyttäjätunnus
       display_name_heading: 'Käyttäjän näyttönimi'
       display_name_text: 'Valitse ajuri mitä käytetään käyttäjän nimen näyttämiseen. Oletuksena näytetään käyttäjätunnus.'
       forum_description_heading: 'Foorumin kuvaus'
-      forum_description_text: 'Syötä lyhyt lause tai kaksi, joka kuvaa yhteisöäsi. Tätä käytetään meta kuvauksessa ja näkyy hakukoneille.'
+      forum_description_text: 'Syötä lyhyt lause tai kaksi, joka kuvaa foorumiasi. Tätä käytetään meta kuvauksessa ja näkyy hakukoneille.'
       forum_title_heading: 'Foorumin otsikko'
       home_page_heading: Kotisivu
       home_page_text: 'Valitse sivu minkä käyttäjät näkevät, kun he vierailevat foorumillasi.'
       show_language_selector_label: 'Näytä kielivalikko'
       slug_driver_heading: 'Polkutunnunnuksen ajuri: {model}'
+      slug_driver_options:
+        discussions:
+          default: 'ID slugin kanssa'
+          utf8: 'ID UTF-8 slugin kanssa'
+        users:
+          default: Käyttäjätunnus
+          id: ID
+          id_with_display_name: 'ID näyttönimen kanssa'
       slug_driver_text: 'Valitse ajuri mitä käytetään polkutunnuksen luomiseen tälle mallille.'
       title: Yleiset
       welcome_banner_heading: Tervetulobanneri

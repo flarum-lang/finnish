@@ -17,11 +17,13 @@ fof-masquerade:
       edit-field: 'Tallenna muutokset'
     fields:
       add: 'Lisää kenttä {field}'
+      create: 'Luo kenttä'
       delete-confirmation: 'Haluatko varmasti poistaa kentän {field}? Tätä ei voi peruuttaa.'
       description: 'Kentän kuvaus'
       description-help: "Vaihtoehtoinen kuvaus, jossa kerrotaan kentän tarpeellisuudesta/käytöstä.\n"
       edit: 'Muokkaa kenttää {field}'
       force-user-to-completion: 'Pakota käyttäjä täyttämään profiili'
+      hide-empty-fields: 'Piilota tyhjät kentät'
       icon: Ikoni
       icon-help: "Näyttää ikonin käyttäjän syöttämän arvon edessä. Tarkista saatavilla olevat ikonit <a>FontAwesomin sivuilta</a>. Käytä ikonien nimiä \"fa-\" alun kanssa kuten \"fas fa-info\".\n"
       name: 'Kentän nimi'
@@ -61,3 +63,7 @@ fof-masquerade:
       select:
         none-optional: 'Ei vaihtoehtoa valittu (valinnainen)'
         none-required: 'Valitse vaihtoehto (pakollinen)'
+  lib:
+    gambits:
+      answer:
+        key: vastaus

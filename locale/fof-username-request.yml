@@ -10,7 +10,9 @@ fof-username-request:
       request_username: 'Pyydä käyttäjätunnuksen vaihtoa'
   email:
     body:
+      approved: "Pyyntösi muuttaa käyttäjänimesi muotoon „{new_username}\" on hyväksytty käyttäjän {actor_display_name} toimesta.\n\nVoit nyt kirjautua sisään uudella käyttäjänimelläsi: {login_url}\n"
       noReasonProvided: 'Syytä ei annettu.'
+      rejected: "Pyyntösi muuttaa käyttäjänimesi muodosta „{old_username}\" muotoon „{requested_username}\" on hylätty käyttäjän {actor_display_name} toimesta.\n\nSyy: {reason}\n"
     subject:
       approved: '{display_name} hyväksyi käyttäjätunnuksen vaihdon tunnukseksi {requested_username}'
       rejected: '{display_name} hylkäsi käyttäjätunnuksen vaihdon tunnukseksi {requested_username}'
@@ -44,6 +46,7 @@ fof-username-request:
         title: 'Nimimerkin vaihtopyyntö'
     pending_requests:
       empty_text: 'Nimen vaihtopyyntöjä ei löytynyt.'
+      group_label: Pyynnöt
       nickname_exerpt: 'Pyydetty nimimerkki: {requestedName}'
       nickname_item_text: '{name} pyysi nimimerkin vaihtoa'
       title: '=> fof-username-request.ref.name_change_requests'

@@ -16,6 +16,7 @@ fof-gamification:
         button: 'Muunna tykkäykset plus ääniksi'
         converted: 'Onnistuneesti muunnettiin kaikki {number} tykkäystä'
         converting: 'Tykkäyksiä muunnetaan. Päivitä sivu muutaman minuutin päästä nähdäksesi prosessin loppuneen. (Muunnos voi kestää jonkin aikaa riippuen foorumisi. tykkäyksien määrästä)'
+        help: 'Muunna aiemmat tykkäykset (flarum/likes) äänestykset ylös -tyypeiksi sekä laske kaikkien nykyisten keskustelujen suosiojärjestys.'
       groups:
         add: 'Lisää uusi sääntö'
         column:
@@ -55,6 +56,8 @@ fof-gamification:
         first_post_only: 'Salli vain plus/miinus äänet keskustelun ensimmäisessä viestissä'
         icon_help: 'Syötä mikä tahansa Font-Awesome ikoni mikä loppuu -up ja down. Esimerkiksi: arrow, thumbs, chevron'
         icon_name: 'Plus/miinus äänen ikoni'
+        icon_preview_downvote: 'Äänestä alas'
+        icon_preview_upvote: 'Äänestä ylös'
         points_placeholder: 'Pisteet: '
         points_title: 'Pisteiden placeholder'
         rate_limit: 'Ota käyttöön äänestys aikaraja (10 sekuntia)'
@@ -104,3 +107,7 @@ fof-gamification:
       label_none: 'Ei äänestäjiä'
       none: 'Ei äänestäjiä'
     votes: Äänet
+lib:
+  gambits:
+    hot:
+      key: kuuma

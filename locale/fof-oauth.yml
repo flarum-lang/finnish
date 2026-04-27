@@ -60,7 +60,12 @@ fof-oauth:
       update_email_from_provider_label: 'Päivitä sähköpostiosoite toimittajalta'
     settings_accessibility_label: '{name} asetukset'
   forum:
+    account_linked:
+      body: '{forum}-tilisi <strong>{username}</strong> on nyt yhdistetty palveluun {provider}. Voit jatkossa kirjautua sisään joko foorumisalasanallasi tai {provider}-tunnuksellasi.'
+      dismiss_button: Selvä
+      title: 'Tili yhdistetty'
     error:
+      already_linked: 'Tämä tili on jo yhdistetty toiseen käyttäjään.'
       bad_verification_code: 'Virheellinen tai vanhentunut token. Yritä uudelleen.'
       invalid_state: 'Virhellinen tila. Yritä uudelleen.'
     log_in:
@@ -95,6 +100,10 @@ fof-oauth:
           orphaned-account: 'Olet rekisteröitynyt tämän palvelun kautta, mutta foorumi on poistanut tämän metodin pois käytöstä.'
           unlink-confirm: 'Haluatko varmasti poistaa linkityksen palveluun {provider}? Et voi enää kirjautua sisään foorumille käyttäen tätä palvelu ellet uudelleen autentikoi.'
   lib:
+    gambits:
+      sso:
+        hint: kirjautumispalvelu
+        key: sso
     providers:
       discord: Discord
       facebook: Facebook

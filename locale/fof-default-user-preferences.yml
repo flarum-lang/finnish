@@ -10,6 +10,7 @@ fof-default-user-preferences:
       followAfterReply: 'Seuraa vastauksen jälkeen'
       followAfterReply-help: 'Kun laitettu päälle, uudet käyttäjät seuraavat automaattisesti keskusteluita mihin he vastaavat tai kommentoivat.'
       groupMentioned: 'Ryhmän maininnan sähköposti'
+      groupMentioned-help: 'Kun käytössä, uudet käyttäjät saavat automaattisesti sähköposti-ilmoituksen, kun ryhmä, johon he kuuluvat, mainitaan.'
       indexProfile: 'Indeksoi profiili'
       indexProfile-help: 'Kun käytössä, uudet käyttäjät sallivat hakukoneiden indeksoida profiilisivun, ellei ole estetty muiden sivun tai lisäosien asetuksista.'
       postMentioned: 'Lähetä vastauksesta sähköposti'

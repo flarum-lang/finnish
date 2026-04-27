@@ -8,6 +8,11 @@ flarum-gdpr:
       drafts:
         delete_description: 'Poista kaikki käyttäjän luomat luonnokset.'
         export_description: 'Kaikki käyttäjän luomat luonnokset.'
+fof-default-user-preferences:
+  admin:
+    settings:
+      draftAutosaveEnable: 'Ota käyttöön luonnoksen automaatti tallennus oletuksena'
+      draftAutosaveInterval: 'Automaattisen tallennuksen intervalli (sekuntia)'
 fof-drafts:
   admin:
     permissions:
@@ -19,6 +24,7 @@ fof-drafts:
       schedule_on_one_server: 'Käytä ''onOneServer()'' määrettä ajastuksiin (vaatii Redis/Memcache)'
       title: 'FoF Luonnokset'
   console:
+    no_title_error: 'Luonnos ohitettu: keskustelun otsikko puuttuu.'
     scheduled_drafts_disabled: 'Ajastetut luonnokset on pois käytöstä.'
   forum:
     composer:
@@ -39,6 +45,7 @@ fof-drafts:
       title: Luonnokset
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Keskustelun otsikko on pakollinen ennen ajatusta.'
       reschedule_button: 'Määritä ajastus uudelleen'
       schedule_button: Ajasta
       schedule_time_preview: 'Tämä luonnos julkaistaan automaattisesti <b>{datetime}</b>.'

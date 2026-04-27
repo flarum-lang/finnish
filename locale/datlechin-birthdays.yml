@@ -17,6 +17,7 @@ datlechin-birthdays:
       required_label: 'Syntymäpäivä on pakollinen'
       set_on_registration_label: 'Salli syntymäpäivän asetus rekisteröityessä'
   api:
+    birthday_required_message: 'Syntymäpäivä on pakollinen.'
     invalid_age_message: 'Sinun täytyy olla vähintään {minAge} vuotta vanha.'
     invalid_dob_message: 'Virheellinen syntymäpäivä'
   forum:

@@ -4,5 +4,7 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Asetettu etusivuksi'
     index_sort:
       front_button: Etusivu

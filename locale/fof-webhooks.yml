@@ -78,6 +78,11 @@ fof-webhooks:
         tags: 'Voit rajoittaa webhookin tiettyyn avainsanaan. Jos valitset minkä tahansa avainsanan, webhook ajetaan vain kun tapahtuma kyseisessä avainsanassa laukeaa.'
         url: 'Webhookin suoritettava päätepiste'
       item:
+        create_button: Luo
+        delete_confirm_alert: 'Haluatko varmasti poistaa tämän palvelun {service} webhookin?'
+        delete_tooltip: 'Poista webhook'
+        edit_tags_button: 'Muokkaa avainsanoja'
+        edit_tooltip: 'Muokkaa webhookin asetuksia'
         tag_any_label: 'Mikä tahansa avainsana'
       modal:
         description: 'Täällä voit muokata mitä tapahtumia webhook suorittaa.'

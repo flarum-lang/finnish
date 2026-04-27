@@ -26,6 +26,8 @@ fof-moderator-warnings:
       warning_button: 'Varoita käyttäjää'
     settings:
       warning_notification_label: 'Moderaattori varoittaa minua'
+    user:
+      warnings: Varoitukset
     validation:
       invalid_strike_count: 'Annettujen varoitusten määrän pitää olla numero 0 ja 5 väliltä.'
       public_comment_required: 'Sinun täytyy antaa julkinen kommentti (syy).'
@@ -40,6 +42,8 @@ fof-moderator-warnings:
       warnings_no_strikes: 'Moderaattorin varoitus: Ei varoituksia saatu'
     warning_list_item:
       linked_post: 'Linkitetty viesti'
+      list_item_heading: '{strikes, plural, one {# varoitus, {time}} other {# varoitusta, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {# varoitus, {time} (poistettu)} other {# varoitusta, {time} (poistettu)}}'
       private_comment: 'Vain moderaattoreille näkyvät kommentit'
       public_comment: Varoitus
     warning_modal:

@@ -82,6 +82,10 @@ fof-best-answer:
     this_best_answer: 'Valitse paras vastaus'
     user:
       best-answer-count: '{count, plural, one { {count} paras vastaus} other {{count} parasta vastausta}}'
+  lib:
+    gambits:
+      solved-discussions:
+        key: ratkaistu
 fof-user-directory:
   lib:
     sort:

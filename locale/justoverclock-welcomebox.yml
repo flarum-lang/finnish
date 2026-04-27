@@ -13,10 +13,11 @@ flarum-ext-welcomebox:
     discussion: '=> core.ref.discussions'
     goToProfile: Profiili
     lastSeen: 'Viimeisin vierailu'
+    neverSeen: 'Ei vieraillut'
     notregistered: 'Ette ole rekisteröityneet tälle foorumille.'
     npost: '=> core.ref.posts'
     tooltipDisclist: Keskustelulista
     tooltipMentions: Maininnat
     tooltipProfile: Profiili
-    wback: 'Tervetuloa takaisin!'
+    wback: 'Tervetuloa takaisin,'
     welcomeguest: 'Tervetuloa vieras'
