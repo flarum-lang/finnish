@@ -16,5 +16,9 @@ justoverclock-related-discussions:
     deleted: Poistettu
     hasBestAnswer: Ratkaistu
     hasBestAnswer-title: 'Keskustelu on merkitty ratkaistuksi'
+    noRelatedFound: 'Ehdotettuja keskusteluita ei löytynyt.'
+    participants: osallistujat
     postedOn: 'julkaistu:'
+    postnumber: vastausmäärä
     reldiscussion: 'Ehdotetut keskustelut:'
+    repliedOn: 'viimeisin vastaus'

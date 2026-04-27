@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'Oletus: {url}'
-        help: "Oletuksena reaktioiden tiedostot jaetaan Cloudflaren CDN:n kautta. Voit myös asettaa minkä tahansa muun CDN:n osoitteen\nmikäli on tarve. <code>[codepoint]</code> korvataan emojin koodilla.\n\nEsimerkiksi jos käytetään Noto Emojia jsdelivr kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Tätä kentää EI SAA koskaan jättää tyhjäksi.\n"
+        help: "Oletuksena reaktioresurssit tarjoillaan Cloudflaren CDN:stä. Voit myös määrittää minkä tahansa muun CDN-osoitteen\ntarpeen mukaan. <code>[codepoint]</code> korvataan emojin koodipisteellä.\n\nEsimerkiksi vaihtaaksesi Noto Emojiin jsdelivr:n kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nCDN:si on tuettava Emoji/Unicode {emojibase} tai uudempaa. Käytä [twemoji] Twemoji-version lisäämiseksi.\n"
         label: URL
         title: CDN
       convert:
@@ -17,12 +17,22 @@ fof-reactions:
         help: 'Jos päivitit juuri lisäosan niin reaktiot pitää muuntaa. Jos vasta asensit tämän lisäosan voit olla huomioimatta tätä viestiä.'
       reactions:
         Helptext: 'Syötä emojin nimi (tunniste) tai font-awesome ikonin luokka ja valitse minkä tyyppisen haluat.'
+        add_reaction_button: 'Lisää reaktio'
+        add_reaction_label: 'Lisää uusi reaktio'
         delete_confirmation: 'Haluatko varmasti poistaa tämän reaktion? Tätä ei voi peruuttaa.'
+        delete_reaction_button: 'Poista reaktio'
+        header:
+          action: Toiminto
+          display: 'Näytä teksti'
+          enabled: Käytössä
+          identifier: 'Ikoni/Emoji tunniste'
+          preview: Esikatselu
+          type: Tyyppi
         help:
           display: Näytä
           identifier: Tunniste
         reactions: 'Nykyiset reaktiot'
-        title: 'Muokatut reaktiot'
+        title: Reaktiot
       settings:
         allow-anonymous: 'Salli tuntemattomien (vieraiden) reaktiot'
         allow-anonymous-help: 'Jos käytössä vieraat ja tuntemattomat käyttäjät voivat reagoida viesteihin. Huomioi, että tuntemattomat reaktiot eivät linkity käyttäjän profiiliin ja ne listataan reaktio listaan.'
@@ -51,11 +61,18 @@ fof-reactions:
     mod_item: 'Näytä reaktiot'
     modal:
       anonymous_count: '{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}'
+      load_more: 'Lataa lisää'
       no_reactions: 'Ei vielä reaktioita'
+      others_count: '+ {count, plural, one {# muu} other {# muuta}}'
+      remove_all_reaction_type: 'Poista kaikki {reaction} reaktiot'
+      remove_user_reaction: 'Poista reaktio'
       title: Reaktiot
     notification: '{username} reagoi {reaction} viestiisi'
     react_button_label: Reagoi
+    reacted_with_label: '{count, plural, one {{reaction} (# reaktio)} other {{reaction} (# reaktiota)}}'
     reacting-own-post: 'Et voi reagoida omaan viestiin'
+    reaction_button_label: 'Reagoi reaktiolla {reaction}'
     settings:
       notify_post_reacted_label: 'Joku reagoi viestiini'
+    unreact_button_label: 'Poista reaktio'
     warning: 'Reaktiosi muunnettiin'

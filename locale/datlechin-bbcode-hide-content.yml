@@ -8,6 +8,10 @@ datlechin-bbcode-hide-content:
       bypass_like_label: 'Ohita tykkäys määritykset'
       bypass_reply_label: 'Ohita vastaus määritykset'
   forum:
+    composer:
+      hide_like_tooltip: 'Piilota kunnes tykätty'
+      hide_login_tooltip: 'Piilota vierailta'
+      hide_reply_tooltip: 'Piilota kunnes vastattu'
     must_be_logged_in: 'Sinun täytyy olla kirjautuneena nähdäksesi tämän sisällön'
     must_liked: 'Sinun täytyy tykästä tästä viestistä nähdäksesi sisältö'
     must_replied: 'Sinun täytyy vastata tähän viestiin nähdäksesi sisältö'

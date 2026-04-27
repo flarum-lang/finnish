@@ -18,6 +18,11 @@ fof-polls:
       view_results_without_voting: 'Näytä tulokset ilman vastaamista'
       vote: 'Vastata kyselyissä'
     settings:
+      discussion_polls:
+        heading: 'Keskustelun kyselyt'
+        help: 'Nämä asetukset määrittää kyseslyt, jotka on liitetty keskustelun viestiin.'
+      enable_discussion_polls: 'Ota käyttöön keskustelun kyseslyt'
+      enable_discussion_polls_help: 'Kun käytössä, käyttäjät voivat luoda kyselyitä keskusteluviesteissä. Poista käytöstä, jos haluat käyttää vain globaaleja kyselyitä.'
       enable_global_polls: 'Ota käyttöön yleiset kyselyt'
       enable_global_polls_help: 'Yleiset kyselyt eivät ole kiinnitettyjä johonkin tiettyyn viestiin ja ne näkyy määritetyllä kyselyt sivulla.'
       enabled_poll_groups: 'Ota käyttöön kyselyryhmät'
@@ -30,6 +35,12 @@ fof-polls:
         help: 'Nämä asetukset määrittää yleiset kyselyt ominaisuuden.'
       image:
         heading: Kuva-asetukset
+        help: 'Määritä kuvan latausrajoitukset ja mitat. Kuvat muunnetaan automaattisesti WebP-muotoon ja niistä luodaan responsiiviset variantit.'
+      image_dimensions_help: 'Tallennettujen kuvien perusmitat. HiDPI-variantit (@2x, @3x) luodaan automaattisesti, kun lähdekuva on riittävän suuri.'
+      image_height: 'Muuta kuvan korkeutta (px)'
+      image_width: 'Muuta kuvan leveyttä (px)'
+      max_image_upload_size: 'Kuvan enimmäislatauskoko (kt)'
+      max_image_upload_size_help: 'Kuvien enimmäistiedostokoko kilotavuina. Kuvat muunnetaan automaattisesti WebP-muotoon ja niiden kokoa pienennetään latauksen jälkeen, joten lopullinen tallennettu koko on yleensä paljon pienempi. Oletus on 10240 kt (10 Mt).'
       max_options: 'Maksimi määrä vaihtoehtoja per kysely'
       options_color_blend: 'Värimuunnos teksti viestin vaihtoehdoista'
       options_color_blend_help: 'Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.'
@@ -53,6 +64,7 @@ fof-polls:
       add_title: 'Lisää kysely'
       allow_change_vote_label: 'Salli käyttäjän vaihtaa ääntään'
       allow_multiple_votes_label: 'Salli käyttäjien vastata useampaan vaihtoehtoon'
+      date_clear: 'Nollaa päättymispäivä'
       date_placeholder: 'Kyselyn loppupäivä (valinnainen)'
       delete: '=> core.ref.delete'
       edit_title: 'Muokkaa kyselyä'
@@ -73,6 +85,7 @@ fof-polls:
         alt_label: 'Kuvan Alt teksti'
         help: 'Siirrä kuva, joka näytetään kyselyn rinnalla (valinnainen).'
         label: 'Kyselyn kuva'
+        url_deprecated: 'Tämä kysely käyttää ulkoista kuva-URL-osoitetta. Ulkoiset URL-osoitteet ovat vanhentuneita ja ne poistetaan tulevassa versiossa. Lataa kuva uudelleen käyttämällä latauspainiketta.'
       poll_option_image:
         help: 'Siirrä kuva, joka näytetään vastauksen rinnalla (valinnainen).'
         label: 'Kyselyn vastauksen kuva'
@@ -83,6 +96,7 @@ fof-polls:
       tooltip:
         options:
           add-button: 'Lisää vastaus'
+          remove-button: 'Poista vastaus'
     moderation:
       add: 'Lisää kysely'
       delete: 'Poista kysely'
@@ -105,6 +119,7 @@ fof-polls:
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Kysely poistettu onnistuneesti.'
       edit_label: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Näytä/piilota kyselyn hallinta valikko'
       view_label: '=> core.ref.view'
     poll_ended: 'Kysely on loppunut.'
     poll_form:

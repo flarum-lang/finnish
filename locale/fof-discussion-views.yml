@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-discussion-views/fi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  forum:
+    index_sort:
+      least_viewed_button: 'Vähiten katsottu'
+      most_viewed_button: 'Eniten katsottu'
 fof-discussion-views:
   admin:
     permissions:
@@ -12,6 +17,11 @@ fof-discussion-views:
     discussion_controls:
       resetviews_button: 'Aseta katselumäärä'
     modal_resetviews:
+      invalid: 'Syötä kelvollinen luku, joka on suurempi tai yhtä suuri kuin 0'
       label: 'Aseta katselumääräksi'
       submit: Lähetä
       title: 'Nollaa keskustelun katselumäärä'
+  lib:
+    gambits:
+      popular:
+        key: suosittu
