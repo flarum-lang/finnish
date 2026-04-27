@@ -20,4 +20,7 @@ ianm-log-viewer:
       file_size: 'Koko (bittiä): {size}'
       last_updated: 'Viimeksi päivitetty: {updated}'
       no_file_selected: 'Valitse lokitiedosto nähdäksesi sen sisältö.'
+      no_log_files: 'Lokitiedostoja ei löytynyt.'
+      scroll_to_bottom: 'Vieritä alas'
+      scroll_to_top: 'Vieritä ylös'
       view_log: 'Näytä lokitiedosto'

@@ -6,6 +6,10 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Kiinnitetyt keskustelut'
+    settings:
+      enable_display_excerpt: 'Näytä ensimmäisen viestin katkelma, kun kiinnitetty keskustelu on lukematta'
+      only_sticky_unread_discussions_help: 'Kaikki keskustelut -sivulla lukemattomat kiinnitetyt keskustelut nousevat ylös, kun taas luetut kiinnitetyt keskustelut noudattavat tavallista järjestystä.'
+      only_sticky_unread_discussions_label: 'Vain kiinnitetyt lukemattomat keskustelut'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
@@ -15,5 +19,10 @@ flarum-sticky:
     post_stream:
       discussion_stickied_text: '{username} kiinnitti keskustelun {time}.'
       discussion_unstickied_text: '{username} poisti keskustelun kiinnityksen {time}.'
+  lib:
+    gambits:
+      discussions:
+        sticky:
+          key: kiinnitetty
   ref:
     sticky: Kiinnitetty

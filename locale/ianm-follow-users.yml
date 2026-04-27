@@ -16,6 +16,25 @@ ianm-follow-users:
     settings:
       button-on-profile-label: 'Näytä seuraa nappi suoraan käyttäjän profiilin yläosassa'
       stats-on-profile-label: 'Näytä seuraaja ja seuratut määrä käyttäjän profiilissa'
+  email:
+    new_discussion_by_user:
+      html:
+        body: '{user_display_name} aloitti uuden keskustelun: [{discussion_title}]({discussion_url}).'
+      plain:
+        body: "{user_display_name} aloitti keskustelun: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+      subject: '{user_display_name} aloitti keskustelun'
+    new_follower:
+      html:
+        body: '{follower_display_name} alkoi seuraamaan sinua ja hän saa ilmoituksen, kun aloitat uuden keskustelun.'
+      plain:
+        body: "{follower_display_name} aloitti seuraamaan sinua, joten he saa ilmoituksen, kun aloitat uuden keskustelun.\n\n{profile_url}\n"
+      subject: '{follower_display_name} seurasi sinua'
+    new_post:
+      html:
+        body: '{user_display_name} kirjoitti keskusteluun [{discussion_title}]({post_url}).'
+      plain:
+        body: "{user_display_name} kirjoitti keskusteluun {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nEt saa muita ilmoituksia tästä keskustelusta ennen kuin olet ajantasalla.\n"
+      subject: '{user_display_name} kirjoitti keskusteluun {discussion_title}'
   forum:
     badge:
       label:
@@ -72,4 +91,7 @@ ianm-follow-users:
         description: "Et saa ilmoituksia käyttäjän <em>{username}</em> toiminnoista.\n"
         name: 'Älä seuraa'
     following_link: 'Seuratut käyttäjät'
+    gambits:
+      followeduser:
+        key: seurattukäyttäjä
     unfollow: 'Älä seuraa'

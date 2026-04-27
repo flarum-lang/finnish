@@ -18,10 +18,12 @@ fof-upload:
       disable-download-logging: "Ota pois käytöstä jokaisen käyttäjän tekemän siirron lokitus foorumilla. Tämän päällä pito sallii sinun nähdä latausmäärät ja muita tilastoja.\n"
       disable-hotlink-protection: "Hotlink suojaus estää latausten avaukset muilta sivuilta. Nykyinen tapa vaatii crsf tunnisteen ja viestin id:n.\n"
       download_templates: "Latauspohjat ovat kuinka siirretyt tiedostot näkyy foorumillasi. Esim. esikatselut, napit. Tällä hetkellä saatavilla:\n"
+      mime_types: "Määritä yhdistämisasetukset tässä. Jokainen MIME-tyyppisäännöllinen lauseke käsitellään tietyllä latauskäsittelijällä ja latauspohjamalilla.\nVoit halutessasi antaa kullekin merkinnälle oikeuksien tunnisteen (esim. \"Kuvat\", \"Videot\") luodaksesi erillisen oikeuden oikeusruudukkoon.\nTämän avulla voit rajoittaa, mitkä ryhmät voivat ladata tiettyjä tiedostotyyppejä — sen lisäksi, että perustason \"Lataa tiedostoja\" -oikeus on aina pakollinen.\n"
       resize: "Valitse haluatko, että kuvien koko määritetään uudelleen ennen siirtoa. Voit määrittää maksimi leveyden ja korkeuden pikseleissä. Koon muutos säilyttää kuvasuhteen.\n"
       s3_acl: "ACL mikä asetetaan siirrettyyn objektiin (oletus: private). Mahdolliset arvot: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n"
       s3_instance_profile: "Jätä avain salaisuus tyhjäksi, jotta käytetään instanssin profiilin tunnuksia.\n"
+      thumbnails: "Luo pienennetty esikatselukuva kuville lataushetkellä. Esikatselukuva näytetään tekstin sisällä;\nnapsauttamalla se avaa alkuperäisen täysresoluutioisen tiedoston uudessa välilehdessä. Esikatselukuvat\nvähentävät merkittävästi kaistanleveyttä ja sivun kokoa foorumeilla, joilla on paljon suuria kuvia.\n"
       watermark: "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n"
     inspect-mime:
       description: "FoF Upload käyttää <a>PHP Mime Detector</a> kirjastoa yleisiin MIME tyyppeihin ja PHP Fileinfoa varalla.\nFileinfon palauttama MIME arvo voi olla erilainen riippuen palvelimesta!\n"
@@ -72,6 +74,9 @@ fof-upload:
         title: 'Paikallisen tallennustilan asetukset'
       preferences:
         max_file_size: 'Maksimi tiedostokoko (kilotavuina)'
+        mime_type_permission_placeholder: 'Oikeuden tunniste (valinnainen, esim. Kuvat)'
+        mime_type_regex_invalid: 'Virheellinen säännöllinen lauseke (esim. tyhjät vaihtoehdot kuten ||)'
+        mime_type_regex_placeholder: 'esim. ^image/(jpeg|png|gif)$'
         mime_types: 'Määritä mime tyypit, siirtoadapterin linkitys'
         php_ini_values: 'Sinun <code>php.ini</code> määreet ovat <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Vahvista, että tämän osion asetukset ovat näiden vähemmän, kuin nämä määreet tai määritä ne kuntoon. Jos käytät <code>Nginx</code> niin vahvista myösm että määre <code>client_max_body_size</code> on tarpeitasi vastaava.'
         title: 'Yleiset asetukset'
@@ -89,9 +94,17 @@ fof-upload:
         allow_animate_help: 'SVG-animaatioiden salliminen voi aiheuttaa tietoturva-aukkoja, sillä animoidut SVG-tiedostot voivat sisältää haitallista koodia. Ota tämä asetus käyttöön omalla vastuullasi ja vain, jos luotat käyttäjiisi.'
         help: 'Määritä, miten SVG-tiedostoja käsitellään ja puhdistetaan latauksen yhteydessä. SVG-tiedostot voivat sisältää potentiaalisesti haitallisia skriptejä, joten niitä tulee käsitellä huolellisesti. Ladatuille SVG-tiedostoille suoritetaan puhdistus latauksen yhteydessä, ja haitalliset skriptit sekä tagit poistetaan.'
         title: 'SVG sanitoija'
+      thumbnails:
+        max_width: 'Esikatselukuvan enimmäisleveys (px)'
+        title: 'Kuvan esikatselukuvat'
+        toggle: 'Luo esikatselukuvat siirron yhteydessä'
+        webp_toggle: 'Muunna esikatselukuvat WebP-muotoon (suositeltu, ~30 % pienempi)'
       watermark:
         file: 'Siirrä vesileiman kuva'
+        opacity: 'Vesileiman läpinäkyvyys (0-100)'
+        padding: 'Vesileiman etäisyys reunasta (px)'
         position: 'Vesileiman sijainti'
+        size_percent: 'Vesileiman koko (% kuvan leveydestä)'
         title: 'Kuvien vesileimat'
         toggle: 'Laita kuviin vesileima'
     nav:
@@ -103,6 +116,8 @@ fof-upload:
       access_shared_label: 'Pääsy jaettuihin tiedostoihin median hallinnassa'
       delete_uploads_of_others_label: 'Poistaa käyttäjän siirtoja'
       download_label: 'Lataa tiedostot'
+      upload_label: 'Siirrä tiedostoja (perusoikeus, vaaditaan kaikissa latauksissa)'
+      upload_mime_label: 'Siirrä {label}'
       upload_shared_label: 'Siirrä jaettuihin tiedostoihin'
       view_user_uploads_label: 'Nähdä käyttäjän siirrot'
     shared-uploads:
@@ -132,6 +147,8 @@ fof-upload:
       local: Paikallinen
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
+    warnings:
+      fileinfo_missing: "PHP:n <strong>fileinfo</strong>-laajennusta ei ole ladattu tällä palvelimella. FoF Upload toimii silti, mutta MIME-tyypin ristiintarkistus on poistettu käytöstä, mikä heikentää suojaa väärennettyjä tiedostotyyppejä vastaan. Ota laajennus käyttöön PHP-asetuksistasi parhaan tietoturvan varmistamiseksi.\n"
   api:
     upload_errors:
       cannot_write_to_disk: 'Levylle ei voida kirjoittaa.'
@@ -139,6 +156,7 @@ fof-upload:
       forbidden_type: 'Tämän tyyppisten tiedostojen siirtäminen ei ole sallittua.'
       max_upload_file_size_form: 'Siirron maksimi tiedostokoko saavutettu lomakkeelta.'
       max_upload_file_size_ini: 'Siirron maksimi tiedosto koko saavutettu php.inistä.'
+      mime_permission_denied: 'Sinulla ei ole oikeuksia siirtää tämän tyyppistä tiedostoa.'
       no_file_uploaded: 'Ei siirrettyä tiedostoa.'
       no_files_made_it_to_upload: 'Ethän siirrä tiedostoja, jotka ovat isompia kuin {max} kb.'
       no_upload_tmp_folder: 'Ei tmp kansiota tiedostojen siirrolle.'
@@ -161,6 +179,7 @@ fof-upload:
       unauthorized: 'Sinulla ei ole oikeutta ladata tiedostoja'
     text_preview:
       collapse: 'Pienennä esikatselu'
+      download: 'Lataa tiedosto'
       error: "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n"
       expand: 'Laajenna esikatselu'
       no_snippet: '<ei esikatselua saatavilla>'

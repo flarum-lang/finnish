@@ -195,6 +195,7 @@ core:
           inactive: Inaktiivinen
           never-run: 'Ei ole koskaan ajettu'
       title: Kojelauta
+      toggle_advanced_page_button: 'Näytä/piilota lisäasetukset'
       tools_button: Työkalut
     debug-warning:
       detail: "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n"
@@ -228,21 +229,37 @@ core:
       description: 'Määritä ajuri, asetukset ja osoitteet mitä foorumisi käyttää sähköpostin lähettämiseen.'
       driver_heading: 'Valitse ajuri'
       driver_label: Ajuri
+      format:
+        html_option: HTML
+        multipart_option: 'Moniosainen (suositeltu)'
+        plain_option: 'Pelkkä teksti'
+      format_heading: 'Lähtevien sähköpostien muoto'
+      format_help: 'Valitse muoto, jossa lähtevät sähköpostit lähetetään. Suositeltu vaihtoehto on <code>moniosainen</code>, sillä se antaa käyttäjän sähköpostiohjelman näyttää sopivimman muodon.'
       from_label: Lähettäjä
       mail_encryption_label: Salaus
+      mail_encryption_none_help: 'Ei salausta. Ei suositella tuotantokäyttöön.'
+      mail_encryption_ssl_help: 'Yhteys on salattu alusta alkaen (implisiittinen TLS). Käytetään tyypillisesti portin 465 kanssa.'
+      mail_encryption_tls_help: 'Yhteys alkaa salaamattomana ja päivittyy TLS-salaukseen (STARTTLS). Käytetään tyypillisesti porttien 587 tai 25 kanssa.'
       mail_host_label: Palvelin
       mail_mailgun_domain_label: 'Verkkotunnus (domain)'
       mail_mailgun_region_label: 'Alue (region)'
       mail_mailgun_secret_label: 'Salainen avain (secret key)'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Portti
+      mail_postmark_message_stream_label: Viestivirta
+      mail_postmark_token_label: Palvelintunnus
+      mail_smtp_verify_peer_help: 'Tarkistaa palvelimen SSL-varmenteen TLS- tai SSL-salausta käytettäessä. Poista käytöstä vain, jos sähköpostipalvelimesi käyttää itse allekirjoitettua varmennetta.'
+      mail_smtp_verify_peer_label: 'Tarkista SSL-varmenne'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgunin asetukset'
       not_sending_message: 'Flarum ei tällä hetkellä lähetä sähköpostia. Tämä voi johtua valitusta ajurista tai virheistä sen määrityksessä.'
+      postmark_description: 'Lähetä sähköpostia Postmarkin HTTP-rajapinnan kautta. Voit halutessasi määrittää viestivirran muun kuin oletusvirran käyttämiseksi.'
+      postmark_heading: 'Postmark asetukset'
       send_test_mail_button: Lähetä
       send_test_mail_heading: 'Lähetä testisähköposti'
       send_test_mail_success: 'Testisähköposti lähetetty onnistuneesti!'
       send_test_mail_text: 'Tämä lähettää sähköpostin käyttäen ylläolevia määreitä sähköpostiisi: {email}.'
+      smtp_description: 'Määritä SMTP-yhteysasetukset. Yleisiä määrityksiä: portti 587 TLS:llä tai portti 465 SSL:llä.'
       smtp_heading: 'SMTP asetukset'
       title: '=> core.ref.email'
     extension:
@@ -250,6 +267,7 @@ core:
       abandoned_with_replacement: 'Tämä laajennus on korvattu paketilla {replacement}. Harkitse siirtymistä korvaavaan pakettiin.'
       configure_scopes: 'Määritä laajuudet (scopes)'
       confirm_purge: 'Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?'
+      database_driver_mismatch: 'Tämä lisäosa ei tue määritettyä tietokanta-ajuriasi.'
       deprecated: 'Käytöstä poistettu'
       disabled: 'Poistettu käytöstä'
       enable_to_see: 'Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.'
@@ -271,23 +289,56 @@ core:
         no_readme: 'Tällä lisäosalla ei näytä olevan README tiedostoa'
         title: '{extName} dokumentaatio'
       replaced: Korvattu
+      reset_settings:
+        button: 'Nollaa asetukset'
+        cancel_button: Peruuta
+        confirm_button: Nollaa
+        title: 'Nollaa asetukset'
+        title_extension: 'Nollaa {extensionTitle} asetukset'
+        warning: 'Tämä toiminto on peruuttamaton. Alla olevat asetukset poistetaan pysyvästi tietokannasta ja palautetaan oletusarvoihinsa. Tämän lisäosan tietoja ei poisteta.'
+      safe_mode_warning: 'Vikasietotila on tällä hetkellä käytössä. Lisäosia ei ladata, joten niiden asetukset eivät ole käytettävissä.'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Ei korvaavaa saatavilla'
+      abandoned_with_replacement: 'Korvattu: {replacement}'
+      all_healthy: 'Kaikki lisäosat ovat terveitä.'
+      section_abandoned_empty: 'Ongelmia ei löytynyt.'
+      section_abandoned_heading: 'Tarvitsee huomiota'
+      section_abandoned_help: 'Näitä lisäosia ei enää ylläpidetä tai niissä saattaa olla yhteensopivuusongelmia. Harkitse niiden päivittämistä, korvaamista tai poistamista.'
+      section_disabled_empty: 'Kaikki lisäosat ovat käytössä.'
+      section_disabled_heading: 'Poistettu käytöstä'
+      section_disabled_help: 'Nämä lisäosat on asennettu, mutta ne eivät ole tällä hetkellä käytössä. Ota ne käyttöön asetussivulta tai poista ne, jos niitä ei enää tarvita.'
+      section_suggested_empty: 'Ei ehdotuksia.'
+      section_suggested_heading: Ehdotettu
+      section_suggested_help: 'Flarum-lisäosat voivat lisätä valinnaisia lisäominaisuuksia määrittelemällä muita lisäosia tai paketteja. Nämä voivat tuoda lisää toimintoja tai integraatioita.'
+      suggested_by: 'Ehdotti {extension}'
+      title: 'Lisäosan tila'
     header:
       get_help: Apua
       log_out_button: '=> core.ref.log_out'
+      search_placeholder: Etsi...
+      search_role_label: Etsi
     loading:
       title: 'Odota hetki...'
+    models:
+      discussions: '=> core.ref.discussions'
+      posts: '=> core.ref.posts'
+      users: '=> core.ref.users'
     nav:
+      advanced_button: '=> core.admin.advanced.title'
+      advanced_title: '=> core.admin.advanced.description'
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Tilastot
         authentication: Autentikointi
         core: 'Foorumin asetukset'
         discussion: Keskustelu
         feature: Ominaisuudet
         formatting: Muotoilu
         forum-widget: 'Foorumin vimpaimet'
+        infrastructure: Infrastruktuuri
         language: Kielet
         moderation: Moderointi
         other: 'Muut lisäosat'
@@ -323,6 +374,7 @@ core:
       participate_heading: Osallistuminen
       post_without_throttle_label: 'Vastata useasti ilman odottamista'
       read_heading: Lukea
+      remove_scope_confirmation: 'Haluatko varmasti poistaa laajuuden {scope}?'
       remove_scope_label: 'Poista {scope} laajuus'
       rename_discussions_label: 'Uudelleennimetä keskusteluita'
       reply_to_discussions_label: 'Vastata keskusteluihin'
@@ -344,8 +396,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Suljettu
       signup_open_button: Avattu
+    search_source:
+      general:
+        heading: Yleinen
     settings:
       saved_message: 'Muutokset tallennettu.'
+      select_dropdown_custom_label: Mukautettu
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -367,6 +423,9 @@ core:
           join_time:
             title: Liittynyt
           user_actions:
+            edit_user:
+              button: '=> core.ref.edit'
+              tooltip: 'Muokkaa {username}'
             title: Toiminnot
           user_id:
             title: ID
@@ -382,17 +441,41 @@ core:
       must_be_numeric_message: 'Suodatin {filter} pitää olla numeerinen.'
       must_not_be_array_message: 'Suodatin {filter} ei saa olla taulukko.'
       must_not_be_multidimensional_array_message: 'Suodatin {filter} ei saa olla moniulotteinen taulukko.'
+    invalid_username_message: 'Käyttäjätunnus saa sisältää vain kirjaimia, numeroita ja väliviivoja. Siinä on oltava vähintään yksi kirjain.'
   email:
     abandoned_extensions:
+      body_intro: 'Seuraavat asennetut lisäosat on merkitty hylätyiksi:'
+      body_outro: 'Tarkista nämä lisäosat ja harkitse siirtymistä vaihtoehtoisiin ratkaisuihin, jos sellaisia on saatavilla.'
+      line_no_replacement: '{package} (korvaavaa lisäosaa ei saatavilla)'
+      line_with_replacement: '{package} (ehdotettu korvaava lisäosa: {replacement})'
       subject: 'Toimintaa vaaditaan: hylättyjä lisäosia havaittu'
     activate_account:
+      body: "Joku (toivottavasti sinä!) on rekisteröitynyt foorumille {forum} tällä sähköpostiosoitteella.\n\nJos tämä olit sinä, napsauta seuraavaa linkkiä ja tilisi aktivoidaan:\n{url}\n\nJos et rekisteröitynyt, jätä tämä sähköposti huomiotta.\n"
       subject: 'Aktivoi tilisi'
     confirm_email:
+      body: "Joku (toivottavasti sinä!) on vaihtanut sähköpostiosoitteensa foorumilla {forum} tähän osoitteeseen.\n\nJos tämä olit sinä, napsauta seuraavaa linkkiä ja sähköpostiosoitteesi vahvistetaan:\n{url}\n\nJos tämä et ollut sinä, jätä tämä sähköposti huomiotta.\n"
       subject: 'Vahvista uusi sähköpostiosoitteesi'
+    greeting: 'Hei {displayName},'
+    informational:
+      default_title: Informaatio
+      footer: 'Tämä sähköposti lähetettiin osoitteeseen {userEmail} tiliisi liittyvänä tiedotuspalveluna foorumilla [{forumTitle}]({forumUrl}).'
+      footer_plain: 'Tämä sähköposti lähetettiin osoitteeseen {userEmail} tiliisi liittyvänä tiedotuspalveluna foorumilla {forumTitle}.'
+    notification:
+      default_title: Ilmoitus
+      footer:
+        main_text: 'Tämä sähköposti lähetettiin osoitteeseen {email}, koska olet tilannut "{type}"-ilmoitukset foorumilla [{forumTitle}]({forumUrl}).'
+        main_text_plain: 'Tämä sähköposti lähetettiin osoitteeseen {email}, koska olet tilannut "{type}"-ilmoitukset foorumilla {forumTitle}.'
+        settings_text: 'Hallitse ilmoitusasetuksiasi [täältä]({settingsLink}).'
+        settings_text_plain: 'Hallitse ilmoitusasetuksiasi täältä: {settingsLink}'
+        unsubscribe_text: 'Jos et halua enää vastaanottaa tämän tyyppisiä ilmoituksia, [peruuta tilaus tästä]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Jos et halua enää vastaanottaa tämän tyyppisiä ilmoituksia, peruuta tilaus tästä: {unsubscribeLink}'
     reset_password:
+      body: "Joku (toivottavasti sinä!) on lähettänyt unohdetun salasanan palautuspyynnön tilillesi foorumilla {forum}.\n\nJos tämä olit sinä, napsauta seuraavaa linkkiä nollataksesi salasanasi:\n{url}\n\nJos et halua vaihtaa salasanaasi, jätä tämä sähköposti huomiotta eikä mitään tapahdu.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "Tämä on testisähköposti, jolla varmistetaan, että Flarumin sähköpostiasetuksesi toimivat oikein.\n\nJos tämä olit sinä, tämä sähköposti tarkoittaa, että asetuksesi toimivat!\n\nJos tämä et ollut sinä, jätä tämä sähköposti huomiotta.\n"
       subject: 'Flarum foorumin sähköpostitesti'
+    signoff: '{forumTitle} tiimi'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -444,6 +527,7 @@ core:
       empty_text: 'Näyttää siltä, että täällä ei ole keskustelua.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} vastasi {ago}'
+      skip_discussion_list_pane: 'Ohita keskustelulistaruutu'
       started_text: '{username} aloitti {ago}'
       total_replies_a11y_label: '{count, plural, one {# vastaus} other {# vastausta}}'
       unread_replies_a11y_label: '{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi.'
@@ -473,19 +557,28 @@ core:
       mark_all_as_read_confirmation: 'Oletko varma, että haluat merkitä kaikki keskustelut luetuksi?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
+      refresh_tooltip: '=> core.ref.refresh'
+      skip_to_main_content: 'Siirry sisältöön'
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Vaihda valikon alasvetovalikkoa'
     index_sort:
       latest_button: Viimeisin
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Vaihda keskustelulistan järjestystä'
       top_button: Parhaat
     log_in:
       forgot_password_link: 'Unohtuiko salasana?'
+      invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
       sign_up_text: 'Etkö ole vielä rekisteröitynyt? <a>Rekisteröidy</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
+      delete_all_confirm: 'Haluatko varmasti poistaa kaikki ilmoitukset? Tätä toimintoa ei voi peruuttaa'
       delete_all_tooltip: 'Poista kaikki ilmoitukset'
       discussion_renamed_text: '{username} vaihtoi otsikon'
       empty_text: 'Ei ilmoituksia'
@@ -506,6 +599,10 @@ core:
       hide_confirmation: 'Haluatko varmasti poistaa tämän viestin?'
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Vaihda viestin toimien valikkoa'
+    post_list:
+      empty_text: 'Näyttää siltä, että täällä ei ole viestejä.'
+      in_discussion_text: 'Keskustelussa {discussion}'
+      load_more_button: '=> core.ref.load_more'
     post_scrubber:
       now_link: Nyt
       original_post_link: 'Alkuperäinen viesti'
@@ -517,6 +614,13 @@ core:
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} myöhemmin'
+    posts:
+      meta_title_text: 'Viestihaun tulokset'
+      refresh_tooltip: '=> core.ref.refresh'
+    posts_sort:
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 'Uudelleennimeä keskustelu'
@@ -556,6 +660,16 @@ core:
       account_heading: Tili
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      color_scheme_heading: Väriteema
+      color_schemes:
+        auto_mode_label: 'Järjestelmän oletus'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: Laite
+      haptic_feedback_help: 'Saatavilla vain tuetuissa mobiililaitteissa'
+      haptic_feedback_label: 'Ota haptinen palaute käyttöön'
       notification_checkbox_a11y_label_template: 'Vastaanota "{description}" ilmoituksia {method} kautta'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -617,9 +731,11 @@ core:
     data_segment:
       label: '{label}:'
     datetime_formats:
+      fullTime: LLLL
       humanTimeLong: ll
       humanTimeShort: 'D MMM'
       scrubber: 'MMMM YYYY'
+      userListJoinDate: LLL
     debug_button: Vianetsintä
     dropdown:
       toggle_dropdown_accessible_label: Alasvetovalikko
@@ -638,8 +754,10 @@ core:
       username_label: '=> core.ref.username'
     error:
       circular_dependencies_message: 'Poikkeavia vaatimuksia havaittu: {extensions}. Peruutetaan. Ole hyvä ja ota jokin lisäosista pois käytöstä ja yritä uudelleen.'
+      db_error_message: 'Tietokantakysely epäonnistui. Tämä voi johtua lisäosan ja tietokanta-ajurin yhteensopimattomuudesta.'
       dependent_extensions_message: '{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}'
       extension_initialiation_failed_message: '{extension} alustus epäonnistui. Tarkista selaimen konsolista lisätietoja.'
+      extension_runtime_failed_message: '{extension} kohtasi virheen suorituksen aikana. Tarkista lisätiedot selaimen konsolista.'
       generic_cross_origin_message: 'Hups! Jotain meni pieleen cross-origin pyynnössä. Päivitä sivu ja yritä uudelleen.'
       generic_message: 'Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.'
       missing_dependencies_message: 'Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}'
@@ -648,6 +766,35 @@ core:
       permission_denied_message: 'Sinulla ei ole oikeuksia tehdä sitä.'
       rate_limit_exceeded_message: 'Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua.'
       render_failed_message: 'Pahoittelut, koimme virheen kun näytimmä tätä sisältöä. Mikäli olette käyttäjä, yritä uudelleen. Mikäli oletta ylläpitäjä niin tutki Flarumin lokitiedostoja.'
+    gambits:
+      discussions:
+        author:
+          hint: 'käyttäjätunnus tai pilkulla eroteltu lista käyttäjätunnuksista'
+          key: kirjoittaja
+        created:
+          hint: '2020-12-31 tai 2020-12-31..2021-09-30'
+          key: luotu
+        hidden:
+          key: piilotettu
+        unread:
+          key: lukematon
+      group_keys:
+        allows: sallii
+        has: 'on'
+        is: 'on'
+      posts:
+        discussion:
+          hint: 'keskustelun ID'
+          key: keskustelu
+      users:
+        email:
+          hint: esimerkki@kone.local
+          key: sähköposti
+        group:
+          hint: 'yksikön tai monikon ryhmänimi'
+          key: ryhmä
+    input:
+      clear_button: Tyhjennä
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -655,15 +802,54 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Sivu # - {forumName}}}'
     modal:
       close: Sulje
+    multi_select:
+      placeholder: 'Valitse useita vaihtoehtoja'
     nav:
       drawer_button: 'Avaa navigointi lokero'
+    notices:
+      bisecting: 'Suoritetaan lisäosan vianhakuprosessia ongelman aiheuttavan lisäosan selvittämiseksi.'
+      bisecting_continue: 'Jatka vianhakua'
+      maintenance_mode_low: 'Huoltokatkos. Vain ylläpitäjät voivat käyttää foorumia.'
+      maintenance_mode_safe: 'Huoltokatkos vikasietotilassa. Vain ylläpitäjät voivat käyttää foorumia eikä lisäosia ladata.'
     number_suffix:
       kilo_text: K
       mega_text: M
+    pagination:
+      back_button: 'Edellinen sivu'
+      first_button: 'Mene ensimmäiselle sivulle'
+      go_to_page_textbox_a11y_label: 'Mene suoraan sivulle numero'
+      last_button: 'Mene viimeiselle sivulle'
+      next_button: 'Seuraava sivu'
+      page_counter: 'Sivu {current} / {total}'
+    search:
+      gambit_minus_button_a11y_label: 'Lisää negatiivinen suodatin'
+      gambit_plus_button_a11y_label: 'Lisää positiivinen suodatin'
+      no_results_text: 'Näyttää siltä, että täällä ei ole hakutuloksia.'
+      no_search_text: 'Et ole etsinyt vielä mitään.'
+      options_heading: Hakuasetukset
+      placeholder: Etsi...
+      preview_heading: 'Haun esikatselu'
+      search_clear_button_accessible_label: 'Nollaa hakukysely'
+      title: Etsi
+    search_source:
+      discussions:
+        all_button: 'Hae kaikista keskusteluista: "{query}"'
+        heading: '=> core.ref.discussions'
+      posts:
+        all_button: 'Hae kaikista viesteistä: "{query}"'
+        heading: '=> core.ref.posts'
+      users:
+        heading: '=> core.ref.users'
     series:
       glue_text: ', '
       three_text: '{first}, {second} ja {third}'
       two_text: '{first} ja {second}'
+    user_selection_modal:
+      empty_results: 'Hakuasi vastaavia käyttäjiä ei löydy.'
+      max_items_to_select: '{count, plural, one {Valitse # käyttäjä} other {Valitse # käyttäjää}}'
+      search_placeholder: '=> core.ref.search_users'
+      submit_button: '=> core.ref.okay'
+      title: 'Valitse asiaankuuluvat käyttäjät'
     username:
       deleted_text: '[poistettu]'
   ref:
@@ -678,6 +864,8 @@ core:
     custom_footer_title: 'Muokkaa mukautettua alaosaa'
     custom_header_text: 'Lisää HTML koodia näytettäväksi sivun yläreunaan Flarumin oman yläosan yläpuolelle.'
     custom_header_title: 'Muokkaa mukautettua yläosaa'
+    dark_hc_mode_label: 'Tumma korkean kontrastin tila'
+    dark_mode_label: 'Tumma tila'
     delete: Poista
     delete_forever: 'Poista pysyvästi'
     discussions: Keskustelut
@@ -687,7 +875,10 @@ core:
     extensions: Lisäosat
     generic_confirmation_message: 'Haluatko varmasti jatkaa? Tätä ei voi peruuttaa.'
     icon: Ikoni
-    icon_text: 'Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen.'
+    icon_text: 'Syötä minkä tahansa <a>FontAwesome</a>-kuvakkeluokan nimi <em>prefixeineen</em> (esim. <code>fas fa-flag</code> tai <code>fa-solid fa-flag</code>).'
+    invalid_login_message: 'Kirjautumistietosi olivat virheelliset.'
+    light_hc_mode_label: 'Vaalea korkean kontrastin tila'
+    light_mode_label: 'Vaalea tila'
     load_more: 'Lataa lisää'
     loading: Ladataan...
     log_in: 'Kirjaudu sisään'
@@ -695,12 +886,17 @@ core:
     mark_all_as_read: 'Merkitse kaikki luetuksi'
     never: 'Ei koskaan'
     new_token: 'Uusi tunniste'
+    newest: Uusimmat
     next_page: 'Seuraava sivu'
     notifications: Ilmoitukset
     okay: OK
+    oldest: Vanhemmat
     password: Salasana
     posts: Viestit
     previous_page: 'Edellinen sivu'
+    refresh: Päivitä
+    relevance: Osuvuus
+    remember_me_label: 'Muista minut'
     remove: Poista
     rename: Uudelleennimeä
     reply: Vastaa
@@ -714,6 +910,7 @@ core:
     some_others: '{count, plural, one {# muu} other {# muuta}}'
     start_a_discussion: 'Aloita keskustelu'
     username: Käyttäjätunnus
+    username_or_email_placeholder: 'Käyttäjätunnus tai sähköposti'
     users: Käyttäjät
     view: Näytä
     write_a_reply: 'Kirjoita vastaus...'
@@ -746,6 +943,9 @@ core:
       csrf_token_mismatch: 'Olet ollat inaktiivinen liian pitkään.'
       csrf_token_mismatch_return_link: 'Mene takaisin yrittääksesi uudelleen'
       invalid_confirmation_token: 'Vahvistuslinkki on jo käytetty tai on virheellinen.'
+      maintenance_mode_link: 'Ylläpitäjän kirjautuminen'
+      maintenance_mode_message: 'Foorumia huolletaan parhaillaan. Yritä myöhemmin uudelleen.'
+      maintenance_mode_title: Huolto
       method_not_allowed: 'Tämä sivu ei tue pyydettyä metodia.'
       not_authenticated: 'Sinulla ei ole oikeuksia tälle sivulle. Yritä uudelleen, kun olet kirjautunut sisään.'
       not_found: 'Pyydettyä sivua ei löydy.'
@@ -756,6 +956,15 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    layout:
+      skip_to_content: 'Siirry sisältöön'
+    log_in:
+      invalid_login_message: '=> core.ref.invalid_login_message'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Haluatko varmasti kirjautua ulos {forum}?'
@@ -765,3 +974,11 @@ core:
       new_password_label: 'Uusi salasana'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
+    unsubscribe_email:
+      confirm_button: Vahvista
+      confirm_message: 'Olet pyytänyt peruuttaa "{type}"-sähköposti-ilmoitusten tilauksen foorumilta {forumTitle}.'
+      immediate_helptext: 'Tilauksen peruutus tapahtuu heti, kun vahvistat.'
+      invalid_message: 'Tämä peruutuslinkki on virheellinen tai se on jo käytetty. Jos haluat muuttaa sähköposti-ilmoitusasetuksiasi foorumilla {forumTitle}, [tarkista asetuksesi]({settingsLink}).'
+      return_to_forum: 'Takaisin {forumTitle}'
+      success_message: 'Olet onnistuneesti peruuttanut "{type}"-ilmoitusten tilauksen foorumilta {forumTitle}. Jos haluat vastaanottaa niitä uudelleen, [päivitä asetuksesi]({settingsLink}).'
+      title: 'Tilauksen peruutuksen vahvistus'
