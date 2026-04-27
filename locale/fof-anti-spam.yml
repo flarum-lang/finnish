@@ -21,6 +21,45 @@ fof-anti-spam:
       spamblock_users_label: 'Merkitse käyttäjä roskapostittajaksi'
     settings:
       button: Asetukset
+      content-filter:
+        actions_heading: 'Automaattiset toiminnot'
+        advanced_block_patterns_help: 'Mukautetut säännöllisten lausekkeiden kuviot kokeneille käyttäjille. Käytä varoen — virheelliset kuviot ohitetaan. Muodon tulee olla JSON-taulukko olioista, joilla on "pattern"- ja valinnainen "description"-avain.'
+        advanced_block_patterns_label: 'Edistyneet kuviot (säännölliset lausekkeet)'
+        advanced_patterns_heading: 'Edistyneet estokuviot'
+        allowed_domains_help: 'Näiden verkkotunnusten URL-osoitteita ei merkitä. Syötä yksi verkkotunnus per rivi. Foorumisi verkkotunnus on automaattisesti sallittujen listalla.'
+        allowed_domains_label: 'Sallitut verkkotunnukset'
+        allowlist_heading: 'Sallittujen verkkotunnusten lista'
+        auto_flag_help: 'Kun käytössä, lippukynnyksen saavuttava sisältö merkitään automaattisesti moderaattorin tarkistettavaksi (vaatii flarum/flags-lisäosan). Merkinnän syy sisältää tiedot siitä, miksi sisältö tunnistettiin roskapostiksi.'
+        auto_flag_label: 'Merkitse roskapostisisältö automaattisesti'
+        auto_unapprove_help: 'Kun käytössä, roskapostikynnyksen saavuttava sisältö lähetetään hyväksymisjonoon (vaatii flarum/approval-lisäosan). Moderaattoreiden on hyväksyttävä sisältö ennen kuin se tulee näkyviin.'
+        auto_unapprove_label: 'Poista roskapostisisältö automaattisesti hyväksynnästä'
+        blocked_words_heading: 'Estetyt sanat & fraasit'
+        blocked_words_help: 'Sanat tai lauseet, jotka tulisi estää roskapostina. Syötä yksi per rivi. Kirjainkoosta riippumaton ja vastaa vain kokonaisia sanoja. Esimerkiksi "viagra" vastaa sanaa "viagra", mutta ei sanaa "niagara".'
+        blocked_words_label: 'Estetyt sanat tai fraasit'
+        detect_emails_help: 'Merkitse viestit, jotka sisältävät sähköposteja.'
+        detect_emails_label: 'Tunnista sähköpostit'
+        detect_phones_help: 'Merkitse sisältö, joka sisältää puhelinnumeroita kansainvälisessä muodossa.'
+        detect_phones_label: 'Tunnista puhelinnumerot'
+        detect_urls_help: 'Merkitse viestit, jotka sisältävät osoitteet, jotka ei ole sallittujen listalla.'
+        detect_urls_label: 'Tunnista osoitteet'
+        detectors_heading: Tunnistustavat
+        enabled_help: 'Kun käytössä, uusien käyttäjien viestit ja keskustelut analysoidaan roskapostin tunnusmerkkien varalta.'
+        enabled_label: 'Ota sisältösuodatus käyttöön'
+        flag_threshold_help: 'Sisältö, jonka roskapostipistemäärä on tämän arvon suuruinen tai sen ylittää, merkitään moderointia varten (vaatii flarum/flags-lisäosan).'
+        flag_threshold_label: 'Merkintäkynnys (0–100)'
+        heading: Sisältösuodatin
+        introduction: 'Tunnista ja merkitse automaattisesti roskapostisisältö uusilta käyttäjiltä. Järjestelmä seuraa äskettäin rekisteröityneiden käyttäjien viestejä ja keskusteluja yleisten roskapostin tunnusmerkkien, kuten puhelinnumeroiden, sähköpostiosoitteiden ja epäilyttävien URL-osoitteiden varalta.'
+        monitor_hours_old_help: 'Analysoi vain niiden käyttäjien sisältöä, joiden tilit ovat tätä nuorempia tunteina. Aseta arvoksi 0 poistaaksesi ikätarkistuksen käytöstä.'
+        monitor_hours_old_label: 'Seuraa käyttäjiä tuntirajan asti'
+        monitor_post_count_help: 'Analysoi vain niiden käyttäjien sisältöä, joilla on tätä vähemmän viestejä. Aseta arvoksi 0 poistaaksesi viestirajatarkistuksen käytöstä.'
+        monitor_post_count_label: 'Seuraa käyttäjiä viestirajaan asti'
+        no_action_extensions: 'Asenna flarum/approval- ja/tai flarum/flags-lisäosat ottaaksesi automaattiset moderointitoiminnot käyttöön. Havaittu roskaposti hallitaan Flarumin sisäänrakennetun hyväksymisjonon ja lippujärjestelmän kautta.'
+        spam_threshold_help: 'Sisältö, jonka roskapostipistemäärä on tämän arvon suuruinen tai sen ylittää, poistetaan automaattisesti hyväksynnästä (vaatii flarum/approval-lisäosan).'
+        spam_threshold_label: 'Roskapostikynnys (0–100)'
+        system_user_id_help: 'Käyttäjän ID, joka määritetään automaattisten roskapostilippujen luojaksi. Tämän tulisi yleensä olla ylläpitäjä- tai järjestelmätili. Oletuksena käyttäjän ID 1, jos ei ole määritetty.'
+        system_user_id_label: 'Järjestelmä käyttäjän ID lippuja varten'
+        thresholds_heading: Roskapostipistemääräkynnykset
+        user_targeting_heading: Käyttäjäkohdistus
       default-actions:
         delete_discussions_help: 'Tämä poistaa pysyvästi kaikki keskustelut tältä käyttäjältä. Kun pois käytöstä, keskusteluja ei poisteta pysyvästi.'
         delete_discussions_label: 'Poista keskustelut'
@@ -36,6 +75,8 @@ fof-anti-spam:
         api_key_instructions_text: '<register>Rekisteröidy StopForumSpam sivuille</register>. Sieltä voit <key>hankkia API avaimen</key>.'
         api_key_label: 'API avain'
         api_key_text: 'Sinulla on mahdollisuus ilmoittaa roskapostittajat StopForumSpam saadaksesi isomman yhteisön vapaaksi roskapostista.'
+        block_tor_exit_nodes_help: 'Kun käytössä, rekisteröinnit tunnetuista Tor-poistumisnoodeista estetään automaattisesti. Tämä voi auttaa estämään anonyymin roskapostirekisteröinnin, mutta saattaa myös estää yksityisyyden vuoksi Toria käyttäviä laillisia käyttäjiä.'
+        block_tor_exit_nodes_label: 'Estä Tor-poistumisnoodit'
         confidence_help: 'Luottamuspisteet ovat melko hyvä indikaattori siitä, että testattava kenttä saattaa johtaa ei-toivottuun toimintaan. Aseta luottamustasosi prosentteina. Jos kenttä on yhtä suuri tai suurempi kuin tämä luku, rekisteröinti estetään, riippumatta yllä olevasta ‘taajuustestistä’.'
         confidence_label: Luottamus
         email_hash_help: 'Välitä sähköpostiosoitteen MD5-hash, jos et halua välittää itse sähköpostiosoitetta. Tämä menetelmä ohittaa kaikki mustalistat, normalisoinnit ja hämäyksen ohitustarkistukset.'
@@ -59,6 +100,8 @@ fof-anti-spam:
     message:
       stopforumspam:
         blocked: 'Rekisteröintisi tiedot on löydetty roskapostin estotietokannasta, joten rekisteröintisi on estetty.'
+    post:
+      flagged_as_spam_text: 'Automaattinen roskapostin tunnistus — pistemäärä {score}'
     spammer_modal:
       hard_delete_discussions_help: 'Tämä poistaa pysyvästi kaikki tämän käyttäjän aloittamat keskustelut. Kun tämä on poistettu käytöstä, keskustelut piilotetaan sen sijaan.'
       hard_delete_discussions_label: 'Poista keskustelut'

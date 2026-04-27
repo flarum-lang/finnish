@@ -8,3 +8,14 @@ core:
       frontpage_tooltip: 'Asetettu etusivuksi'
     index_sort:
       front_button: Etusivu
+    post_controls:
+      pull_from_front_button: 'Hae etusivulta'
+      push_to_front_button: 'Siirrä etusivulle'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Voi siirtää etusivulle'
+  lib:
+    gambits:
+      frontpage:
+        key: etusivu
