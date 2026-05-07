@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+Kaikki muutokset: [v2.0.0...v2.0.1](https://github.com/flarum-lang/finnish/compare/v2.0.0...v2.0.1).
+
+
 2.0.0 (2026-04-28)
 ------------------
 
