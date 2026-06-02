@@ -164,6 +164,7 @@ composer require "flarum-lang/finnish:@dev"
 | Lisäosa | Tila |
 | --- | --- |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/fi/) |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/fi/) |
 | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/datlechin-bbcode-hide-content/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content/fi/) |
 | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/datlechin-birthdays/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays/fi/) |
 | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/datlechin-copy-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links/fi/) |
