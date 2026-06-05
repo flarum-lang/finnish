@@ -99,6 +99,7 @@ composer require "flarum-lang/finnish:@dev"
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/fi/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/fi/) |
+| [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/fi/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/fi/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/fi/) |
 | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-categories/fi/) |
