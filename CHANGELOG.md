@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.17.3 (XXXX-XX-XX)
+-------------------
+
+**Lisätty tuki uusille lisäosille**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+Kaikki muutokset: [v1.17.2...v1.17.3](https://github.com/flarum-lang/finnish/compare/v1.17.2...v1.17.3).
+
+
 1.17.2 (2026-04-27)
 -------------------
 
