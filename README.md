@@ -97,6 +97,7 @@ composer require "flarum-lang/finnish:@dev"
 
 | Lisäosa | Tila |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/fi/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/fi/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/fi/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Käännöksen tila](https://weblate.rob006.net/widgets/flarum2/fi/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/fi/) |
