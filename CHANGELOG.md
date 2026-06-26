@@ -17,6 +17,7 @@ CHANGELOG
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
 Kaikki muutokset: [v2.0.0...v2.0.1](https://github.com/flarum-lang/finnish/compare/v2.0.0...v2.0.1).
