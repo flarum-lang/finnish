@@ -11,6 +11,7 @@ CHANGELOG
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
