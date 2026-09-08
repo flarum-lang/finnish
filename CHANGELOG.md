@@ -24,6 +24,11 @@ CHANGELOG
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
+**Päivitetty käännöksiä lisäosille**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
 Kaikki muutokset: [v2.0.0...v2.0.1](https://github.com/flarum-lang/finnish/compare/v2.0.0...v2.0.1).
 
 
