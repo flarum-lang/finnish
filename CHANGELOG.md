@@ -8,6 +8,7 @@ CHANGELOG
 **Lisätty tuki uusille lisäosille**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
