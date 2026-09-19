@@ -13,6 +13,7 @@ CHANGELOG
 **Päivitetty käännöksiä lisäosille**:
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 
 
 Kaikki muutokset: [v1.17.2...v1.17.3](https://github.com/flarum-lang/finnish/compare/v1.17.2...v1.17.3).
