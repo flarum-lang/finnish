@@ -27,7 +27,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
 
 
 All changes: [v2.0.0...2.0.1](https://github.com/flarum-lang/finnish/compare/v2.0.0...2.0.1).
