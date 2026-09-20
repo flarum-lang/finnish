@@ -5,18 +5,18 @@ CHANGELOG
 1.17.3 (XXXX-XX-XX)
 -------------------
 
-**Lisätty tuki uusille lisäosille**:
+**Added support for new extensions**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 
 
-**Päivitetty käännöksiä lisäosille**:
+**Updated translations for extensions**:
 
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
 
 
-Kaikki muutokset: [v1.17.2...v1.17.3](https://github.com/flarum-lang/finnish/compare/v1.17.2...v1.17.3).
+All changes: [v1.17.2...1.17.3](https://github.com/flarum-lang/finnish/compare/v1.17.2...1.17.3).
 
 
 1.17.2 (2026-04-27)
