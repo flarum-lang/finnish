@@ -22,7 +22,6 @@ fof-links:
       use_rel_me: 'Lisää <code>rel="me"</code> attribuutti, muiden sivujen verifiointia varten'
       visibility:
         guest-only:
-          help: 'Vain {guest} voivat nähdä tämän linkin. Oikeus yllä pitäisi olla asetettu kohtaan ''{everyone}''.'
           label: 'Vain {guest}?'
         help: 'Oletuksena linkit ovat näkyvillä vain <code>{admin}</code> käyttäjille. Säädä oikeuksia määrittääksesi kuka näkee tämän linkin.'
         help-disabled: 'Tallenna linkki ennen, kuin muutat näkyvyysasetuksia.'
