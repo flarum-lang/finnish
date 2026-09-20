@@ -18,5 +18,5 @@ flarum-ext-welcomebox:
     tooltipDisclist: Keskustelulista
     tooltipMentions: Maininnat
     tooltipProfile: Profiili
-    wback: 'Tervetuloa takaisin!'
+    wback: 'Tervetuloa takaisin,'
     welcomeguest: 'Tervetuloa vieras'
