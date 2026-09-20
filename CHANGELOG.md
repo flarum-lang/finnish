@@ -5,7 +5,7 @@ CHANGELOG
 2.0.1 (XXXX-XX-XX)
 ------------------
 
-**Lisätty tuki uusille lisäosille**:
+**Added support for new extensions**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
@@ -25,12 +25,12 @@ CHANGELOG
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
-**Päivitetty käännöksiä lisäosille**:
+**Updated translations for extensions**:
 
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
 
 
-Kaikki muutokset: [v2.0.0...v2.0.1](https://github.com/flarum-lang/finnish/compare/v2.0.0...v2.0.1).
+All changes: [v2.0.0...2.0.1](https://github.com/flarum-lang/finnish/compare/v2.0.0...2.0.1).
 
 
 2.0.0 (2026-04-28)
