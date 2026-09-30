@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-09-30)
+------------------
+
+**Added support for new extensions**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (83% complete)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) (100% complete)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length) (100% complete)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (66% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (89% complete)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (83% complete)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) (11% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (82% complete)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (100% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (100% complete)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) (50% complete)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) (100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (100% complete)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) (100% complete)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) (100% complete)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed, 99% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed, 83% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed, 43% complete)
+
+
+All changes: [v2.0.0...2.0.1](https://github.com/flarum-lang/finnish/compare/v2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-28)
 ------------------
 
