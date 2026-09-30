@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.17.3 (2026-09-30)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (4 changed).
+
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (100% complete)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (100% complete)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (100% complete)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe) (100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (61% complete)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed, 83% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed, 100% complete)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) (1 changed, 100% complete)
+
+
+All changes: [v1.17.2...1.17.3](https://github.com/flarum-lang/finnish/compare/v1.17.2...1.17.3).
+
+
 1.17.2 (2026-04-27)
 -------------------
 
