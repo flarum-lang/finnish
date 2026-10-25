@@ -47,7 +47,7 @@ askvortsov-pwa:
         user_max_subscriptions_label: 'Enimmäismäärä Push tilauksia per käyttäjä'
         user_max_subscriptions_text: 'Kuinka monta push tilausta käyttäjällä voi olla kerrallaan. Kun käyttäjä vastaanottaa push ilmoituksen, jokainen tilaus tekee API kutsun. Jokainen tilaus yleensä vastaa selainta mitä käyttäjä on käyttänyt.'
         window_controls_overlay_label: 'Ota käyttöön Windows Controls Overlay?'
-        window_controls_overlay_text: "Jos käytössä, käyttäjät saa natiivimman käyttökokemuksen, kun piilotetaan oletus yläpalkki. Windows Controls Overlay riippuu selaimen toiminnallisuuksista. Sinun täytyy muokata yläpalkkia lisäämällä CSS/JS koodia, kun on otettu käyttöön. Muuten toimintopainikkeet voi mennä toisien elementtien päälle ja ikkunaa ei voi välttämättä raahata. Tämä aiheuttaa huonon käyttökokemuksen.\n\nKatso myös < compatibilitylink>Windows Controles Overlay yhteensopivuus</compatibilitylink> & <learnlink>Tietoa Window Controls Overlaystä Microsoft Learn sivustolla</learnlink>\n"
+        window_controls_overlay_text: "Jos käytössä, käyttäjät saa natiivimman käyttökokemuksen, kun piilotetaan oletus yläpalkki. Windows Controls Overlay riippuu selaimen toiminnallisuuksista. Sinun täytyy muokata yläpalkkia lisäämällä CSS/JS koodia, kun on otettu käyttöön. Muuten toimintopainikkeet voi mennä toisien elementtien päälle ja ikkunaa ei voi välttämättä raahata. Tämä aiheuttaa huonon käyttökokemuksen.\n\nKatso myös <compatibilitylink>Window Controls Overlay yhteensopivuus</compatibilitylink> & <learnlink>Tietoa Window Controls Overlaystä Microsoft Learn sivustolla</learnlink>\n"
       refreshed_message: 'PWA määritykset päivitetty onnistuneesti.'
       status_check_heading: Tilanne
       submit_button: 'Tallenna asetukset'
