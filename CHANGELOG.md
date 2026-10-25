@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.17.4 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) (1 changed, 100% complete)
+
+
+All changes: [1.17.3...1.17.4](https://github.com/flarum-lang/finnish/compare/1.17.3...1.17.4).
+
+
 1.17.3 (2026-09-30)
 -------------------
 
