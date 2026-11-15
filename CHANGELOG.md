@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.17.5 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.17.4...1.17.5](https://github.com/flarum-lang/finnish/compare/1.17.4...1.17.5).
+
+
 1.17.4 (2026-11-02)
 -------------------
 
