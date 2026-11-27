@@ -1,24 +1,23 @@
 {
 	"name": "flarum-lang/finnish",
+	"description": "Finnish Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Finnish language pack for Flarum.",
 	"keywords": [
-		"locale",
-		"flarum",
-		"finnish-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/finnish",
 	"license": "MIT",
-	"homepage": "https://flarum.fi",
 	"authors": [
 		{
-			"name": "Marko Kaartinen",
-			"email": "markokaartinen@gmail.com"
+			"name": "MarkoKaartinen",
+			"homepage": "https://github.com/MarkoKaartinen",
+			"role": "Maintainer"
 		}
 	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/finnish/issues",
-		"source": "https://github.com/flarum-lang/finnish",
-		"forum:": "https://flarum.fi"
+		"forum": "https://discuss.flarum.org/d/28810",
+		"source": "https://github.com/flarum-lang/finnish"
 	},
 	"require": {
 		"flarum/core": "^2.0"
@@ -37,12 +36,6 @@
 		"flarum-locale": {
 			"code": "fi",
 			"title": "Suomi"
-		},
-		"extiverse": {
-			"discuss": "https://discuss.flarum.org/d/28810-finnish-language-pack"
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
 		}
 	}
 }
